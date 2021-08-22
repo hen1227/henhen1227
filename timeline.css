@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 ul.timeline {
     list-style-type: none;
     position: relative;
