@@ -1,6 +1,6 @@
 .w3-bar{width:100%;overflow:hidden;position:fixed;top:0}
 .w3-center .w3-bar{display:inline-block;width:auto}
-.w3-bar .w3-bar-item{padding:8px 16px;float:left;width:auto;border:none;outline:0;text-align: center;}
+.w3-bar .w3-bar-item{padding:8px 16px;float:left;width:auto;display:blockborder:none;outline:0;text-align: center;}
 .w3-bar .w3-dropdown-hover,.w3-bar .w3-dropdown-click{position:static;float:left}
 .w3-bar .w3-button{white-space:normal}
 .w3-bar-block .w3-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
@@ -12,4 +12,4 @@
 .w3-border-bottom{border-bottom:1px solid #ccc!important}
 .w3-border-left{border-left:1px solid #ccc!important}
 .w3-border-right{border-right:1px solid #ccc!important}
-.w3-light-grey::before {background-color: rgba(94.5%, 94.5%, 94.5%, 50%);background-filter: blur(5px);}
+.w3-light-grey {background-color: rgba(94.5%, 94.5%, 94.5%, 50%);background-filter: blur(5px);}
