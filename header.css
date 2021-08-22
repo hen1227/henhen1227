@@ -1,4 +1,4 @@
-.w3-bar{width:100%;overflow:hidden;position:fixed;top:0}
+.w3-bar{width:100%;overflow:hidden;position:fixed;top:0;z-index: -1;}
 .w3-center .w3-bar{display:inline-block;width:auto}
 .w3-bar .w3-bar-item{padding:8px 16px;float:left;width:auto;display:blockborder:none;outline:0;text-align: center;}
 .w3-bar .w3-dropdown-hover,.w3-bar .w3-dropdown-click{position:static;float:left}
