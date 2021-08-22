@@ -6,9 +6,6 @@
 .w3-bar-block .w3-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
 .w3-bar-block.w3-center .w3-bar-item{text-align:center}.w3-block{display:block;width:100%}
 
-.w3-mobile {display:block; width:100%!important}
-.w3-bar-item.w3-mobile, .w3-dropdown-hover.w3-mobile, .w3-dropdown-click.w3-mobile { text-align:center }
-
 .w3-border-0{border:0!important}
 .w3-border{border:1px solid #ccc!important}
 .w3-border-top{border-top:1px solid #ccc!important}
