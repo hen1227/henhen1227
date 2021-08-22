@@ -12,4 +12,4 @@
 .w3-border-bottom{border-bottom:1px solid #ccc!important}
 .w3-border-left{border-left:1px solid #ccc!important}
 .w3-border-right{border-right:1px solid #ccc!important}
-.w3-light-grey::before {color:#000!important;background-color: rgba(94.5%, 94.5%, 94.5%, 50%);background-filter: blur(5px);}
+.w3-light-grey::before {background-color: rgba(94.5%, 94.5%, 94.5%, 50%);background-filter: blur(5px);}
