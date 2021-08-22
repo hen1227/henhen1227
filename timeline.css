@@ -7,8 +7,7 @@ html {
 ul.timeline {
     list-style-type: none;
     padding-left: 1.5rem;
-    position: fixed;
-    top: 0;
+    position: relative;
 }
 
  /* Timeline vertical line */
