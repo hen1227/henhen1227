@@ -13,4 +13,4 @@
 .w3-border-left{border-left:1px solid #ccc!important}
 .w3-border-right{border-right:1px solid #ccc!important}
 
-.w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{color:#000!important;background-color: rgba(94.5%, 94.5%, 94.5%, 20%);backdrop-filter: blur(3px);}
+.w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{color:#000!important;background-color: rgba(94.5%, 94.5%, 94.5%, 50%);filter: blur(5px);}
