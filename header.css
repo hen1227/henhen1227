@@ -3,8 +3,8 @@
 
 .navbar {
   width: 100%;
-  background-color: #555;
-  overflow: auto;
+  background-color:rgba(95%,95%,95%,60%);
+  overflow: hidden;
 }
 
 .navbar a {
@@ -12,18 +12,18 @@
   padding: 12px;
   color: white;
   text-decoration: none;
-  font-size: 17px;
-  width: 25%; /* Four links of equal widths */
+  font-size: 16px;
+  width: 33%; /* Four links of equal widths */
   text-align: center;
 }
 
-.navbar a:hover {
+/* .navbar a:hover {
   background-color: #000;
-}
-
+} */
+/* 
 .navbar a.active {
   background-color: #04AA6D;
-}
+} */
 
 @media screen and (max-width: 500px) {
   .navbar a {
