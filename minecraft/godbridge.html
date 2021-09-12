@@ -54,16 +54,17 @@
     
     var lastClicked = 0;
     var clicks = [(new Date()).getTime()];
+    
    function clickedPressed() {
       var timeNow = (new Date()).getTime();
      
       clicks.push(timeNow);
-     
-     if(clicks.length > 0){
-       if(timeNow-clicks[0] > 1000){
-         clicks.shift();
-       }
-     }
+     setTimeout(function(){ clicks.shift(); document.getElementById("clickSpeed").innerHTML = (clicks.length).toString()+" cps"; }, 1000);
+//      if(clicks.length > 0){
+//        if(timeNow-clicks[0] > 1000){
+//          clicks.shift();
+//        }
+//      }
      
      document.getElementById("clickSpeed").innerHTML = (clicks.length).toString()+" cps";
 
