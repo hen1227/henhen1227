@@ -53,12 +53,19 @@
   <script>
     
     var lastClicked = 0;
-    
+    var clicks = [(new Date()).getTime()];
    function clickedPressed() {
       var timeNow = (new Date()).getTime();
-
-      document.getElementById("clickSpeed").innerHTML = (Math.round(1/(timeNow - lastClicked))/1000).toString()+" cps";
      
+      clicks.push(timeNow);
+     
+     if(clicks.length > 0){
+       if(clicks[0]-timeNow > 1000){
+         clicks.shift();
+       }
+     }
+     
+     document.getElementById("clickSpeed").innerHTML = (clicks.length).toString()+" cps";
 
       lastClicked = timeNow;
   }
