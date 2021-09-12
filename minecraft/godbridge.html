@@ -45,20 +45,23 @@
     <p>If you start just right, it is possible to god bridge by simple walking backwards. Below is a way to practice clicking at the correct speed.</p>
 
     <div class="clickcounter-div">
-      <button id="clickedPressed" class="clickcounter-button"></button>
+      <button onClick="clickedPressed()" class="clickcounter-button"></button>
     </div>
     </center>
   
   <script>
-    var lastClick = 0;
-    $("#clickPressed").click(function() {
-        var d = new Date();
-        var t = d.getTime();
-        if(t - lastClick < 5000) {
-             alert("LESS THAN 5 SECONDS!!!");
-        }
-        lastClick = t;
-    });
+   function clickedPressed() {
+      var timeNow = (new Date()).getTime();
+
+      if (timeNow - lastClicked) {
+          // Execute the link action
+      }
+      else {
+          alert('Please wait at least 5 seconds between clicks!');
+      }
+
+      lastClicked = timeNow;
+  }
   </script>
   
   <script>
