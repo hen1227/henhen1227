@@ -44,6 +44,7 @@
     <h4>God Bridge Practice</h4>
     <p>If you start just right, it is possible to god bridge by simple walking backwards. Below is a way to practice clicking at the correct speed.</p>
 
+    <h2 id="clickSpeed"> cps</h2>
     <div class="clickcounter-div">
       <button onClick="clickedPressed()" class="clickcounter-button"></button>
     </div>
@@ -53,9 +54,8 @@
    function clickedPressed() {
       var timeNow = (new Date()).getTime();
 
-      if (timeNow - lastClicked) {
-          // Execute the link action
-      }
+      document.getElementById("clickSpeed").innerHTML = timeNow - lastClicked+" cps";
+     
       else {
           alert('Please wait at least 5 seconds between clicks!');
       }
