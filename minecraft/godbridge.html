@@ -54,11 +54,8 @@
    function clickedPressed() {
       var timeNow = (new Date()).getTime();
 
-      document.getElementById("clickSpeed").innerHTML = timeNow - lastClicked+" cps";
+      document.getElementById("clickSpeed").innerHTML = (timeNow - lastClicked).toString()+" cps";
      
-      else {
-          alert('Please wait at least 5 seconds between clicks!');
-      }
 
       lastClicked = timeNow;
   }
