@@ -57,7 +57,7 @@
    function clickedPressed() {
       var timeNow = (new Date()).getTime();
 
-      document.getElementById("clickSpeed").innerHTML = (Math.round(1(timeNow - lastClicked))/1000).toString()+" cps";
+      document.getElementById("clickSpeed").innerHTML = (Math.round(1/(timeNow - lastClicked))/1000).toString()+" cps";
      
 
       lastClicked = timeNow;
