@@ -60,14 +60,14 @@
       var timeNow = (new Date()).getTime();
      
       clicks.push(timeNow);
-     setTimeout(function(){ clicks.shift(); document.getElementById("clickSpeed").innerHTML = (clicks.length/5).toString().padEnd(2,0)+" cps"; }, 5000);
+     setTimeout(function(){ clicks.shift(); document.getElementById("clickSpeed").innerHTML = (clicks.length/5).toString().padEnd(2,.0)+" cps"; }, 5000);
 //      if(clicks.length > 0){
 //        if(timeNow-clicks[0] > 1000){
 //          clicks.shift();
 //        }
 //      }
      
-     document.getElementById("clickSpeed").innerHTML = (clicks.length/5).toString().padEnd(2,0)+" cps";
+     document.getElementById("clickSpeed").innerHTML = (clicks.length/5).toString().padEnd(2,.0)+" cps";
 
       lastClicked = timeNow;
   }
