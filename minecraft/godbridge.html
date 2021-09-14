@@ -45,6 +45,7 @@
     <p>If you start just right, it is possible to god bridge by simple walking backwards. Below is a way to practice clicking at the correct speed.</p>
 
     <h2 id="clickSpeed"> cps</h2>
+    <h5 id="clickSpeedAverage"> cps</h5>
     <p><small>over the past 5 seconds</small></p>
     <div class="clickcounter-div">
       <button onClick="clickedPressed()" class="clickcounter-button"></button>
@@ -60,14 +61,14 @@
       var timeNow = (new Date()).getTime();
      
       clicks.push(timeNow);
-     setTimeout(function(){ clicks.shift(); document.getElementById("clickSpeed").innerHTML = (clicks.length/5).toString().padEnd(2,.0)+" cps"; }, 5000);
-//      if(clicks.length > 0){
-//        if(timeNow-clicks[0] > 1000){
-//          clicks.shift();
-//        }
-//      }
+     setTimeout(function(){ clicks.shift(); document.getElementById("clickSpeedAverage").innerHTML = (clicks.length/5).toString().padEnd(2,.0)+" cps"; }, 5000);
+
+      if(lastClicked != 0){
+         document.getElementById("clickSpeedAverage").innerHTML = ((timeNow-lastClicked)/1000).toString().padEnd(2,.0)+" cps";
+       }
      
-     document.getElementById("clickSpeed").innerHTML = (clicks.length/5).toString().padEnd(2,.0)+" cps";
+     
+     document.getElementById("clickSpeedAverage").innerHTML = (clicks.length/5).toString().padEnd(2,.0)+" cps";
 
       lastClicked = timeNow;
   }
