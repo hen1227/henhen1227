@@ -64,7 +64,7 @@
      setTimeout(function(){ clicks.shift(); document.getElementById("clickSpeedAverage").innerHTML = (clicks.length/5).toString().padEnd(2,.0)+" cps"; }, 5000);
 
       if(lastClicked != 0){
-         document.getElementById("clickSpeedAverage").innerHTML = ((timeNow-lastClicked)/1000).toString().padEnd(2,.0)+" cps";
+         document.getElementById("clickSpeed").innerHTML = ((timeNow-lastClicked)/1000).toString().padEnd(2,.0)+" cps";
        }
      
      
