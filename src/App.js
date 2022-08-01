@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import './App.css';
+import DnDLanguages from './components/dnd-languages/Home'
 import Soundboard from './components/soundboard/pages/Home';
 import SoundboardFeatures from './components/soundboard/pages/Features';
 import Home from './components/main/pages/Home'
@@ -21,6 +22,7 @@ function App() {
           <Route path='/privacy' exact component={Privacy} />
           <Route path='/terms-of-service' exact component={TermsOfService} />
           <Route path='/support' exact component={Support} />
+          <Route path='/dnd-languages' exact component={DnDLanguages} />
           <Route path='/soundboard' exact component={Soundboard} />
           <Route path='/soundboard/features' component={SoundboardFeatures} />
           <Route path="*" component={PageNotFound} />
