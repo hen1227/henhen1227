@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 import { Button } from '../Button';
 import './HeroSection.css';
+import { Link } from 'react-router-dom';
 // import { Parallax } from 'react-parallax';
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
@@ -17,6 +18,8 @@ function HeroSection() {
             className='btns'
             buttonStyle='btn--outline'
             buttonSize='btn--large'
+            localDestination={false}
+            destination='appstore'
           >
             VIEW ON APP STORE
           </Button>

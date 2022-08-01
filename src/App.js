@@ -9,7 +9,7 @@ import Home from './components/main/pages/Home'
 import Support from './components/main/pages/Support'
 import Privacy from './components/main/pages/privacy'
 import TermsOfService from './components/main/pages/terms-of-service.js'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import PageNotFound from './components/PageNotFound'
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
           <Route path='/privacy' exact component={Privacy} />
           <Route path='/terms-of-service' exact component={TermsOfService} />
           <Route path='/support' exact component={Support} />
+          <Route path='/soundboard/support' exact>{<Redirect to="/support" />}</Route>
           <Route path='/dnd-languages' exact component={DnDLanguages} />
           <Route path='/soundboard' exact component={Soundboard} />
           <Route path='/soundboard/features' component={SoundboardFeatures} />
