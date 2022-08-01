@@ -24,7 +24,7 @@ export const Button = ({
   onClick,
   buttonStyle,
   buttonSize,
-  localDestination,
+  localDestination=true,
   destination="/"
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
@@ -33,15 +33,31 @@ export const Button = ({
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
-  return (
-    <Link to={destination} className='btn-mobile'>
-      <button
-        className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-        onClick={onClick}
-        type={type}
-      >
-        {children}
-      </button>
-    </Link>
-  );
+  if(localDestination){
+    return (
+      
+      <Link to={destination} className='btn-mobile'>
+        <button
+          className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+          onClick={onClick}
+          type={type}
+        >
+          {children}
+        </button>
+      </Link>
+    );
+  }else{
+    return (
+      <Link to={{pathname:
+      destination}} target="_blank" className='btn-mobile'>
+        <button
+          className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+          onClick={onClick}
+          type={type}
+        >
+          {children}
+        </button>
+      </Link>
+    );
+  }
 };

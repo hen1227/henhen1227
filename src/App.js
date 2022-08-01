@@ -22,10 +22,11 @@ function App() {
           <Route path='/privacy' exact component={Privacy} />
           <Route path='/terms-of-service' exact component={TermsOfService} />
           <Route path='/support' exact component={Support} />
-          <Route path='/soundboard/support' exact>{<Redirect to="/support" />}</Route>
           <Route path='/dnd-languages' exact component={DnDLanguages} />
+          <Route path='/dnd-languages/support' exact>{<Redirect to="/support" />}</Route>
           <Route path='/soundboard' exact component={Soundboard} />
           <Route path='/soundboard/features' component={SoundboardFeatures} />
+          <Route path='/soundboard/support' exact>{<Redirect to="/support" />}</Route>
           <Route path="*" component={PageNotFound} />
         </Switch>
         <Footer />

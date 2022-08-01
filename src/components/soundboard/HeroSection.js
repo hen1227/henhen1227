@@ -19,7 +19,7 @@ function HeroSection() {
             buttonStyle='btn--outline'
             buttonSize='btn--large'
             localDestination={false}
-            destination='appstore'
+            destination='https://apps.apple.com/us/app/keysoundboard/id1636744123'
           >
             VIEW ON APP STORE
           </Button>
@@ -28,6 +28,7 @@ function HeroSection() {
             buttonStyle='btn--primary'
             buttonSize='btn--large'
             onClick={console.log('hey')}
+            destination="/soundboard/features"
           >
             SEE FEATURES
           </Button>
