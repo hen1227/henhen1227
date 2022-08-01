@@ -5,10 +5,11 @@ import '../../../App.css';
 function Home() {
   return (
     <>
-        
-        <p>Welcome to henhen1227</p>
+      <div style={{textAlign: 'center'}}>
+        <h1>Support</h1>
+        <p>For any help or questions, please contact support@henhen1227.com</p>
         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-        
+        </div>
     </>
   );
 }

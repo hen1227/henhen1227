@@ -14,15 +14,15 @@ function Footer() {
               <h2>About Us</h2>
               <Link to='/sign-up'>How it works</Link>
               <Link to='/'>Careers</Link>
-              <Link to={{pathname: "https://home.henhen1227.com/terms-of-service.html"}} target="_blank">Terms of Service</Link>
-              <Link to={{pathname: "https://home.henhen1227.com/privacy.html"}} target="_blank">Privacy Policy</Link>
+              <Link to='/terms-of-service' target="_blank">Terms of Service</Link>
+              <Link to='privacy" target="_blank'>Privacy Policy</Link>
             </div>
             <div class='footer-link-items'>
               <h2>Contact Us</h2>
-              <Link to='/'>Contact</Link>
-              <Link to='/'>Support</Link>
-              <Link to='/'>Destinations</Link>
-              <Link to='/'>Sponsorships</Link>
+              <Link to='/support'>Contact</Link>
+              <Link to='/support'>Support</Link>
+              <Link to={{pathname:"https://buymeacoffee.com/HenryAbrahamsen"}} target="_blank">Destinations</Link>
+              <Link to='/'></Link>
             </div>
           </div>
           <div className='footer-link-wrapper'>
