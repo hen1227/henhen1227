@@ -1,12 +1,19 @@
 .features {
   padding: 9rem;
+  background-color: #000;
   background: url('../../../public/soundboard/images/features.jpg') center center/cover no-repeat; 
-  /* background: rgba(0,0,0,0.9); */
-
+  background-position-y: top;
+  /* background-position: ; */
+  height:720px;
+  text-align: center;
 }
 
-h1 {
+.description {
   text-align: center;
+  color:#eee;
+}
+.description p {
+  font-size: 24px;
 }
 
 .features__container {
