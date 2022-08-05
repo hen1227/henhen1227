@@ -13,7 +13,7 @@ export default function Features() {
         <div className='description'>
         <h1 style={{color:"#fff"}}>KeySoundboard</h1>
         <br/>
-          <p>KeySoundboard allows you to play sound files at the press of a button. On ANY window!</p>
+          <p>KeySoundboard allows you to play sound files at the press of a button.</p>
         </div>
 
         <div className='features__container'>
@@ -21,7 +21,7 @@ export default function Features() {
         <FeatureItem
         src={'/soundboard/images/soundControl.png'}
         alt="Sound Control"
-        text='Control the sound effects speed, reverb, and volume'
+        text="Control the sound effect's speed, reverb, and volume"
         />
         <FeatureItem
         src={'/soundboard/images/keybinds.png'}
@@ -49,6 +49,29 @@ export default function Features() {
           >
             VIEW ON APP STORE
       </Button>
+      {/* <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+
+      <h1 style={{color:"#fff"}}>Coming soon!</h1>
+      <div className='features__container'>
+            <ul className='features__items'>
+      <FeatureItem
+        src={'/soundboard/images/keypad.jpg'}
+        alt="Keypad"
+        text='Fully compatible with numpads too!'
+        />
+        <FeatureItem
+        src={'/soundboard/images/MLGHorn.png'}
+        alt="Keybinds"
+        text='Play your favorite sounds with their assigned keybinds in ANY window'
+        />
+        </ul>
+        </div> */}
       </div>
   </>
 }
