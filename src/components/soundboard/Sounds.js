@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sounds.css';
 import SoundItem from './SoundItem';
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+// import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 
 function Sounds() {
