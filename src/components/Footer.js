@@ -15,7 +15,7 @@ function Footer() {
               <Link to='/sign-up'>How it works</Link>
               <Link to='/'>Careers</Link>
               <Link to='/terms-of-service' target="_blank">Terms of Service</Link>
-              <Link to='privacy" target="_blank'>Privacy Policy</Link>
+              <Link to='/privacy' target='_blank'>Privacy Policy</Link>
             </div>
             <div class='footer-link-items'>
               <h2>Contact Us</h2>
