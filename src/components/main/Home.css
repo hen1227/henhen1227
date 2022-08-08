@@ -1,0 +1,8 @@
+.MainView {
+    text-align: center;
+}
+
+.MainParallax {
+    /* background: aliceblue; */
+    background-image: linear-gradient(azure, rgb(209, 233, 255));
+}
