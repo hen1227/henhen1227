@@ -19,7 +19,7 @@ function HeroSection() {
             buttonStyle='btn--outline'
             buttonSize='btn--large'
             localDestination={false}
-            destination='https://apps.apple.com/us/app/keysoundboard/id1636744123'
+            destination='https://apps.apple.com/app/apple-store/id1636744123?pt=122454310&ct=Website&mt=8'
           >
             VIEW ON APP STORE
           </Button>
