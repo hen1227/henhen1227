@@ -30,7 +30,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             Henhen1227
-            <i class='fa-solid fa-brain-circuit' />
+            <i className='fa-solid fa-brain-circuit' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -48,6 +48,15 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 DnD Languages
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                  to='/fungo'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+              >
+                Fungo's Escape
               </Link>
             </li>
 

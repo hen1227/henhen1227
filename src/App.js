@@ -2,9 +2,10 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import './App.css';
-import DnDLanguages from './components/dnd-languages/Home'
+import DnDLanguages from './components/dnd-languages/pages/Home'
 import Soundboard from './components/soundboard/pages/Home';
 import SoundboardFeatures from './components/soundboard/pages/Features';
+import Fungo from './components/fungo/pages/Home'
 import Home from './components/main/pages/Home'
 import Support from './components/main/pages/Support'
 import Privacy from './components/main/pages/privacy'
@@ -27,6 +28,8 @@ function App() {
           <Route path='/soundboard' exact component={Soundboard} />
           <Route path='/soundboard/features' component={SoundboardFeatures} />
           <Route path='/soundboard/support' exact>{<Redirect to="/support" />}</Route>
+          <Route path='/fungo' exact component={Fungo} />
+          <Route path='/fungo' exact component={DnDLanguages} />
           <Route path="*" component={PageNotFound} />
         </Switch>
         <Footer />

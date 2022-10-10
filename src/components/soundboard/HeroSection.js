@@ -2,13 +2,11 @@ import React from 'react';
 import '../../App.css';
 import { Button } from '../Button';
 import './HeroSection.css';
-import { Link } from 'react-router-dom';
-// import { Parallax } from 'react-parallax';
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+
 
 function HeroSection() {
   return (
-      <div style={{ height: 720}}>      
+      <div>
         <div className='hero-container'>
         <h1>KeySoundboard</h1>
         <p>Create those Epic moments</p>
