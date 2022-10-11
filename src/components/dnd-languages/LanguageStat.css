@@ -31,8 +31,10 @@
     position: absolute;
     margin: 90px 12vw;
     width: 8vw;
-    min-width: 100px;
+    /*min-width: 100px;*/
     height: 40px;
+
+    color: black;
 
     background: moccasin;
     border-style: none;
@@ -67,15 +69,28 @@
 @media only screen and (max-width: 1020px) {
     .lng-item-container {
         display: flex;
-        height: 60vh;
+        height: 500px;
         min-width: 0;
     }
 
     .lng-item h2{
-        position: absolute;
-        margin: 10px 12vw;
-        width: 8vw;
-        min-width: 100px;
+        margin: 0;
+        text-align: center;
+        width: 25vw;
+        min-width: 300px;
+    }
+    .lng-item h4{
+        margin: 50px 0 0;
+        text-align: center;
+        width: 25vw;
+        min-width: 300px;
+    }
+    .lng-item button{
+        margin: 80px 0;
+        /*margin: 80px 10vw 0;*/
+        width: 25vw;
+        min-width: 275px;
+        /*max-width: 120px;*/
         height: 40px;
     }
 }

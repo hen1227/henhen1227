@@ -40,7 +40,7 @@ function LanguageStat(props) {
         <>
             <li className='lng-item'>
                 <h2>{language}</h2>
-                <h4>{count} Uploads</h4>
+                <h4>{count===0? "loading" : count+" Uploads"}</h4>
                 <button onClick={handleClick}>View Data</button>
             </li>
         </>

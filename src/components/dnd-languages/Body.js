@@ -23,7 +23,7 @@ function Body() {
                             className='btns'
                             buttonStyle='btn--outline'
                             buttonSize='btn--large'
-                            onClick={console.log('hey')}
+                            onClick={console.log('clicked See Features!`')}
                             destination="/soundboard/features"
                         >
                             HOW IT WORKS
