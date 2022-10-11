@@ -70,3 +70,7 @@ video {
     width: 100%;
   }
 }
+
+.ratingLbl {
+  font-size: 25px;
+}
