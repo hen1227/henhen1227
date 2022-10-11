@@ -37,6 +37,15 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
+              <Link
+                  to='/braille'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+              >
+                Braille Decoded
+              </Link>
+            </li>
+            <li className='nav-item'>
               <Link to='/soundboard' className='nav-links' onClick={closeMobileMenu}>
                 Soundboard
               </Link>
