@@ -13,3 +13,16 @@ element {
 element::-webkit-scrollbar {
 display: none; /* Chrome, Safari, Opera */
 }
+
+
+@font-face {
+  font-family: "MorseCode";
+  src: url('/public/morse/fonts/MorseCoder-RppRE.ttf');
+
+}
+
+@font-face {
+  font-family: "Braille";
+  src: url('/public/braille/fonts/Braille-1lA2.ttf');
+
+}
