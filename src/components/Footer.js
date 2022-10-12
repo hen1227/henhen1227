@@ -1,8 +1,11 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 // import { Parallax, ParallaxLayer } from '@react-spring/parallax';
+
+export const openInNewTab = (url) => {
+  window.location.assign(url);
+};
 
 function Footer() {
   return (
@@ -12,8 +15,8 @@ function Footer() {
           <div className='footer-link-wrapper'>
             <div className='footer-link-items'>
               <h2>About Us</h2>
-              <Link to='/sign-up'>How it works</Link>
-              <Link to='/'>Careers</Link>
+              <Link to='/info'>More Info</Link>
+              <Link to='/'><span className="greyedOut">Careers</span></Link>
               <Link to='/terms-of-service' target="_blank">Terms of Service</Link>
               <Link to='/privacy' target='_blank'>Privacy Policy</Link>
             </div>
@@ -21,17 +24,21 @@ function Footer() {
               <h2>Contact Us</h2>
               <Link to='/support'>Contact</Link>
               <Link to='/support'>Support</Link>
-              <Link to={{pathname:"https://buymeacoffee.com/HenryAbrahamsen"}} target="_blank">Destinations</Link>
+              <Link to={{pathname:"https://buymeacoffee.com/HenryAbrahamsen"}} target="_blank">Donations</Link>
               <Link to='/'></Link>
             </div>
           </div>
           <div className='footer-link-wrapper'>
             <div className='footer-link-items'>
               <h2>Social Media</h2>
-              <Link to='/'>Instagram</Link>
-              <Link to='/'>Facebook</Link>
-              <Link to='/'>Youtube</Link>
-              <Link to='/'>Twitter</Link>
+              <Link to='#' ><span className="greyedOut">Instagram</span></Link>
+              <Link to='#'><span className="greyedOut">Facebook</span></Link>
+              <Link to='#' onClick={
+                ()=>
+                    openInNewTab(
+                        "https://www.youtube.com/channel/UCue90VnaIZzbN5FYsqMHsDA/featured")
+              }>Youtube</Link>
+              <Link to='#'><span className="greyedOut">Twitter</span></Link>
             </div>
           </div>
         </div>
@@ -50,22 +57,37 @@ function Footer() {
                 to='/'
                 target='_blank'
                 aria-label='Facebook'
+                  // onClick={
+                  //   ()=>
+                  //       openInNewTab(
+                  //           "https://www.youtube.com/channel/UCue90VnaIZzbN5FYsqMHsDA/featured")
+                  // }
               >
-                <i className='fab fa-facebook-f' />
+                <span className="greyedOut"><i className='fab fa-facebook-f' /></span>
               </Link>
               <Link
                   className='social-icon-link instagram'
                 to='/'
                 target='_blank'
                 aria-label='Instagram'
+                  // onClick={
+                  //   ()=>
+                  //       openInNewTab(
+                  //           "https://www.youtube.com/channel/UCue90VnaIZzbN5FYsqMHsDA/featured")
+                  // }
               >
-                <i className='fab fa-instagram' />
+                <span className="greyedOut"><i className='fab fa-instagram' /></span>
               </Link>
               <Link
-                  className='social-icon-link youtube'
-                to='/'
+                className='social-icon-link youtube'
+                href='#'
                 target='_blank'
                 aria-label='Youtube'
+                onClick={
+                ()=>
+                    openInNewTab(
+                    "https://www.youtube.com/channel/UCue90VnaIZzbN5FYsqMHsDA/featured")
+                }
               >
                 <i className='fab fa-youtube' />
               </Link>
@@ -74,16 +96,26 @@ function Footer() {
                 to='/'
                 target='_blank'
                 aria-label='Twitter'
+                  // onClick={
+                  //   ()=>
+                  //       openInNewTab(
+                  //           "https://www.youtube.com/channel/UCue90VnaIZzbN5FYsqMHsDA/featured")
+                  // }
               >
-                <i className='fab fa-twitter' />
+                <span className="greyedOut"><i className='fab fa-twitter' /></span>
               </Link>
               <Link
                   className='social-icon-link twitter'
                 to='/'
                 target='_blank'
                 aria-label='LinkedIn'
+                  // onClick={
+                  //   ()=>
+                  //       openInNewTab(
+                  //           "https://www.youtube.com/channel/UCue90VnaIZzbN5FYsqMHsDA/featured")
+                  // }
               >
-                <i className='fab fa-linkedin' />
+                <span className="greyedOut"><i className='fab fa-linkedin' /></span>
               </Link>
             </div>
           </div>

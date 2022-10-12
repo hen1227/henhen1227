@@ -1,0 +1,17 @@
+.info{
+    height: 100vh;
+    text-align: center;
+    background: url("/public/main/images/infoBackground.jpg");
+}
+.info h1 {
+    padding-top: 6%;
+    color: black;
+    font-family: "Comic Sans MS", serif;
+    font-size: 92px;
+}
+.info p {
+    padding-top: 10%;
+    font-family: "Comic Sans MS", serif;
+    color: white;
+    font-size: 30px;
+}

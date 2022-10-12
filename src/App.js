@@ -5,15 +5,17 @@ import './App.css';
 import DnDLanguages from './components/dnd-languages/pages/Home'
 import DnDLanguage from './components/dnd-languages/pages/Language'
 import Braille from './components/braille/pages/Home'
+import Morse from './components/morse/pages/Home'
 import Soundboard from './components/soundboard/pages/Home';
 import SoundboardFeatures from './components/soundboard/pages/Features';
 import Fungo from './components/fungo/pages/Home'
 import Home from './components/main/pages/Home'
+import Info from './components/main/pages/Info'
 import Support from './components/main/pages/Support'
 import Privacy from './components/main/pages/privacy'
 import TermsOfService from './components/main/pages/terms-of-service.js'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
-import PageNotFound from './components/PageNotFound'
+import PageNotFound from './components/main/pages/PageNotFound'
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
+          <Route path='/info' exact component={Info} />
           <Route path='/privacy' exact component={Privacy} />
           <Route path='/terms-of-service' exact component={TermsOfService} />
           <Route path='/support' exact component={Support} />
@@ -29,6 +32,7 @@ function App() {
           <Route path='/dnd-languages/support' exact>{<Redirect to="/support" />}</Route>
           <Route path='/dnd-languages/*' exact component={DnDLanguage} />
           <Route path='/braille' exact component={Braille} />
+          <Route path='/morse' exact component={Morse} />
           <Route path='/soundboard' exact component={Soundboard} />
           <Route path='/soundboard/features' component={SoundboardFeatures} />
           <Route path='/soundboard/support' exact>{<Redirect to="/support" />}</Route>

@@ -1,12 +1,23 @@
 export const MenuItems = [
   {
-    title: 'morse decoded',
+    title: 'Morse Decoded',
     path: '/morse',
-    cName: 'dropdown-link-morse'
+    cName: 'dropdown-link'
   },
   {
-    title: 'Braille',
+    title: 'Braille Decoded',
     path: '/braille',
-    cName: 'dropdown-link-braille'
+    cName: 'dropdown-link'
   }
+  // ,
+  // {
+  //   title: 'morse decoded',
+  //   path: '/morse',
+  //   cName: 'dropdown-link-morse'
+  // },
+  // {
+  //   title: 'Braille',
+  //   path: '/braille',
+  //   cName: 'dropdown-link-braille'
+  // }
 ];

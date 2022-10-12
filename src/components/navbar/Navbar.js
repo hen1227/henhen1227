@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Dropdown from './Dropdown';
+import {MenuItems} from "./MenuItems";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -37,11 +38,6 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
-              </Link>
-            </li>
-            <li className='nav-item'>
               <Link
                   to='/fungo'
                   className='nav-links'
@@ -73,6 +69,8 @@ function Navbar() {
               </Link>
               {dropdown && <Dropdown />}
             </li>
+            <SubMenuItems isClicked={click} onClick={closeMobileMenu}/>
+            <HomeMenu isClicked={click} onClick={closeMobileMenu}/>
             {/*<li>*/}
             {/*  <Link*/}
             {/*      to='/sign-up'*/}
@@ -87,6 +85,51 @@ function Navbar() {
         </nav>
       </>
   );
+}
+
+function SubMenuItems(props){
+  if(props.isClicked){
+    return(
+        <>
+          {MenuItems.map((item, index) => {
+            return (
+                <li className='nav-item'>
+                  <Link to='/' className={item.cName} onClick={props.onClick}>
+                    {item.title}
+                  </Link>
+                </li>
+            );
+          })}
+
+        </>
+    )
+  }else{
+    return (
+        <>
+        </>
+    )
+  }
+
+}
+
+function HomeMenu(props){
+  if(props.isClicked){
+    return(
+        <>
+          <li className='nav-item'>
+            <Link to='/' className='nav-links' onClick={props.onClick}>
+              Home
+            </Link>
+          </li>
+        </>
+    )
+  }else{
+    return (
+        <>
+        </>
+    )
+  }
+
 }
 
 export default Navbar;
