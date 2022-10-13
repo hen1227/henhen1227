@@ -1,0 +1,18 @@
+.braille {
+    height: 100vh;
+    background: #202020;
+    text-align: center;
+}
+.braille h1 {
+    padding-top: 12%;
+    color: darkgrey;
+    font-family: "SF Compact";
+    /*max-font-size: 10px;*/
+    font-size: 10vw;
+}
+.braille h2 {
+    padding-top: 3%;
+    font-size: 4vw;
+    font-family: Braille;
+    color: white;
+}

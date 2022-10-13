@@ -1,15 +1,15 @@
-.main{
+.pageNotFound{
     height: 100vh;
     text-align: center;
     background: url("/public/main/images/404background.jpg");
 }
-.main h1 {
+.pageNotFound h1 {
     padding-top: 12%;
     color: black;
     font-family: "Comic Sans MS", serif;
     font-size: 92px;
 }
-.main h2 {
+.pageNotFound h2 {
     /*padding-top: 1%;*/
     font-family: "Comic Sans MS", serif;
     font-size: 40px;

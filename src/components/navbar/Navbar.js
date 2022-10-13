@@ -65,7 +65,7 @@ function Navbar() {
                   className='nav-links'
                   onClick={closeMobileMenu}
               >
-                D&D Languages <i className='fas fa-caret-down' />
+                D&D Languages &emsp; <i className='fas fa-caret-down' />
               </Link>
               {dropdown && <Dropdown />}
             </li>
@@ -94,7 +94,7 @@ function SubMenuItems(props){
           {MenuItems.map((item, index) => {
             return (
                 <li className='nav-item'>
-                  <Link to='/' className={item.cName} onClick={props.onClick}>
+                  <Link to={item.path} className={item.cName} onClick={props.onClick}>
                     {item.title}
                   </Link>
                 </li>

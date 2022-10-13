@@ -6,7 +6,7 @@ import {Button} from "../Button";
 function Body() {
     return (
         <div>
-            <div className='body-container'>
+            <div className='dnd-container'>
                 <h1>D&D Languages</h1>
                 <div>
                     <div className='hero-btns'>
@@ -23,7 +23,6 @@ function Body() {
                             className='btns'
                             buttonStyle='btn--outline'
                             buttonSize='btn--large'
-                            onClick={console.log('clicked See Features!`')}
                             destination="/soundboard/features"
                         >
                             HOW IT WORKS

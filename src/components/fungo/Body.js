@@ -4,7 +4,7 @@ import './Body.css'
 function Body() {
     return (
         <div>
-            <div className='body'>
+            <div className='fungo'>
                 <h1>Fungo's Escape</h1>
 
             </div>
