@@ -1,2 +1,4 @@
-# Henhen1227.com
-This is the website I am using to store my post middleschool projects
+#Current Website is on the master branch
+
+Prevoius static site for Henhen1227.com
+Now running ReactJS.
