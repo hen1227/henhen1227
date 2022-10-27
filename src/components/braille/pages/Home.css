@@ -6,13 +6,12 @@
 .braille h1 {
     padding-top: 12%;
     color: darkgrey;
-    font-family: "SF Compact";
-    /*max-font-size: 10px;*/
-    font-size: 10vw;
+    font-family: "SF Compact", serif;
+    font-size: 92px;
 }
 .braille h2 {
     padding-top: 3%;
-    font-size: 4vw;
-    font-family: Braille;
+    font-size: 40px;
+    font-family: Braille, serif;
     color: white;
 }

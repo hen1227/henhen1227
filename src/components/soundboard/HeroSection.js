@@ -1,9 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../../App.css';
 import { Button } from '../Button';
 import './HeroSection.css';
-import axios from "axios";
-
 
 function HeroSection() {
 
@@ -45,7 +43,6 @@ function HeroSection() {
             className='btns'
             buttonStyle='btn--primary'
             buttonSize='btn--large'
-            onClick={console.log('hey')}
             destination="/soundboard/features"
           >
             SEE FEATURES

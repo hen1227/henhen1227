@@ -23,7 +23,7 @@ function Body() {
                             className='btns'
                             buttonStyle='btn--outline'
                             buttonSize='btn--large'
-                            destination="/soundboard/features"
+                            destination="/dnd-languages/features"
                         >
                             HOW IT WORKS
                         </Button>

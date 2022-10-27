@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import '../../../App.css';
 import axios from "axios";
-import './Language.css'
+import './Language.css';
 
 function Language() {
 
@@ -12,7 +12,6 @@ function Language() {
     axios({
         method: 'post',
         mode: "no-cors",
-        // withCredentials: true,
         headers: { 'Content-Type': 'application/json' },
         url: 'http://dnd.henhen1227.com/dnd-languages/getCount',
         data: {
@@ -35,15 +34,9 @@ function Language() {
             return error;
         });
 
-
-    function handleClick(e) {
-        e.preventDefault();
-        window.location.assign('http://henhen1227.com/dnd-languages/'+lang);
-    }
-
     return (
         <>
-            <div className='body-container'>
+            <div className='dnd-container'>
                 <h1>{lang}</h1>
                 <h2>{total===0? "loading" : total+" Uploads"}</h2>
 
@@ -87,7 +80,7 @@ function LanguageImage(props) {
         <>
             <div className="lng-img-div">
                 <h4>{props.letter} ({props.count})</h4>
-                <img className="lng-img" src={"http://dnd.henhen1227.com/dnd-languages/database/"+props.lang+"-Letters/"+props.letter+".png"}/>
+                <img alt={props.lang+"/"+props.letter} className="lng-img" src={"http://dnd.henhen1227.com/dnd-languages/database/"+props.lang+"-Letters/"+props.letter+".png"}/>
             </div>
         </>
     );

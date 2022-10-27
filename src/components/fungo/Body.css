@@ -1,9 +1,15 @@
 .fungo {
     height: 100vh;
     background: gainsboro;
+    text-align: center;
 }
 .fungo h1 {
     padding-top: 12%;
     font-family: "Comic Sans MS", serif;
     font-size: 92px;
+}
+.fungo h2 {
+    padding-top: 12%;
+    font-family: "Comic Sans MS", serif;
+    font-size: 22px;
 }

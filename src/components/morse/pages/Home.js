@@ -19,14 +19,14 @@ function Home() {
                     >
                         VIEW ON APP STORE
                     </Button>
-                    <Button
-                        className='btns'
-                        buttonStyle='btn--outline'
-                        buttonSize='btn--large'
-                        destination="/morse/features"
-                    >
-                        LEARN MORE
-                    </Button>
+                    {/*<Button*/}
+                    {/*    className='btns'*/}
+                    {/*    buttonStyle='btn--outline'*/}
+                    {/*    buttonSize='btn--large'*/}
+                    {/*    destination="/morse/features"*/}
+                    {/*>*/}
+                    {/*    LEARN MORE*/}
+                    {/*</Button>*/}
                 </div>
             </div>
             {/*<MorseTranslator/>*/}
