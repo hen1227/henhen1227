@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from './components/navbar/Navbar';
-import Footer from './components/Footer';
+import Navbar from './components/main/navbar/Navbar';
+import Footer from './components/main/pages/Footer';
 import './App.css';
 import DnDLanguages from './components/dnd-languages/pages/Home'
 import DnDLanguage from './components/dnd-languages/pages/Language'
@@ -12,6 +12,7 @@ import MorseFeatures from './components/morse/pages/Features'
 import Soundboard from './components/soundboard/pages/Home';
 import SoundboardFeatures from './components/soundboard/pages/Features';
 import Fungo from './components/fungo/pages/Home'
+import Mushroom from './components/mushroom/pages/Home'
 import Home from './components/main/pages/Home'
 import Info from './components/main/pages/Info'
 import Support from './components/main/pages/Support'
@@ -43,6 +44,7 @@ function App() {
           <Route path='/soundboard/features' component={SoundboardFeatures} />
           <Route path='/soundboard/support' exact>{<Redirect to="/support" />}</Route>
           <Route path='/fungo' exact component={Fungo} />
+          <Route path='/mushroom' exact component={Mushroom} />
           <Route path="*" component={PageNotFound} />
         </Switch>
         <Footer />

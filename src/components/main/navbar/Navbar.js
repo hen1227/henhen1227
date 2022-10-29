@@ -39,11 +39,11 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link
-                  to='/fungo'
+                  to='/mushroom'
                   className='nav-links'
                   onClick={closeMobileMenu}
               >
-                Fungo
+                Game Engine
               </Link>
             </li>
             <li className='nav-item'>

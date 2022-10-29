@@ -1,0 +1,61 @@
+.mushroom {
+    /*float: inside;*/
+    /*position: relative;*/
+    background: #3D3F41;
+    text-align: center;
+    color: white;
+    min-height: 100vh;
+    height: calc(calc(clamp(20vw, 300px, 200px) * 1714 / 200));
+}
+
+p {
+    font-family: "SF Compact", serif;
+}
+.mushroom h1 {
+    padding-top: 12%;
+    font-size: 92px;
+    color: white;
+}
+.mushroom h2 {
+    font-size: 50px;
+    color: white;
+}
+.mushroom h3 {
+    padding-top: 10%;
+    font-size: 30px;
+    color: white;
+}
+.mushroom h4 {
+    padding-top: 12%;
+    padding-bottom: 4%;
+    font-family: "Comic Sans MS", serif;
+    font-size: 22px;
+    color: gray;
+
+}
+.projectOverview {
+    /*position: absolute;*/
+    float: left;
+    flex: auto;
+    text-align: center;
+    width: clamp(20vw, 300px, 200px);
+    aspect-ratio: 212/1714;
+    z-index: 20;
+}
+
+.projectOverviewImage {
+    position: absolute;
+    background: url("/public/mushroom/images/FungoProjectFile-Oct22.png") center center/cover no-repeat #3D3F41;
+    width: clamp(20vw, 300px, 200px);
+    aspect-ratio: 212/1714;
+    z-index: 10;
+}
+.projectOverview h1{
+    font-size: 20px;
+    color: white;
+}
+.projectOverview h4{
+    padding-top: 5px;
+    font-size: 16px;
+    color: gray;
+}

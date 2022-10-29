@@ -80,7 +80,7 @@ function Footer() {
               </Link>
               <Link
                 className='social-icon-link youtube'
-                href='#'
+                href='src/components/main/pages/Footer#'
                 target='_blank'
                 aria-label='Youtube'
                 onClick={

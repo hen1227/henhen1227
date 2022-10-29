@@ -3,15 +3,14 @@
   margin: 0;
   padding: 0;
   font-family: 'PT Sans', sans-serif;
-}
 
-element {
   -ms-overflow-style: none; /* Edge, Internet Explorer */
   scrollbar-width: none; /* Firefox */
-  overflow-y: scroll;
-  }
-element::-webkit-scrollbar {
-display: none; /* Chrome, Safari, Opera */
+
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
 }
 
 
