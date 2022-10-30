@@ -22,8 +22,30 @@ function Body() {
                 <p>That's easy, there is mush room for improvement</p>
                 <p>This is my first project in Java... ever</p>
 
+                <br/>
+                <br/>
 
 
+                <h3>Gameplay</h3>
+                <p>An explorable platformer </p>
+                <div className={"gamePlayImage mushroomImage1"}/>
+
+
+                <h3>Multiplayer</h3>
+                <p>A mix of both UDP and TCP connections to keep the game under 10kbs while keeping it run smoothly</p>
+                <div className={"gamePlayImage mushroomImage2"}>
+                    <p><b>Image Soon</b></p><br/>
+                    <p>I accidentally broke multiplayer capability</p>
+                    <p>while adding font rendering and updating the UI</p>
+                </div>
+
+
+                <h3>Level Editor</h3>
+                <p>A built in level editor makes it possible to saves and load levels to local device</p>
+                <div className={"gamePlayImage mushroomImage2"}>
+                    <p><b>Image Soon</b></p><br/>
+                    <p>This is currently broken too :(</p>
+                </div>
                 {/*<h3>Capabilities</h3>*/}
                 {/*<br/>*/}
                 {/*<ul>*/}
@@ -34,11 +56,6 @@ function Body() {
                 {/*    */}
 
                 {/*</ul>*/}
-
-
-
-                <h4>Coming soon!</h4>
-
 
             </div>
         </div>

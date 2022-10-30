@@ -21,7 +21,7 @@ p {
     color: white;
 }
 .mushroom h3 {
-    padding-top: 10%;
+    padding-top: 8%;
     font-size: 30px;
     color: white;
 }
@@ -47,9 +47,51 @@ p {
     position: absolute;
     background: url("/public/mushroom/images/FungoProjectFile-Oct22.png") center center/cover no-repeat #3D3F41;
     width: clamp(20vw, 300px, 200px);
-    aspect-ratio: 212/1714;
+    aspect-ratio: 10.6/85.7;
     z-index: 10;
 }
+
+.gamePlayImage {
+    margin-left: calc(5/4*clamp(30vw, 350px, 250px));
+    width: calc(100vw - 3/2*5/4*clamp(30vw, 350px, 250px));
+    border: 4px solid lightgray;
+    border-radius: 15px;
+    aspect-ratio: 4/3;
+    padding-top: 14vh;
+    /*width: 200px;*/
+}
+.mushroomImage1{
+    background: url("/public/mushroom/images/FungoGameplay-Oct22.png") center center/cover no-repeat #3D3F41;
+
+}
+.mushroomImage2{
+    background: #202020;
+}
+@media screen and (max-width: 640px) {
+    /*  Small Screen: less than 640  */
+    .projectOverviewImage {
+        width: 0;
+        height: fit-content;
+    }
+    .projectOverview {
+        width: 0;
+        position: absolute;
+        margin-left: -3000px;
+        height: fit-content;
+    }
+
+    .gamePlayImage {
+        width: 90vw;
+        margin: 0 0 0 5vw;
+    }
+
+    .mushroom h1 {
+        padding-top: 12%;
+        font-size: 72px;
+        color: white;
+    }
+}
+
 .projectOverview h1{
     font-size: 20px;
     color: white;
