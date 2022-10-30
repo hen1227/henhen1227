@@ -4,8 +4,8 @@
     background: #3D3F41;
     text-align: center;
     color: white;
-    min-height: 100vh;
-    height: calc(calc(clamp(20vw, 300px, 200px) * 1714 / 200));
+    padding-bottom: 30px;
+    height: fit-content;
 }
 
 p {
@@ -58,7 +58,6 @@ p {
     border-radius: 15px;
     aspect-ratio: 4/3;
     padding-top: 14vh;
-    /*width: 200px;*/
 }
 .mushroomImage1{
     background: url("/public/mushroom/images/FungoGameplay-Oct22.png") center center/cover no-repeat #3D3F41;
@@ -67,17 +66,20 @@ p {
 .mushroomImage2{
     background: #202020;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 900px) {
     /*  Small Screen: less than 640  */
+
+    .mushroom {
+        height: fit-content;
+    }
     .projectOverviewImage {
         width: 0;
-        height: fit-content;
     }
     .projectOverview {
         width: 0;
         position: absolute;
-        margin-left: -3000px;
         height: fit-content;
+        z-index: -10;
     }
 
     .gamePlayImage {
