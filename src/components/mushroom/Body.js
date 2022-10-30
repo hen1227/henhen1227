@@ -16,7 +16,7 @@ function Body() {
 
                 <h1>Game Engine</h1>
                 <br/>
-                <h2>ⰔMushroom</h2>
+                <h2>Mushroom</h2>
                 <br/>
                 <br/>
                 <p><b>Why Mushroom as a name?</b></p>
@@ -62,22 +62,35 @@ function Body() {
 
 function GamePlayImage(props){
 
-    const [fullscreen, setFullscreen] = useState(" fullscreen left");
+    const [fullscreen, setFullscreen] = useState(" left");
+    const [left, setLeft] = useState(false);
 
     const titleRef = useRef(null);
 
-    function handleClick(){
-        if(fullscreen !== " fullscreen"){
-            // window.scrollTo({
-            //     top: titleRef.current.offsetTop
-            // });
-            setFullscreen(" fullscreen");
-        }else{
-            // window.scrollTo({
-            //     top: titleRef.current.offsetTop
-            // });
-            setFullscreen(" fullscreen left");
+    function handleZoomClick(){
+        console.log(fullscreen);
+        if(fullscreen === " left"){
+            console.log("was on left")
+            setLeft(false);
+        }else if(fullscreen === " right"){
+            console.log("was on right")
+            setLeft(true);
         }
+        setFullscreen("");
+        console.log("Zoomed");
+    }
+    function handleCloseClick(){
+        console.log("Closed");
+        console.log(left);
+        if(left){
+            setFullscreen(" left");
+        }else{
+            setFullscreen(" right");
+        }
+
+        // window.scrollTo({
+        //     top: titleRef.current.offsetTop
+        // });
     }
 
     return(
@@ -85,8 +98,8 @@ function GamePlayImage(props){
             <div>
                 <h3 ref={titleRef}>{props.title}</h3>
                 <p>{props.message}</p>
-                <div onClick={handleClick} className={"gamePlayImage "+props.image}/>
-                <div onClick={handleClick} className={"gamePlayImageFullscreen "+props.image + fullscreen}/>
+                <div onClick={handleZoomClick} className={"gamePlayImage "+props.image}/>
+                <div onClick={handleCloseClick} className={"gamePlayImageFullscreen "+props.image + " fullscreen" + fullscreen}/>
             </div>
         </>
     );

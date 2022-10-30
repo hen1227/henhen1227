@@ -7,7 +7,6 @@
     padding-bottom: 30px;
     height: fit-content;
     min-height: calc(clamp(20vw, 300px, 200px)*85.7/10);
-
 }
 
 p {
@@ -97,6 +96,9 @@ p {
 .gamePlayImageFullscreen.fullscreen.left {
     left: -100%;
 }
+.gamePlayImageFullscreen.fullscreen.right {
+     left: 100%;
+ }
 .mushroomImage1{
     background: url("/public/mushroom/images/FungoGameplay-Oct22.png") center center/cover no-repeat #3D3F41;
 
