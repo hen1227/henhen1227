@@ -7,6 +7,7 @@
     padding-bottom: 30px;
     height: fit-content;
     min-height: calc(clamp(20vw, 300px, 200px)*85.7/10);
+
 }
 
 p {
