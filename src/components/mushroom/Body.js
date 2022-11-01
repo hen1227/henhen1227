@@ -28,12 +28,12 @@ function Body() {
                     title="Multiplayer"
                     message="A mix of both UDP and TCP connections to keep the game under 10kbs while keeping it run smoothly"
                     image="mushroomImage2"
-                /><p>Image soon!</p>
+                />
                 <GamePlayImage
                     title="Level Editor"
                     message="A built in level editor makes it possible to saves and load levels to local device"
                     image="mushroomImage3"
-                /><p>Image soon!</p>
+                />
             </div>
         </div>
     );
