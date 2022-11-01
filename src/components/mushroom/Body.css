@@ -100,14 +100,14 @@ p {
      left: 100%;
  }
 .mushroomImage1{
-    background: url("/public/mushroom/images/FungoGameplay-Oct22.png") center center/cover no-repeat #3D3F41;
+    background: url("/public/mushroom/images/FungoGameplay1-Oct22.png") center center/cover no-repeat #3D3F41;
 
 }
 .mushroomImage2{
-    background: #202020;
+    background: url("/public/mushroom/images/FungoGameplay2-Oct22.png") center center/cover no-repeat #3D3F41;
 }
 .mushroomImage3{
-    background: #202020;
+    background: url("/public/mushroom/images/FungoGameplay3-Oct22.png") center center/cover no-repeat #3D3F41;
 }
 
 @media screen and (max-width: 900px) {
