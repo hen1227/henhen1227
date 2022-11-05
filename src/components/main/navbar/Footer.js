@@ -46,8 +46,7 @@ function Footer() {
           <div className='social-media-wrap'>
             <div className='footer-logo'>
               <Link to='/' className='social-logo'>
-                Henhen1227
-                <i className='fa-solid fa-brain-circuit'/>
+                <div className={"logo-sml-dark"}/> &thinsp; Henhen1227
               </Link>
             </div>
             <small className='website-rights'>Henry Abrahamsen © 2022</small>
@@ -80,7 +79,7 @@ function Footer() {
               </Link>
               <Link
                 className='social-icon-link youtube'
-                href='src/components/main/pages/Footer#'
+                href='src/components/main/navbar/Footer#'
                 target='_blank'
                 aria-label='Youtube'
                 onClick={

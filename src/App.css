@@ -13,6 +13,40 @@
   display: none; /* Chrome, Safari, Opera */
 }
 
+.logo-lrg {
+  background: url("/public/main/images/logo.png") center center/cover no-repeat;
+  aspect-ratio: 1;
+  width: 64px;
+}
+.logo-med {
+  background: url("/public/main/images/logo.png") center center/cover no-repeat;
+  aspect-ratio: 1;
+  width: 48px;
+}
+.logo-sml {
+  background: url("/public/main/images/logo.png") center center/cover no-repeat;
+  aspect-ratio: 1;
+  width: 32px;
+}
+.logo-lrg-dark {
+  background: url("/public/main/images/logoDark.png") center center/cover no-repeat;
+  aspect-ratio: 1;
+  width: 64px;
+}
+.logo-med-dark {
+  background: url("/public/main/images/logoDark.png") center center/cover no-repeat;
+  aspect-ratio: 1;
+  width: 48px;
+}
+.logo-sml-dark {
+  background: url("/public/main/images/logoDark.png") center center/cover no-repeat;
+  aspect-ratio: 1;
+  width: 32px;
+}
+.blackAndWhite {
+  filter: grayscale(1);
+}
+
 
 @font-face {
   font-family: "MorseCode";

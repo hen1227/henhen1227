@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/main/navbar/Navbar';
-import Footer from './components/main/pages/Footer';
+import Footer from './components/main/navbar/Footer';
 import './App.css';
 import DnDLanguages from './components/dnd-languages/pages/Home'
 import DnDLanguage from './components/dnd-languages/pages/Language'
