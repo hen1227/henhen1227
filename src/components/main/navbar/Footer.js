@@ -46,7 +46,7 @@ function Footer() {
           <div className='social-media-wrap'>
             <div className='footer-logo'>
               <Link to='/' className='social-logo'>
-                <div className={"logo-sml-dark"}/> &thinsp; Henhen1227
+                <div className={"logo-footer"}/> &thinsp; Henhen1227
               </Link>
             </div>
             <small className='website-rights'>Henry Abrahamsen © 2022</small>
