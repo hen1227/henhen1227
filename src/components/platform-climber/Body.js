@@ -8,6 +8,7 @@ function Body() {
         <div>
             <div className='platform-container'>
                 <h1>Platform Climber</h1>
+                <p3>Alpha v0.1.0</p3>
                     <div className='hero-btns'>
                         <Button
                                 className='btns'

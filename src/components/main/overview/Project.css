@@ -1,0 +1,62 @@
+.overviewProject{
+    /*height: 350px;*/
+    width: 70vw;
+    margin: 10px 15vw 50px;
+
+    border-radius: 10px;
+
+    background: #303030;
+
+    justify-content: center;
+
+    padding-top: 10px;
+
+    position: relative;
+}
+
+.overviewProjectImage {
+    width: 70%;
+    aspect-ratio: 2;
+    /*height: 400px;*/
+    margin: 20px 15% 20px;
+    border: 4px solid lightgray;
+    border-radius: 15px;
+    padding-top: 14vh;
+    z-index: 1005;
+    transition: left ease 400ms;
+}
+
+.overviewProject .description {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.overviewProject ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    max-width: 100%;
+    overflow-x: auto;
+    flex-wrap: wrap;
+}
+
+.overviewProject li{
+    color: #fff;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.overviewProject h1 {
+    color: white;
+    text-shadow: black 0 0 15px;
+}
+
+@media screen and (max-width: 720px) {
+    .overviewProject {
+        width: 95vw;
+        margin-left: 2.5vw;
+    }
+}

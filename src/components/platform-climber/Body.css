@@ -15,11 +15,18 @@
     font-family: PlatformClimber, serif;
     font-size: 92px;
 }
+.platform-container p3 {
+    /*padding-top: 12%;*/
+    color: white;
+    font-family: PlatformClimber, serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
 .platform-container * {
     font-family: PlatformClimber, serif;
 
     font-weight: bolder;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 @media only screen and (max-width: 1020px) {
