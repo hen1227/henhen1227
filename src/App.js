@@ -5,6 +5,7 @@ import './App.css';
 import DnDLanguages from './components/dnd-languages/pages/Home'
 import DnDLanguage from './components/dnd-languages/pages/Language'
 import DnDLanguagesFeatures from './components/dnd-languages/pages/Features'
+import Climber from './components/platform-climber/pages/Home'
 import Braille from './components/braille/pages/Home'
 import BrailleFeatures from './components/braille/pages/Features'
 import Morse from './components/morse/pages/Home'
@@ -53,6 +54,7 @@ function App() {
           <Route path='/dnd-languages/features' exact component={DnDLanguagesFeatures} />
           <Route path='/dnd-languages/support' exact>{<Redirect to="/support" />}</Route>
           <Route path='/dnd-languages/*' component={DnDLanguage} />
+          <Route path='/climber' component={Climber} />
           <Route path='/braille' exact component={Braille} />
           <Route path='/braille/features' exact component={BrailleFeatures} />
           <Route path='/morse' exact component={Morse} />

@@ -32,11 +32,13 @@
 @font-face {
   font-family: "MorseCode";
   src: url('/public/morse/fonts/MorseCoder-RppRE.ttf');
-
+}
+@font-face {
+  font-family: "PlatformClimber";
+  src: url('/public/platform-climber/fonts/platform-climber.ttf');
 }
 
 @font-face {
   font-family: "Braille";
   src: url('/public/braille/fonts/Braille-1lA2.ttf');
-
 }
