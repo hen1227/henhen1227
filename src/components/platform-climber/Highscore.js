@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import '../../App.css';
 import './Highscore.css'
-import Tag from "../main/overview/Tag";
 
 function Highscore() {
 

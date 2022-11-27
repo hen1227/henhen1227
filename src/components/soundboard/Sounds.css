@@ -1,12 +1,15 @@
 .cards {
   padding: 4rem;
-  background: slategrey;
-
+  background: linear-gradient(#000000, #171720, #181820, #181818);
 }
 
-h1 {
+.cards h1 {
   text-align: center;
-  color:#252e48
+  color: #eeeeee;
+}
+.cards a {
+  color: #ddddff;
+  text-decoration: none;
 }
 
 .cards__container {
@@ -16,6 +19,7 @@ h1 {
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
+  min-height: 300px;
 }
 
 .cards__wrapper {
@@ -30,7 +34,7 @@ h1 {
 
 .cards__item {
   display: flex;
-  background-color:darkgray;
+  background-color: #242222;
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
@@ -46,9 +50,10 @@ h1 {
 .cards__item__text {
   font-size: 18px;
   line-height: 24px;
+  color: #dddddd;
 }
 .cards__item__link:hover{
-    color:aliceblue;
+    color: white;
 }
 
 .cards__item__link {
