@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/main/navbar/Navbar';
 import Footer from './components/main/navbar/Footer';
 import './App.css';
+import Minecraft from './components/minecraft/pages/Home'
 import DnDLanguages from './components/dnd-languages/pages/Home'
 import DnDLanguage from './components/dnd-languages/pages/Language'
 import DnDLanguagesFeatures from './components/dnd-languages/pages/Features'
@@ -18,6 +19,7 @@ import Home from './components/main/pages/Home'
 import Overview from './components/main/overview/Home'
 import Info from './components/main/pages/Info'
 import Support from './components/main/pages/Support'
+import Api from './components/main/pages/Api'
 import Privacy from './components/main/pages/privacy'
 import TermsOfService from './components/main/pages/terms-of-service.js'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
@@ -51,6 +53,8 @@ function App() {
           <Route path='/privacy' exact component={Privacy} />
           <Route path='/terms-of-service' exact component={TermsOfService} />
           <Route path='/support' exact component={Support} />
+          <Route path='/api' exact component={Api} />
+          <Route path='/minecraft' exact component={Minecraft} />
           <Route path='/dnd-languages' exact component={DnDLanguages} />
           <Route path='/dnd-languages/features' exact component={DnDLanguagesFeatures} />
           <Route path='/dnd-languages/support' exact>{<Redirect to="/support" />}</Route>

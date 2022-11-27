@@ -6,8 +6,9 @@
 
 .platform-highscore h1 {
     font-family: PlatformClimber, serif;
+    text-align: center;
     letter-spacing: -1px;
-    font-size: 50px;
+    font-size: 60px;
     color: rgb(220,250,220);
 }
 

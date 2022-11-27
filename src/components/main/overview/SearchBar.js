@@ -13,8 +13,8 @@ class SearchBar extends React.Component {
 
         this.searchBarRef = React.createRef();
         this.state = {
-            needsScroll:false,
-            selectedTags:{}
+            needsScroll: false,
+            selectedTags: {},
         }
     }
 
@@ -51,12 +51,21 @@ class SearchBar extends React.Component {
         }
     }
 
+
+
     componentDidMount() {
         window.addEventListener("resize", this.calculateResize);
         this.calculateResize();
+        this.scroller = setInterval(() => {
+            // if(!this.isScrolling) {
+                this.searchBarRef.current.scrollLeft += 1;
+            // }
+        }, 55);
     }
+
     componentWillUnmount() {
         window.removeEventListener("resize", this.calculateResize);
+        clearInterval(this.scroller);
     }
 
     checkScroll(){
@@ -77,6 +86,8 @@ class SearchBar extends React.Component {
     handleCallback = (lang) => {
         const temp = this.state.selectedTags;
         temp[lang] = temp[lang] == null ? true : !temp[lang];
+
+        this.props.updatedSelection(temp);
 
         this.setState(prevState => ({
             needsScroll: prevState.needsScroll,
