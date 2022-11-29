@@ -1,4 +1,4 @@
-import React, {useRef,useEffect} from 'react';
+import React  from 'react';
 import '../../../App.css';
 import './Home.css'
 import Tag from './Tag'
@@ -7,8 +7,7 @@ import TagsList from "./TagsList";
 
 function Project(props) {
 
-    // let imageRef = useRef(
-
+    let key = 0;
         return (
         <>
             <a href={props.link} style={{color: "black", textDecoration: "none"}}>
@@ -19,7 +18,7 @@ function Project(props) {
                     <p className="description">{props.description}</p>
                         <ul className="overviewProjectTags">
                             {(props.tags).map((lang) => {
-                                return (<Tag clickable={false} active={true} lang={`${lang}`} color={`${TagsList[lang]}`}/>)
+                                return (<Tag key={key++} clickable={false} active={true} lang={`${lang}`} color={`${TagsList[lang]}`}/>)
                             })}
                         </ul>
                 </div>

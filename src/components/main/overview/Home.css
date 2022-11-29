@@ -56,7 +56,7 @@
     .project-wrapper {
         width: 95vw;
         /*margin-left: 2.5vw;*/
-        padding: 0;
+        padding: 0 0 12px;
     }
     .overviewHeader{
         font-size: 34px;

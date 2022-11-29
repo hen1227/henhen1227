@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../../App.css';
 import './Home.css'
-import {Link} from "react-router-dom";
 // import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 // import { useSpring, animated, config } from "@react-spring/web";
 
@@ -17,7 +16,7 @@ function Home() {
                   <div className="website-features">
                       <h1>Minecraft Server</h1>
                       <img src={"/minecraft/images/largeIcon.jpg"} alt={"Minecraft Server"}/>
-                      <p>Join the minecraft server at the ip: <br/> <b>minecraft.henhen1227.com</b></p>
+                      <p>Join the minecraft server at the ip: <br/> <b>mc.henhen1227.com</b></p>
                   </div>
               </a>
               <a style={{color: "black", textDecoration: "none"}} href="/overview">

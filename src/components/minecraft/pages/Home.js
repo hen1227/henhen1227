@@ -7,7 +7,7 @@ function Home() {
         <>
             <div className="minecraft-main">
                 <h1>Minecraft</h1>
-                <p>Join at <b>minecraft.henhen1227.com</b></p>
+                <p>Join at <b>mc.henhen1227.com</b></p>
 
                 <br/>
                 <br/>

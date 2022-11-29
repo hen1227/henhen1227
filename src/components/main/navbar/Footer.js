@@ -82,6 +82,7 @@ function Footer() {
                 href='src/components/main/navbar/Footer#'
                 target='_blank'
                 aria-label='Youtube'
+                to={"#"}
                 onClick={
                 ()=>
                     openInNewTab(

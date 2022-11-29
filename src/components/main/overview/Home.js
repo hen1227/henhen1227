@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import '../../../App.css';
 import './Home.css'
 import Project from './Project'
@@ -19,12 +19,13 @@ const projects = {
     "Copy Paste Game":{"description":"An app used to keep track of your \"Copies\" in the Copy and Paste Game","link":"#","date":"May - June 2020","image":"/overview/images/CopyPaste.png","tags":["Swift","Firebase","IOS"]},
 }
 
-function Home() {
+function Overview() {
 
+    let wrapperKey = 0;
 
     let [includedProjects, setIncludedProjects] = useState(
         Object.entries(projects).map(function ([key, value]) {
-            return (<div className={"project-wrapper"}><Project title={key} date={value['date']} link={value['link']} description={value['description']} image={value['image']} tags={value['tags']}/></div>);
+            return (<div key={wrapperKey++} className={"project-wrapper"}><Project title={key} date={value['date']} link={value['link']} description={value['description']} image={value['image']} tags={value['tags']}/></div>);
         })
     );
 
@@ -33,10 +34,11 @@ function Home() {
         Object.entries(projects).map(function ([key, value]) {
             console.log("updated project list");
             if (Object.keys(tags).every(tag => (value['tags'].includes(tag) || !tags[tag]))) {
-                objects.push(<div className={"project-wrapper"}><Project title={key} link={value['link']} description={value['description']} image={value['image']} tags={value['tags']}/></div>);
+                objects.push(<div key={wrapperKey++} className={"project-wrapper"}><Project title={key} link={value['link']} description={value['description']} image={value['image']} tags={value['tags']}/></div>);
             }else{
-                objects.push(<div className={"project-wrapper project-wrapper-hidden"}></div>);
+                objects.push(<div key={wrapperKey++} className={"project-wrapper project-wrapper-hidden"}></div>);
             }
+            return objects
         });
 
         setIncludedProjects(objects);
@@ -67,4 +69,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default Overview;
