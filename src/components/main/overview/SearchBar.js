@@ -21,7 +21,6 @@ class SearchBar extends React.Component {
 
 
     handleScroll = () => {
-        console.log("changed scroll")
         if(this.state.needsScroll) {
             const currentScroll = this.searchBarRef.current.scrollLeft;
             const maxScroll = this.searchBarRef.current.scrollWidth;
@@ -86,8 +85,10 @@ class SearchBar extends React.Component {
     }
 
     handleCallback = (lang) => {
-        const temp = this.state.selectedTags;
-        temp[lang] = temp[lang] == null ? true : !temp[lang];
+        // const temp = this.state.selectedTags;
+        // temp[lang] = temp[lang] == null ? true : !temp[lang];
+        const temp = []
+        temp[lang] = this.state.selectedTags[lang] == null ? true : !this.state.selectedTags[lang];
 
         this.props.updatedSelection(temp);
 

@@ -8,7 +8,8 @@ import SearchBar from './SearchBar'
 // import Tag from "./Tag";
 
 const projects = {
-    "This website":{"description":"Hello world!","date":"August 2022 - Now","link":"#","image":"/main/images/logoDark.png","tags":["ReactJS","HTML","CSS","NodeJS"]},
+    "This website":{"description":"A collection of all my projects","date":"August 2022 - Now","link":"#","image":"/main/images/logo.png","tags":["ReactJS","HTML","CSS"]},
+    "Backend Server":{"description":"The backend for all my projects","date":"August 2022 - Now","link":"#","image":"/main/images/logo.png","tags":["NodeJS"]},
     "Mushroom Game Engine":{"description":"Designed to create level based multiplayer platformer games","link":"/mushroom","date":"May 2022 - Now","image":"/overview/images/Fungo.png", "tags":["Java","GLSL","MacOS"]},
     "Platform Climber":{"description":"Climb as high as you can and get your name saved on the leaderboards","link":"/climber","date":"November 2022","image":"/overview/images/PlatformClimber.png","tags":["Rust","NodeJS","MacOS"]},
     "KeySoundboard":{"description":"Turn your keyboard into a soundboard. Play any sound at the press of any button","link":"/soundboard","date":"August 2022","image":"/overview/images/KeySoundboard.png","tags":["Swift","MacOS"]},
@@ -32,7 +33,6 @@ function Overview() {
     function updatedSelection(tags){
         let objects = [];
         Object.entries(projects).map(function ([key, value]) {
-            console.log("updated project list");
             if (Object.keys(tags).every(tag => (value['tags'].includes(tag) || !tags[tag]))) {
                 objects.push(<div key={wrapperKey++} className={"project-wrapper"}><Project title={key} link={value['link']} description={value['description']} image={value['image']} tags={value['tags']}/></div>);
             }else{
