@@ -9,7 +9,7 @@ import SearchBar from './SearchBar'
 
 const projects = {
     "This website":{"description":"A collection of all my projects","date":"August 2022 - Now","link":"#","image":"/main/images/logo.png","tags":["ReactJS","HTML","CSS"]},
-    "Backend Server":{"description":"The backend for all my projects","date":"August 2022 - Now","link":"#","image":"/main/images/logo.png","tags":["NodeJS"]},
+    "Backend Server":{"description":"The backend for all my projects","date":"August 2022 - Now","link":"#","image":"/main/images/logoBackend.png","tags":["NodeJS","Python"]},
     "Mushroom Game Engine":{"description":"Designed to create level based multiplayer platformer games","link":"/mushroom","date":"May 2022 - Now","image":"/overview/images/Fungo.png", "tags":["Java","GLSL","MacOS"]},
     "Platform Climber":{"description":"Climb as high as you can and get your name saved on the leaderboards","link":"/climber","date":"November 2022","image":"/overview/images/PlatformClimber.png","tags":["Rust","NodeJS","MacOS"]},
     "KeySoundboard":{"description":"Turn your keyboard into a soundboard. Play any sound at the press of any button","link":"/soundboard","date":"August 2022","image":"/overview/images/KeySoundboard.png","tags":["Swift","MacOS"]},
