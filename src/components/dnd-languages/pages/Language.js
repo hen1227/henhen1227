@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import '../../../App.css';
 import axios from "axios";
 import './Language.css';
+import ConnectionBar from './../../main/ConnectionBar'
 
 function Language() {
 
@@ -36,6 +37,7 @@ function Language() {
 
     return (
         <>
+            <ConnectionBar/>
             <div className='dnd-container'>
                 <h1>{lang}</h1>
                 <h2>{total===0? "loading" : total+" Uploads"}</h2>

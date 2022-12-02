@@ -12,7 +12,7 @@ function Highscore() {
     function fetchScores() {
         if (scores.length <= 4) {
             console.log("fetching highscores");
-            fetch('http://api.henhen1227.com/platform-climber/highscore')
+            let error = fetch('http://api.henhen1227.com/platform-climber/highscore')
                 .then((response) => response.json().then((result) => {
                         setScores(result);
                     }

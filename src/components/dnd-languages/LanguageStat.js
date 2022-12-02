@@ -33,7 +33,7 @@ function LanguageStat(props) {
 
     function handleClick(e) {
         e.preventDefault();
-        window.location.assign('http://henhen1227.com/dnd-languages/'+props.language);
+        window.location.assign('/dnd-languages/'+props.language);
     }
 
     return (

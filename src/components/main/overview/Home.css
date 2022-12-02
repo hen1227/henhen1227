@@ -18,8 +18,9 @@
 }
 
 .project-list-wrapper{
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
+    /*float-wrap: wrap;*/
     /*align-items: center;*/
     justify-content: center;
 }
@@ -36,6 +37,9 @@
 
     width: 32vw;
     float: left;
+
+
+
     padding-left: 1vw;
     padding-right: 1vw;
     padding-bottom: 3vh;
