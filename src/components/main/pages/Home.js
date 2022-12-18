@@ -22,7 +22,7 @@ function Home() {
               <a style={{color: "black", textDecoration: "none"}} href="/overview">
                   <div className="website-features" style={{borderWidth:5}}>
                       <h1>My Projects</h1>
-                      <img style={{backgroundColor:"#202020"}} src={"/main/images/logo.png"} alt={"Projects Overview"}/>
+                      <img style={{backgroundColor:"#202020"}} src={"/main/images/logoTm.png"} alt={"Projects Overview"}/>
                       <p>Learn more about all of my projects at: <br/> <b>henhen1227.com/overview</b></p>
                   </div>
               </a>

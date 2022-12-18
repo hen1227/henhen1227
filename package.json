@@ -1,14 +1,14 @@
 {
   "name": "henhen1227-v1",
   "homepage": "https://henhen1227.com",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
-    "@react-spring/parallax": "^9.5.5",
-    "@testing-library/jest-dom": "^4.2.4",
+    "@react-spring/parallax": "^9.6.1",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "axios": "^1.2.0",
+    "axios": "^1.2.1",
     "bootstrap": "^5.2.3",
     "leva": "^0.9.34",
     "nodemailer-react": "^1.0.2",
