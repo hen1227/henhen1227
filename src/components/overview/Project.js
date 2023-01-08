@@ -1,6 +1,6 @@
 import React  from 'react';
-import '../../../App.css';
-import './Home.css'
+import '../../App.css';
+import './pages/Home.css'
 import Tag from './Tag'
 import './Project.css'
 import TagsList from "./TagsList";

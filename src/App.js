@@ -13,12 +13,11 @@ import Morse from './components/morse/pages/Home'
 import MorseFeatures from './components/morse/pages/Features'
 import Soundboard from './components/soundboard/pages/Home';
 import SoundboardFeatures from './components/soundboard/pages/Features';
-// import Fungo from './components/fungo/pages/Home'
 import Mushroom from './components/mushroom/pages/Home'
-
 import Home from './components/main/pages/Home'
 import Head from './components/main/pages/Head'
-import Overview from './components/main/overview/Home'
+import Overview from './components/overview/pages/Home'
+import AppleOverview from './components/apple/pages/Home'
 import Info from './components/main/pages/Info'
 import Support from './components/main/pages/Support'
 import Api from './components/main/pages/Api'
@@ -70,6 +69,7 @@ function App() {
           <Route path='/fungo' exact component={Mushroom} />
           <Route path='/mushroom' exact component={Mushroom} />
           <Route path='/overview' exact component={Overview} />
+          <Route path='/apple' exact component={AppleOverview} />
           <Route path="*" component={PageNotFound} />
         </Switch>
         <Footer />

@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import '../../../App.css';
 import './Home.css'
-import Project from './Project'
-import SearchBar from './SearchBar'
+import Project from '../Project'
+import SearchBar from '../SearchBar'
 // import {emptyList} from "./TagsList";
 // import TagsList from "./TagsList";
 // import Tag from "./Tag";
