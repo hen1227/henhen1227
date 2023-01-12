@@ -14,7 +14,7 @@ function Language() {
         method: 'post',
         mode: "no-cors",
         headers: { 'Content-Type': 'application/json' },
-        url: 'http://dnd.henhen1227.com/dnd-languages/getCount',
+        url: 'http://api.henhen1227.com/dnd-languages/getCount',
         data: {
             "language": lang,
         }
