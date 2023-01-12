@@ -1,47 +1,60 @@
 import React, {useState} from 'react';
+import '../Loading'
 import '../../../App.css';
 import './Home.css'
+import Loading from "../Loading";
+import FailedToLoad from "../FailedToLoad";
 
 function AppleOverview() {
 
     let wrapperKey = 0;
 
     let [includedProjects, setIncludedProjects] = useState({
-            "data" : ""
+            "status": "loading"
         }
     );
 
-    // fetch("http://api.henhen1227.com/appstore/apps")
-    fetch("http://localhost:5001/appstore/apps")
+    fetch("http://api.henhen1227.com/appstore/apps")
+        // fetch("http://localhost:5001/appstore/apps")
         .then(response => {
+            response['status'] = "loaded";
             setIncludedProjects(response);
         })
         .catch(error => {
-            console.log("Error loading from Apple");
-
+            console.log("Error loading from api.henhen1227.com");
+            setIncludedProjects({status: "failed"})
             // Show error message
+
+
         });
 
     function addApps() {
-        if(includedProjects['data'] != null) {
-            includedProjects['data'].forEach((app) => {
-                return (<div key={wrapperKey++} className={"app-wrapper"}>app.name</div>);
-            })
+        if (includedProjects['status'] === "loaded") {
+            for (let i = 0; i < includedProjects['data'].length; i++) {
+                let app = includedProjects['data'][i];
+                return (<div key={wrapperKey++} className={"app-wrapper"}>{app.name}</div>);
+            }
+        } else if (includedProjects['status'] === "loading") {
+            return <Loading/>
+        } else if (includedProjects['status'] === "failed") {
+            return <FailedToLoad/>
         }
     }
 
     return (
         <>
-            <p>Jewllo</p>
-            <div className="appleOverviewHeader">
-                <h1>App Store</h1>
-                <p>Developer: Henry Abrahamsen</p>
-            </div>
-            <div className="appleOverview">
+            <div className="MainView">
+                <div className="appleOverviewHeader">
+                    <h1>App Store</h1>
+                    <h3>Developer: Henry Abrahamsen</h3>
+                </div>
+                <div className="appleOverview">
+                    <br/>
+                </div>
                 <div className="appleOverviewList">
                     {addApps()}
                 </div>
-                <br/>
+                <p>Coming soon!</p>
             </div>
         </>
     );

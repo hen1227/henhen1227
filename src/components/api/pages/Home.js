@@ -1,8 +1,7 @@
 import React from 'react';
 import '../../../App.css';
 import './Home.css'
-import './Api.css'
-import ConnectionBar from "../ConnectionBar";
+import ConnectionBar from "../../main/ConnectionBar";
 // import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 // import { useSpring, animated, config } from "@react-spring/web";
 

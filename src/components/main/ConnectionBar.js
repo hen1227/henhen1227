@@ -22,7 +22,7 @@ function ConnectionBar(){
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, []);
+    });
 
 
     return (

@@ -20,7 +20,7 @@ import Overview from './components/overview/pages/Home'
 import AppleOverview from './components/apple/pages/Home'
 import Info from './components/main/pages/Info'
 import Support from './components/main/pages/Support'
-import Api from './components/main/pages/Api'
+import Api from './components/api/pages/Home'
 import Privacy from './components/main/pages/privacy'
 import TermsOfService from './components/main/pages/terms-of-service.js'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
