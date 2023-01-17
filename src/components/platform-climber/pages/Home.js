@@ -7,7 +7,7 @@ import ConnectionBar from './../../main/ConnectionBar'
 function Home() {
   return (
     <>
-        <ConnectionBar/>
+        {/*<ConnectionBar/>*/}
         <Body/>
         <Highscore/>
     </>

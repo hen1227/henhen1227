@@ -8,7 +8,7 @@ import ConnectionBar from './../../main/ConnectionBar'
 function Home() {
   return (
     <>
-        <ConnectionBar/>
+        {/*<ConnectionBar/>*/}
         <Body/>
         <div className="lng-list-container">
             <ul className="lng-item-container">

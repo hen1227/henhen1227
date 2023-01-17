@@ -37,7 +37,7 @@ function Language() {
 
     return (
         <>
-            <ConnectionBar/>
+            {/*<ConnectionBar/>*/}
             <div className='dnd-container'>
                 <h1>{lang}</h1>
                 <h2>{total===0? "loading" : total+" Uploads"}</h2>

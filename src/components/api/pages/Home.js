@@ -8,7 +8,7 @@ import ConnectionBar from "../../main/ConnectionBar";
 function Api() {
     return (
         <>
-            <ConnectionBar/>
+            {/*<ConnectionBar/>*/}
             <div className="Api">
             <div className="Api-View">
                 <h1>api.Henhen1227.com</h1>
