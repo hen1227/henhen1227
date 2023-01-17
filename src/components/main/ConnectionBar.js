@@ -8,9 +8,7 @@ function ConnectionBar(){
 
     useEffect(() => {
         const handleScroll = event => {
-            console.log(window.scrollY);
-            console.log(isSmall);
-            if(!isSmall && window.scrollY > 10){
+            if(window.scrollY > 10){
                 setIsSmall(true);
             }else{
                 setIsSmall(false);
@@ -26,7 +24,7 @@ function ConnectionBar(){
 
 
     return (
-        <p ref={bar} className={"ConnectionBar" + (isSmall?" Small":"")}>Unable to connect to API.henhen1227.com :(</p>
+        <p ref={bar} className={"ConnectionBar" + (isSmall?" Small":"")}>Unable to connect to api.henhen1227.com :(</p>
     )
 }
 

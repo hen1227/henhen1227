@@ -14,14 +14,14 @@ function Footer() {
         <div className='footer-links'>
           <div className='footer-link-wrapper'>
             <div className='footer-link-items'>
-              <h2>About Us</h2>
+              <h2>About </h2>
               <Link to='/info'>More Info</Link>
               <Link to='/'><span className="greyedOut">Careers</span></Link>
               <Link to='/terms-of-service' target="_blank">Terms of Service</Link>
               <Link to='/privacy' target='_blank'>Privacy Policy</Link>
             </div>
             <div className='footer-link-items'>
-              <h2>Contact Us</h2>
+              <h2>Contact </h2>
               <Link to='/support'>Contact</Link>
               <Link to='/support'>Support</Link>
               <Link to={{pathname:"https://buymeacoffee.com/HenryAbrahamsen"}} target="_blank">Donations</Link>
@@ -36,7 +36,7 @@ function Footer() {
               <Link to='#' onClick={
                 ()=>
                     openInNewTab(
-                        "https://www.youtube.com/channel/UCue90VnaIZzbN5FYsqMHsDA/featured")
+                        "https://www.youtube.com/@Henhen1227")
               }>Youtube</Link>
               <Link to='#'><span className="greyedOut">Twitter</span></Link>
             </div>
@@ -49,7 +49,7 @@ function Footer() {
                 <div className={"logo-footer"}/> &thinsp; Henhen1227
               </Link>
             </div>
-            <small className='website-rights'>Henry Abrahamsen © 2022</small>
+            <small className='website-rights'>Henry Abrahamsen © 2022-2023</small>
             <div className='social-icons'>
               <Link
                   className='social-icon-link facebook'
@@ -86,7 +86,7 @@ function Footer() {
                 onClick={
                 ()=>
                     openInNewTab(
-                    "https://www.youtube.com/channel/UCue90VnaIZzbN5FYsqMHsDA/featured")
+                    "https://www.youtube.com/@Henhen1227")
                 }
               >
                 <i className='fab fa-youtube' />

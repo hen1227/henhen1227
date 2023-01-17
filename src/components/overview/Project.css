@@ -21,6 +21,7 @@
 .overviewProjectImage {
     background: center center/cover no-repeat #202020;
     max-width: 70%;
+    max-height: 300px;
     /*aspect-ra tio: 1.5;*/
     /*height: 400px;*/
     margin: 20px 15% 20px;
