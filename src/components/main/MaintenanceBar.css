@@ -1,0 +1,32 @@
+.MaintenanceBar{
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    background-color: red;
+
+    text-shadow: 0 0 20px darkred;
+
+    transition: all 200ms;
+
+    font-weight: bolder;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /*height:60px;*/
+    font-size: 20px;
+
+    overflow-x: clip;
+
+}
+
+.MaintenanceBar.Small {
+    font-weight: bold;
+    padding-top: 0;
+    /*height:15px;*/
+    padding-bottom: 0;
+    font-size: 13px;
+    white-space: nowrap;
+}

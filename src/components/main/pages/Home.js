@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../../../App.css';
 import './Home.css'
+import MaintenanceBar from "../MaintenanceBar";
 // import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 // import { useSpring, animated, config } from "@react-spring/web";
 
@@ -9,6 +10,7 @@ function Home() {
   return (
     <>
       <div className="MainView">
+          <MaintenanceBar/>
           <h1>Land of Henhen1227</h1>
           <h2>Whats next?</h2>
           <h3>Could be anything</h3>
