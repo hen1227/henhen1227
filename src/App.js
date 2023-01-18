@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route, Redirect, HashRouter} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
 
 import Navbar from './components/main/navbar/Navbar';
 import Footer from './components/main/navbar/Footer';
@@ -33,7 +33,7 @@ import {Helmet} from "react-helmet";
 function App() {
   return (
     <>
-      <HashRouter>
+      <Router>
         <Head/>
         <Helmet>
           <meta charSet="utf-8" />
@@ -75,7 +75,7 @@ function App() {
           <Route path="*" component={PageNotFound} />
         </Switch>
         <Footer />
-      </HashRouter>
+      </Router>
     </>
   );
 }
