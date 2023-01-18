@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../../App.css';
 import './Home.css'
 // import { Parallax, ParallaxLayer } from '@react-spring/parallax';
@@ -12,21 +13,21 @@ function Home() {
           <h2>Whats next?</h2>
           <h3>Could be anything</h3>
           <div className="website-features-wrapper">
-              <a style={{color: "black", textDecoration: "none"}} href="/minecraft">
+              <Link style={{color: "black", textDecoration: "none"}} to="/minecraft">
                   <div className="website-features">
                       <h1>Minecraft Server</h1>
                       <img src={"/minecraft/images/largeIcon.jpg"} alt={"Minecraft Server"}/>
                       <p>Join the minecraft server at the ip: <br/> <b>mc.henhen1227.com</b></p>
                   </div>
-              </a>
-              <a style={{color: "black", textDecoration: "none"}} href="/overview">
+              </Link>
+              <Link style={{color: "black", textDecoration: "none"}} to="/overview">
                   <div className="website-features" style={{borderWidth:5}}>
                       <h1>My Projects</h1>
                       <img style={{backgroundColor:"#202020"}} src={"/main/images/logoTm.png"} alt={"Projects Overview"}/>
                       <p>Learn more about all of my projects at: <br/> <b>henhen1227.com/overview</b></p>
                   </div>
-              </a>
-              <a style={{color: "black", textDecoration: "none"}} href="https://www.buymeacoffee.com/HenryAbrahamsen">
+              </Link>
+              <a style={{color: "black", textDecoration: "none"}} to="https://www.buymeacoffee.com/HenryAbrahamsen">
                   <div className="website-features">
                       <h1>Buy me a coffee</h1>
                       <img src={"/main/images/buyMeACoffee.png"} alt={"Buy Me A Coffee"}/>

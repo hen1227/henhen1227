@@ -1,4 +1,6 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+
 import Navbar from './components/main/navbar/Navbar';
 import Footer from './components/main/navbar/Footer';
 import './App.css';
@@ -23,8 +25,8 @@ import Support from './components/main/pages/Support'
 import Api from './components/api/pages/Home'
 import Privacy from './components/main/pages/privacy'
 import TermsOfService from './components/main/pages/terms-of-service.js'
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import PageNotFound from './components/main/pages/PageNotFound'
+
 import {Helmet} from "react-helmet";
 // import {Helmet} from "react-helmet";
 
