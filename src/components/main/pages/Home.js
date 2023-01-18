@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
       <div className="MainView">
-          <MaintenanceBar/>
+          {/*<MaintenanceBar/>*/}
           <h1>Land of Henhen1227</h1>
           <h2>Whats next?</h2>
           <h3>Could be anything</h3>
@@ -29,7 +29,7 @@ function Home() {
                       <p>Learn more about all of my projects at: <br/> <b>henhen1227.com/overview</b></p>
                   </div>
               </Link>
-              <a style={{color: "black", textDecoration: "none"}} to="https://www.buymeacoffee.com/HenryAbrahamsen">
+              <a style={{color: "black", textDecoration: "none"}} href="https://www.buymeacoffee.com/HenryAbrahamsen">
                   <div className="website-features">
                       <h1>Buy me a coffee</h1>
                       <img src={"/main/images/buyMeACoffee.png"} alt={"Buy Me A Coffee"}/>
