@@ -12,6 +12,7 @@
     "bootstrap": "^5.2.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-ga4": "^1.4.1",
     "react-helmet": "^6.1.0",
     "react-meta-tags": "^1.0.1",
     "react-router-dom": "^5.3.4",

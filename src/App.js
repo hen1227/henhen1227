@@ -27,10 +27,16 @@ import Privacy from './components/main/pages/privacy'
 import TermsOfService from './components/main/pages/terms-of-service.js'
 import PageNotFound from './components/main/pages/PageNotFound'
 
+import ReactGA from 'react-ga4'
+
 import {Helmet} from "react-helmet";
-// import {Helmet} from "react-helmet";
+
+ReactGA.initialize("G-8Y66FNGN5Q");
 
 function App() {
+
+  ReactGA.send("pageview");
+
   return (
     <>
       <Router>
