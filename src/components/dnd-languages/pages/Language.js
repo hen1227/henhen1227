@@ -37,7 +37,7 @@ function Language() {
             .catch(function (error) {
                 return error;
             });
-    }, []);
+    });
 
     return (
         <>
@@ -87,7 +87,7 @@ function LanguageImage(props) {
             <div className="lng-img-div">
                 <h4>{props.letter} ({props.count})</h4>
                 <img alt={props.lang + "/" + props.letter} className="lng-img"
-                     src={"http://api.henhen1227.com/dnd-languages/database/" + props.lang + "-Letters/" + props.letter + ".png"}/>
+                     src={"http://api.henhen1227.com/dnd-languages/" + props.lang + "-Letters/" + props.letter + ".png"}/>
             </div>
         </>
     );
