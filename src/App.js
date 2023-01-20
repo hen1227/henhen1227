@@ -35,7 +35,9 @@ ReactGA.initialize("G-8Y66FNGN5Q");
 
 function App() {
 
-  ReactGA.send("pageview");
+  if (window.location.hostname !== "localhost") {
+    ReactGA.send("pageview");
+  }
 
   return (
     <>

@@ -27,6 +27,7 @@ function LanguageStat(props) {
             return response;
         })
         .catch(function (error) {
+            console.log(error);
             return error;
         });
 

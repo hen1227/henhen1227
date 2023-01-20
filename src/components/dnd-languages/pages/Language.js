@@ -1,8 +1,9 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import '../../../App.css';
 import axios from "axios";
 import './Language.css';
-import ConnectionBar from './../../main/ConnectionBar'
+
+// import ConnectionBar from './../../main/ConnectionBar'
 
 function Language() {
 
@@ -10,37 +11,40 @@ function Language() {
     const [total, setTotal] = useState(0);
 
     const lang = window.location.href.split("/").reverse()[0];
-    axios({
-        method: 'post',
-        mode: "no-cors",
-        headers: { 'Content-Type': 'application/json' },
-        url: 'http://api.henhen1227.com/dnd-languages/getCount',
-        data: {
-            "language": lang,
-        }
-    })
-        .then(function (response) {
-            let numbers = response.data.Numbers;
-            let cnt = [];
-            let ttl = 0;
-            for(let i = 0; i < numbers.length; i++){
-                cnt.push(numbers[i]);
-                ttl+=numbers[i];
+
+    useEffect(() => {
+        axios({
+            method: 'post',
+            mode: "no-cors",
+            headers: {'Content-Type': 'application/json'},
+            url: 'http://api.henhen1227.com/dnd-languages/getCount',
+            data: {
+                "language": lang,
             }
-            setTotal(ttl);
-            setCount(cnt);
-            return response;
         })
-        .catch(function (error) {
-            return error;
-        });
+            .then(function (response) {
+                let numbers = response.data.Numbers;
+                let cnt = [];
+                let ttl = 0;
+                for (let i = 0; i < numbers.length; i++) {
+                    cnt.push(numbers[i]);
+                    ttl += numbers[i];
+                }
+                setTotal(ttl);
+                setCount(cnt);
+                return response;
+            })
+            .catch(function (error) {
+                return error;
+            });
+    }, []);
 
     return (
         <>
             {/*<ConnectionBar/>*/}
             <div className='dnd-container'>
                 <h1>{lang}</h1>
-                <h2>{total===0? "loading" : total+" Uploads"}</h2>
+                <h2>{total === 0 ? "loading" : total + " Uploads"}</h2>
 
                 <div className="lng-img-container">
                     <LanguageImage lang={lang} letter="A" count={count[0]}/>
@@ -82,7 +86,8 @@ function LanguageImage(props) {
         <>
             <div className="lng-img-div">
                 <h4>{props.letter} ({props.count})</h4>
-                <img alt={props.lang+"/"+props.letter} className="lng-img" src={"http://dnd.henhen1227.com/dnd-languages/database/"+props.lang+"-Letters/"+props.letter+".png"}/>
+                <img alt={props.lang + "/" + props.letter} className="lng-img"
+                     src={"http://api.henhen1227.com/dnd-languages/database/" + props.lang + "-Letters/" + props.letter + ".png"}/>
             </div>
         </>
     );
