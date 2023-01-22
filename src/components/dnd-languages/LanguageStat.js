@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import axios from "axios";
 import './LanguageStat.css'
 
@@ -7,29 +7,42 @@ function LanguageStat(props) {
         const [count, setCount] = useState(0);
         let language = props.language
 
-        axios({
-            method: 'post',
-            mode: "no-cors",
-            // withCredentials: true,
-            headers: { 'Content-Type': 'application/json' },
-            url: 'http://api.henhen1227.com/dnd-languages/getCount',
-            data: {
-                "language": props.language,
-            }
-        })
-        .then(function (response) {
-            let numbers = response.data.Numbers;
-            let cnt = 0;
-            for(let i = 0; i < numbers.length; i++){
-                cnt += numbers[i];
-            }
-            setCount(cnt);
-            return response;
-        })
-        .catch(function (error) {
-            console.log(error);
-            return error;
-        });
+    const [needUpdate, setNeedUpdate] = useState(true);
+
+
+    useEffect(() => {
+        if(needUpdate) {
+            axios({
+                method: 'post',
+                mode: "no-cors",
+                // withCredentials: true,
+                headers: {'Content-Type': 'application/json'},
+                url: 'http://api.henhen1227.com/dnd-languages/getCount/',
+                data: {
+                    "language": props.language,
+                }
+            })
+                .then(function (response) {
+                    let numbers = response.data.Numbers;
+                    let cnt = 0;
+                    for (let i = 0; i < numbers.length; i++) {
+                        cnt += numbers[i];
+                    }
+                    setCount(cnt);
+                    return response;
+                })
+                .catch(function (error) {
+                    console.log(error);
+                    return error;
+                });
+            setNeedUpdate(false);
+        }
+
+        const updateInterval = setInterval(() => {
+            setNeedUpdate(true);
+        }, 60000);
+    });
+
 
 
     function handleClick(e) {

@@ -10,33 +10,40 @@ function Language() {
     const [count, setCount] = useState([[]]);
     const [total, setTotal] = useState(0);
 
+
+    const [needUpdate, setNeedUpdate] = useState(true);
+
     const lang = window.location.href.split("/").reverse()[0];
 
     useEffect(() => {
-        axios({
-            method: 'post',
-            mode: "no-cors",
-            headers: {'Content-Type': 'application/json'},
-            url: 'http://api.henhen1227.com/dnd-languages/getCount',
-            data: {
-                "language": lang,
-            }
-        })
-            .then(function (response) {
-                let numbers = response.data.Numbers;
-                let cnt = [];
-                let ttl = 0;
-                for (let i = 0; i < numbers.length; i++) {
-                    cnt.push(numbers[i]);
-                    ttl += numbers[i];
+        if(needUpdate) {
+
+            axios({
+                method: 'post',
+                mode: "no-cors",
+                headers: {'Content-Type': 'application/json'},
+                url: 'http://api.henhen1227.com/dnd-languages/getCount/',
+                data: {
+                    "language": lang,
                 }
-                setTotal(ttl);
-                setCount(cnt);
-                return response;
             })
-            .catch(function (error) {
-                return error;
-            });
+                .then(function (response) {
+                    let numbers = response.data.Numbers;
+                    let cnt = [];
+                    let ttl = 0;
+                    for (let i = 0; i < numbers.length; i++) {
+                        cnt.push(numbers[i]);
+                        ttl += numbers[i];
+                    }
+                    setTotal(ttl);
+                    setCount(cnt);
+                    return response;
+                })
+                .catch(function (error) {
+                    return error;
+                });
+            setNeedUpdate(false);
+        }
     });
 
     return (
