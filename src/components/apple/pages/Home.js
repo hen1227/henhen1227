@@ -7,6 +7,8 @@ import FailedToLoad from "../FailedToLoad";
 
 function AppleOverview() {
 
+    window.location.href = 'https://apps.apple.com/us/developer/henry-abrahamsen/id1544660671';
+
     let wrapperKey = 0;
 
     let [includedProjects, setIncludedProjects] = useState({

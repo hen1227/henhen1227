@@ -38,10 +38,10 @@ function LanguageStat(props) {
             setNeedUpdate(false);
         }
 
-        const updateInterval = setInterval(() => {
+        setInterval(() => {
             setNeedUpdate(true);
         }, 60000);
-    });
+    }, [needUpdate, props.language]);
 
 
 

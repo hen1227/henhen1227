@@ -44,7 +44,7 @@ function Language() {
                 });
             setNeedUpdate(false);
         }
-    });
+    }, [needUpdate, lang]);
 
     return (
         <>
