@@ -22,6 +22,11 @@ function Footer() {
             </div>
             <div className='footer-link-items'>
               <h2>Contact </h2>
+              <Link to='#' onClick={
+                ()=>
+                    openInNewTab(
+                        "http://api.henhen1227.com/resume")
+              }>Resume</Link>
               <Link to='/support'>Contact</Link>
               <Link to='/support'>Support</Link>
               <Link to={{pathname:"https://buymeacoffee.com/HenryAbrahamsen"}} target="_blank">Donations</Link>
