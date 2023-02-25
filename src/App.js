@@ -23,6 +23,7 @@ import AppleOverview from './components/apple/pages/Home'
 import Info from './components/main/pages/Info'
 import Support from './components/main/pages/Support'
 import Api from './components/api/pages/Home'
+import HM10 from './components/hm10/pages/Home'
 import Privacy from './components/main/pages/privacy'
 import TermsOfService from './components/main/pages/terms-of-service.js'
 import PageNotFound from './components/main/pages/PageNotFound'
@@ -63,6 +64,7 @@ function App() {
           <Route path='/terms-of-service' exact component={TermsOfService} />
           <Route path='/support' exact component={Support} />
           <Route path='/api' exact component={Api} />
+          <Route path='/hm10' exact component={HM10} />
           <Route path='/minecraft' exact component={Minecraft} />
           <Route path='/dnd-languages' exact component={DnDLanguages} />
           <Route path='/dnd-languages/features' exact component={DnDLanguagesFeatures} />
