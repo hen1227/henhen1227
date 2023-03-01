@@ -9,7 +9,7 @@ function Body() {
         <div>
             <div className='platform-container'>
                 <h1>Platform Climber</h1>
-                <p3>Alpha v0.1.1</p3>
+                <p>Alpha v0.1.1</p>
                     <div className='hero-btns'>
                         <Button
                                 className='btns'
@@ -18,9 +18,10 @@ function Body() {
                                 localDestination={false}
                                 destination='http://api.henhen1227.com/platform-climber/download'
                         >
-                            &emsp; &emsp;  DOWNLOAD &emsp; &emsp;
+                            &emsp; &emsp;  <del>DOWNLOAD</del> &emsp; &emsp;
                         </Button>
                     </div>
+                <h2>Unfortunately, my computer broke and supporting files for this game were unable to be recovered. :(</h2>
             </div>
         </div>
     );

@@ -15,7 +15,16 @@
     font-family: PlatformClimber, serif;
     font-size: 92px;
 }
-.platform-container p3 {
+.platform-container h2 {
+    padding-top: 2%;
+    color: white;
+    font-family: PlatformClimber, serif;
+    font-size: 24px;
+    width: 40%;
+    text-align: center;
+    /*margin-left: 0%;*/
+}
+.platform-container p {
     /*padding-top: 12%;*/
     color: white;
     font-family: PlatformClimber, serif;
