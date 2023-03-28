@@ -8,6 +8,9 @@ import Minecraft from './components/minecraft/pages/Home'
 import DnDLanguages from './components/dnd-languages/pages/Home'
 import DnDLanguage from './components/dnd-languages/pages/Language'
 import DnDLanguagesFeatures from './components/dnd-languages/pages/Features'
+import Tactico from './components/tactico/pages/Home'
+import TacticoPlay from './components/tactico/pages/Play'
+import TacticoLearn from './components/tactico/pages/Learn'
 import Climber from './components/platform-climber/pages/Home'
 import Braille from './components/braille/pages/Home'
 import BrailleFeatures from './components/braille/pages/Features'
@@ -70,13 +73,16 @@ function App() {
           <Route path='/dnd-languages/features' exact component={DnDLanguagesFeatures} />
           <Route path='/dnd-languages/support' exact>{<Redirect to="/support" />}</Route>
           <Route path='/dnd-languages/*' component={DnDLanguage} />
-          <Route path='/climber' component={Climber} />
+          <Route path='/tactico' exact component={Tactico} />
+          <Route path='/tactico/play' exact component={TacticoPlay} />
+          <Route path='/tactico/learn' exact component={TacticoLearn} />
+          <Route path='/climber' exact component={Climber} />
           <Route path='/braille' exact component={Braille} />
           <Route path='/braille/features' exact component={BrailleFeatures} />
           <Route path='/morse' exact component={Morse} />
           <Route path='/morse/features' exact component={MorseFeatures} />
           <Route path='/soundboard' exact component={Soundboard} />
-          <Route path='/soundboard/features' component={SoundboardFeatures} />
+          <Route path='/soundboard/features' exact component={SoundboardFeatures} />
           <Route path='/soundboard/support' exact>{<Redirect to="/support" />}</Route>
           <Route path='/fungo' exact component={Mushroom} />
           <Route path='/mushroom' exact component={Mushroom} />

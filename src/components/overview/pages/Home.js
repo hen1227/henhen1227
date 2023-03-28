@@ -8,6 +8,8 @@ import SearchBar from '../SearchBar'
 // import Tag from "./Tag";
 
 const projects = {
+    "Tactico":{"description":"A fun board game you can play locally or online","date":"March 2023 - Now","link":"/tactico","image":"/tactico/images/TacticoIcon.png","tags":["ReactJS","NodeJS","SocketIO","IOS","Swift"]},
+    "BluetoothSerial":{"description":"An app that allows iPhones to easily interface with Arduino bluetooth HM10 chips","date":"February 2023 - Now","link":"/HM10","image":"/bluetooth-serial/images/BluetoothSerialIcon.png","tags":["Swift","IOS","C++"]},
     "This website":{"description":"A collection of all my projects","date":"August 2022 - Now","link":"#","image":"/main/images/logoTm.png","tags":["ReactJS","HTML","CSS"]},
     "Backend Server":{"description":"The backend for all my projects","date":"August 2022 - Now","link":"/api","image":"/main/images/logoBackend.png","tags":["NodeJS","Python"]},
     "Mushroom Game Engine":{"description":"Designed to create level based multiplayer platformer games","link":"/mushroom","date":"May 2022 - Now","image":"/overview/images/Fungo.png", "tags":["Java","GLSL","MacOS"]},
@@ -34,7 +36,7 @@ function Overview() {
         let objects = [];
         Object.entries(projects).map(function ([key, value]) {
             if (Object.keys(tags).every(tag => (value['tags'].includes(tag) || !tags[tag]))) {
-                objects.push(<div key={wrapperKey++} className={"project-wrapper"}><Project title={key} link={value['link']} description={value['description']} image={value['image']} tags={value['tags']}/></div>);
+                objects.push(<div key={wrapperKey++} className={"project-wrapper"}><Project title={key} date={value['date']} link={value['link']} description={value['description']} image={value['image']} tags={value['tags']}/></div>);
             }else{
                 objects.push(<div key={wrapperKey++} className={"project-wrapper project-wrapper-hidden"}></div>);
             }
