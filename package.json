@@ -4,10 +4,6 @@
   "version": "0.2.0",
   "private": true,
   "dependencies": {
-    "@react-spring/parallax": "^9.6.1",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
     "axios": "^1.2.1",
     "bootstrap": "^5.2.3",
     "react": "^16.13.1",
