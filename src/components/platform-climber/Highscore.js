@@ -6,13 +6,13 @@ function Highscore() {
 
     let [scores, setScores] = useState([["Unable ","("],["to ","("],["load ","("],["highscores ","("]]);
 
-    // fetch('http://api.henhen1227.com/platform-climber/highscore')
+    // fetch('https://api.henhen1227.com/platform-climber/highscore')
     fetchScores();
 
     function fetchScores() {
         if (scores.length <= 4) {
             console.log("fetching highscores");
-            let error = fetch('http://api.henhen1227.com/platform-climber/highscore')
+            let error = fetch('https://api.henhen1227.com/platform-climber/highscore')
                 .then((response) => response.json().then((result) => {
                         setScores(result);
                     }

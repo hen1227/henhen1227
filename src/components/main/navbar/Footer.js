@@ -25,7 +25,7 @@ function Footer() {
               <Link to='#' onClick={
                 ()=>
                     openInNewTab(
-                        "http://api.henhen1227.com/resume")
+                        "https://api.henhen1227.com/resume")
               }>Resume</Link>
               <Link to='/support'>Contact</Link>
               <Link to='/support'>Support</Link>

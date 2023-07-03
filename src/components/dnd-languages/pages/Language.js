@@ -22,7 +22,7 @@ function Language() {
                 method: 'post',
                 mode: "no-cors",
                 headers: {'Content-Type': 'application/json'},
-                url: 'http://api.henhen1227.com/dnd-languages/getCount/',
+                url: 'https://api.henhen1227.com/dnd-languages/getCount/',
                 data: {
                     "language": lang,
                 }
@@ -94,7 +94,7 @@ function LanguageImage(props) {
             <div className="lng-img-div">
                 <h4>{props.letter} ({props.count})</h4>
                 <img alt={props.lang + "/" + props.letter} className="lng-img"
-                     src={"http://api.henhen1227.com/dnd-languages/" + props.lang + "-Letters/" + props.letter + ".png"}/>
+                     src={"https://api.henhen1227.com/dnd-languages/" + props.lang + "-Letters/" + props.letter + ".png"}/>
             </div>
         </>
     );

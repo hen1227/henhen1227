@@ -19,22 +19,22 @@ export default function Features() {
         <div className='features__container'>
             <ul className='features__items'>
         <FeatureItem
-        src={'/soundboard/main/soundControl.png'}
+        src={'/images/soundboard/soundControl.png'}
         alt="Sound Control"
         text="Control the sound effect's speed, reverb, and volume"
         />
         <FeatureItem
-        src={'/soundboard/main/keybinds.png'}
+        src={'/images/soundboard/keybinds.png'}
         alt="Keybinds"
         text='Set sounds to play on any keybind'
         />
         <FeatureItem
-        src={'/soundboard/main/keypad.jpg'}
+        src={'/images/soundboard/keypad.jpg'}
         alt="Keypad"
         text='Fully compatible with numpads too!'
         />
         <FeatureItem
-        src={'/soundboard/main/MLGHorn.png'}
+        src={'/images/soundboard/MLGHorn.png'}
         alt="Keybinds"
         text='Play your favorite sounds with their assigned keybinds in ANY window'
         />

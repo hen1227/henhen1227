@@ -16,7 +16,7 @@ function Body() {
                                 buttonStyle='btn--primary'
                                 buttonSize='btn--large'
                                 localDestination={false}
-                                destination='http://api.henhen1227.com/platform-climber/download'
+                                destination='https://api.henhen1227.com/platform-climber/download'
                         >
                             &emsp; &emsp;  <del>DOWNLOAD</del> &emsp; &emsp;
                         </Button>

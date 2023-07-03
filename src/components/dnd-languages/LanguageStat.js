@@ -17,7 +17,7 @@ function LanguageStat(props) {
                 mode: "no-cors",
                 // withCredentials: true,
                 headers: {'Content-Type': 'application/json'},
-                url: 'http://api.henhen1227.com/dnd-languages/getCount/',
+                url: 'https://api.henhen1227.com/dnd-languages/getCount/',
                 data: {
                     "language": props.language,
                 }

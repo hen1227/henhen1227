@@ -17,8 +17,8 @@ function AppleOverview() {
         }
     );
 
-    fetch("http://api.henhen1227.com/appstore/apps")
-        // fetch("http://localhost:5001/appstore/apps")
+    fetch("https://api.henhen1227.com/appstore/apps")
+        // fetch("https://localhost:5001/appstore/apps")
         .then(response => {
             response['status'] = "loaded";
             setIncludedProjects(response);

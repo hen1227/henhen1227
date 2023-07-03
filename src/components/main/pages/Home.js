@@ -18,21 +18,21 @@ function Home() {
               <Link style={{color: "black", textDecoration: "none"}} to="/minecraft">
                   <div className="website-features">
                       <h1>Minecraft Server</h1>
-                      <img src={"/minecraft/main/largeIcon.jpg"} alt={"Minecraft Server"}/>
+                      <img src={"/images/minecraft/largeIcon.jpg"} alt={"Minecraft Server"}/>
                       <p>Join the minecraft server at the ip: <br/> <b>mc.henhen1227.com</b></p>
                   </div>
               </Link>
               <Link style={{color: "black", textDecoration: "none"}} to="/overview">
                   <div className="website-features" style={{borderWidth:5}}>
                       <h1>My Projects</h1>
-                      <img style={{backgroundColor:"#202020"}} src={"/main/main/logoTm.png"} alt={"Projects Overview"}/>
+                      <img style={{backgroundColor:"#202020"}} src={"/images/main/logoTm.png"} alt={"Projects Overview"}/>
                       <p>Learn more about all of my projects at: <br/> <b>henhen1227.com/overview</b></p>
                   </div>
               </Link>
               <a style={{color: "black", textDecoration: "none"}} href="https://www.buymeacoffee.com/HenryAbrahamsen">
                   <div className="website-features">
                       <h1>Buy me a coffee</h1>
-                      <img src={"/main/main/buyMeACoffee.png"} alt={"Buy Me A Coffee"}/>
+                      <img src={"/images/main/buyMeACoffee.png"} alt={"Buy Me A Coffee"}/>
                       <p>Support me and my projects at: <br/> <b>BuyMeACoffee.com</b></p>
                   </div>
               </a>
