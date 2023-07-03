@@ -30,15 +30,15 @@ function Learn() {
                 <h3>Good luck!</h3>
 
                 <div className='hero-btns'>
-                    <Button
-                        className='btns'
-                        buttonStyle='btn--primary'
-                        buttonSize='btn--med'
-                        localDestination={true}
-                        destination='/tactico/play'
-                    >
-                        &emsp; PLAY ONLINE &emsp;
-                    </Button>
+                    {/*<Button*/}
+                    {/*    className='btns'*/}
+                    {/*    buttonStyle='btn--primary'*/}
+                    {/*    buttonSize='btn--med'*/}
+                    {/*    localDestination={true}*/}
+                    {/*    destination='/tactico/play'*/}
+                    {/*>*/}
+                    {/*    &emsp; PLAY ONLINE &emsp;*/}
+                    {/*</Button>*/}
                     <Button
                         className='btns'
                         buttonStyle='btn--primary'

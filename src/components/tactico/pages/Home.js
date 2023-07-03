@@ -20,16 +20,16 @@ function Home() {
                         &emsp;  DOWNLOAD APP &emsp;
                     </Button>
                 </div>
-                <div className='hero-btns'>
-                    <Button
-                        className='btns'
-                        buttonStyle='btn--primary'
-                        buttonSize='btn--large'
-                        localDestination={true}
-                        destination='/tactico/play'
-                    >
-                        &emsp; PLAY &emsp;
-                    </Button>
+                {/*<div className='hero-btns'>*/}
+                {/*    <Button*/}
+                {/*        className='btns'*/}
+                {/*        buttonStyle='btn--primary'*/}
+                {/*        buttonSize='btn--large'*/}
+                {/*        localDestination={true}*/}
+                {/*        destination='/tactico/play'*/}
+                {/*    >*/}
+                {/*        &emsp; PLAY &emsp;*/}
+                {/*    </Button>*/}
                     <Button
                         className='btns'
                         buttonStyle='btn--primary'
@@ -39,7 +39,7 @@ function Home() {
                     >
                         &emsp; LEARN &emsp;
                     </Button>
-                </div>
+                {/*</div>*/}
             </div>
         </div>
     );
