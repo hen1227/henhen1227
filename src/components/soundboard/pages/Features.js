@@ -19,22 +19,22 @@ export default function Features() {
         <div className='features__container'>
             <ul className='features__items'>
         <FeatureItem
-        src={'/soundboard/images/soundControl.png'}
+        src={'/soundboard/main/soundControl.png'}
         alt="Sound Control"
         text="Control the sound effect's speed, reverb, and volume"
         />
         <FeatureItem
-        src={'/soundboard/images/keybinds.png'}
+        src={'/soundboard/main/keybinds.png'}
         alt="Keybinds"
         text='Set sounds to play on any keybind'
         />
         <FeatureItem
-        src={'/soundboard/images/keypad.jpg'}
+        src={'/soundboard/main/keypad.jpg'}
         alt="Keypad"
         text='Fully compatible with numpads too!'
         />
         <FeatureItem
-        src={'/soundboard/images/MLGHorn.png'}
+        src={'/soundboard/main/MLGHorn.png'}
         alt="Keybinds"
         text='Play your favorite sounds with their assigned keybinds in ANY window'
         />
@@ -61,12 +61,12 @@ export default function Features() {
       <div className='features__container'>
             <ul className='features__items'>
       <FeatureItem
-        src={'/soundboard/images/keypad.jpg'}
+        src={'/soundboard/main/keypad.jpg'}
         alt="Keypad"
         text='Fully compatible with numpads too!'
         />
         <FeatureItem
-        src={'/soundboard/images/MLGHorn.png'}
+        src={'/soundboard/main/MLGHorn.png'}
         alt="Keybinds"
         text='Play your favorite sounds with their assigned keybinds in ANY window'
         />

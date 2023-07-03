@@ -58,7 +58,7 @@ p {
 
 .projectOverviewImage {
     /*position: absolute;*/
-    background: url("/public/mushroom/images/FungoProjectFile-Oct22.png") center center/cover no-repeat #3D3F41;
+    background: url("/public/images/mushroom/FungoProjectFile-Oct22.png") center center/cover no-repeat #3D3F41;
     width: clamp(20vw, 300px, 200px);
     aspect-ratio: 10.6/85.7;
     z-index: 10;
@@ -100,14 +100,14 @@ p {
      left: 100%;
  }
 .mushroomImage1{
-    background: url("/public/mushroom/images/FungoGameplay1-Oct22.png") center center/cover no-repeat #202020;
+    background: url("/public/images/mushroom/FungoGameplay1-Oct22.png") center center/cover no-repeat #202020;
 
 }
 .mushroomImage2{
-    background: url("/public/mushroom/images/FungoGameplay2-Oct22.png") center center/cover no-repeat #202020;
+    background: url("/public/images/mushroom/FungoGameplay2-Oct22.png") center center/cover no-repeat #202020;
 }
 .mushroomImage3{
-    background: url("/public/mushroom/images/FungoGameplay3-Oct22.png") center center/cover no-repeat #202020;
+    background: url("/public/images/mushroom/FungoGameplay3-Oct22.png") center center/cover no-repeat #202020;
 }
 
 @media screen and (max-width: 900px) {

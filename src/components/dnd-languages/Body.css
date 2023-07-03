@@ -1,5 +1,5 @@
 .dnd-container {
-    background: url('/public/dnd-languages/images/background.jpg') center center/cover no-repeat;
+    background: url('/public/images/dnd-languages/background.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;

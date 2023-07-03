@@ -1,7 +1,7 @@
 .pageNotFound{
     height: 100vh;
     text-align: center;
-    background: url("/public/main/images/404background.jpg");
+    background: url("/public/images/main/404background.jpg");
 }
 .pageNotFound h1 {
     padding-top: 12%;

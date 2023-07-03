@@ -19,21 +19,21 @@ function Api() {
                     <div className="Api-feature">
                         <h1>RestAPI</h1>
                         <div>
-                            <img alt="restAPI symbol" src="/api/images/restAPI.png"/>
+                            <img alt="restAPI symbol" src="/images/api/restAPI.png"/>
                             <p>Organized RestfulAPI allows easy access to databases.</p>
                         </div>
                     </div>
                 <div className="Api-feature">
                     <h1>Version Sync</h1>
                     <div>
-                        <img alt="webhook symbol" src="/api/images/webhook.png"/>
+                        <img alt="webhook symbol" src="/images/api/webhook.png"/>
                         <p>Using GitHub webhooks, a second server will automatically pull request on every repository update.</p>
                     </div>
                 </div>
                 <div className="Api-feature">
                     <h1>Persistent database</h1>
                     <div>
-                        <img alt="database symbol" src="/api/images/database.png"/>
+                        <img alt="database symbol" src="/images/api/database.png"/>
                         <p>Database is saved to the disk for cross-session storage. And frequently accessed data is also saved to memory for quick responses.</p>
                     </div>
                 </div>

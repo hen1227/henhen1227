@@ -1,7 +1,7 @@
 .features {
   padding: 9rem;
   background-color: #000;
-  background: url('../../../public/soundboard/images/features.jpg') center center/cover no-repeat; 
+  background: url('soundboard/features.jpg') center center/cover no-repeat;
   background-position-y: top;
   /* background-position: ; */
   height:720;

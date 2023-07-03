@@ -1,7 +1,7 @@
 .info{
     height: 100vh;
     text-align: center;
-    background: url("/public/main/images/infoBackground.jpg");
+    background: url("/public/images/main/infoBackground.jpg");
 }
 .info h1 {
     padding-top: 6%;

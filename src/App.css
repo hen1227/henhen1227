@@ -35,13 +35,13 @@
 }
 
 .logo-navbar {
-  background: url("/public/main/images/logoWhite.png") center center/cover no-repeat;
+  background: url("/public/images/main/logoWhite.png") center center/cover no-repeat;
   aspect-ratio: 1;
   width: 48px;
 }
 
 .logo-footer {
-  background: url("/public/main/images/logoWhite.png") center center/cover no-repeat;
+  background: url("/public/images/main/logoWhite.png") center center/cover no-repeat;
   aspect-ratio: 1;
   width: 32px;
 }
@@ -52,15 +52,15 @@
 
 @font-face {
   font-family: "MorseCode";
-  src: url('/public/morse/fonts/MorseCoder-RppRE.ttf');
+  src: url('/public/fonts/morse/MorseCoder-RppRE.ttf');
 }
 @font-face {
   font-family: "PlatformClimber";
-  src: url('/public/platform-climber/fonts/platform-climber.ttf');
+  src: url('/public/fonts/platform-climber/platform-climber.ttf');
 }
 
 @font-face {
   font-family: "Braille";
-  src: url('/public/braille/fonts/Braille-1lA2.ttf');
+  src: url('/public/fonts/braille/Braille-1lA2.ttf');
 }
 

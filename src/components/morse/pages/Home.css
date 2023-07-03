@@ -2,7 +2,7 @@
     height: 100vh;
     background: gainsboro;
     text-align: center;
-    background: url('/public/morse/images/background.jpg') center center/cover no-repeat;
+    background: url('/public/images/morse/background.jpg') center center/cover no-repeat;
 }
 .morse-body h1 {
     color: lightgray;
