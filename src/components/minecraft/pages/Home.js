@@ -1,21 +1,23 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import '../../../App.css';
 import './Home.css'
 import MinecraftLogo from '../Header';
-import CurrentServerStats from '../CurrentServerStats';
-import PastWorlds from '../pastWorlds/PastWorlds';
+import CurrentWorld from '../worlds/CurrentWorld';
+import PastWorlds from '../worlds/PastWorlds';
 import DiscordButton from '../DiscordButton';
 import MinecraftBackground from '../MinecraftBackground';
+import WorldScreenshotsModal from '../worlds/WorldScreenshotsModal'
+
 
 function Home() {
     return (
         <>
             <div className="minecraft-main">
                 <MinecraftLogo />
-                <CurrentServerStats />
+                <CurrentWorld />
                 <PastWorlds />
                 <DiscordButton />
-                <MinecraftBackground />
+                <MinecraftBackground/>
             </div>
         </>
     );

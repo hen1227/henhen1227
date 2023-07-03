@@ -1,0 +1,44 @@
+[
+  {
+    "id": "server3",
+    "name": "Season ??",
+    "dateStarted": "June 2021",
+    "dateEnded": "July 2021",
+    "coverImage": "season2Cover.png",
+    "photoAlbum": [
+      "image1.png",
+      "image2.png"
+    ],
+    "version": "",
+    "description": "Very short season",
+    "fileSize": "0.0GB",
+    "downloadLink": "#"
+  },
+  {
+    "id": "server2",
+    "name": "Season ??",
+    "dateStarted": "August 2020",
+    "dateEnded": "January 2021",
+    "coverImage": "season2Cover.png",
+    "photoAlbum": [
+      "image1.png",
+      "image2.png"
+    ],
+    "version": "",
+    "fileSize": "0.0GB",
+    "downloadLink": "#"
+  },
+  {
+    "id": "season1",
+    "name": "Season 1",
+    "datePlayed": "2023-01-01",
+    "coverImage": "season1Cover.png",
+    "photoAlbum": [
+      "image1.png",
+      "image2.png"
+    ],
+    "version": "",
+    "fileSize": "0.0GB",
+    "downloadLink": "#"
+  }
+]

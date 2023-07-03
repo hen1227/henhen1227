@@ -1,0 +1,17 @@
+[
+  {
+    "id": "season-latest",
+    "name": "Latest Season idk the #",
+    "dateStarted": "June 2023",
+    "dateEnded": "Currently",
+    "coverImage": "season-latestCover.png",
+    "photoAlbum": [
+      "2023-06-03_19.10.41.png",
+      "2023-06-03_19.10.48.png",
+      "2023-06-03_23.06.32.png"
+    ],
+    "version": "1.20.1",
+    "fileSize": "0.0GB",
+    "downloadLink": "#"
+  }
+]

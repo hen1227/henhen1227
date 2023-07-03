@@ -1,0 +1,140 @@
+.worlds {
+    /*background-color: #3E606F;*/
+    color: #A8DBA8;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+
+    min-width: 300px;
+    width: 55%;
+    align-content: center;
+
+    font-family: Minecraft, system-ui;
+}
+.worlds * {
+    font-family: Minecraft, system-ui;
+}
+.worlds p {
+    margin: 0 15px;
+    padding: 10px;
+}
+.worlds h2 {
+    margin-bottom: 20px;
+}
+
+.worlds .download {
+    text-decoration: none;
+    font-family: Minecraft, system-ui;
+    color: white;
+    border-radius: 4px;
+    background-color: #252e48;
+    padding: 4px 5px;
+    margin: 10px 15px;
+}
+
+.worlds img {
+    width: 85%;
+    /*max-height: 240px;*/
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 14px;
+
+    cursor: pointer;  /* Indicates that the image is clickable */
+}
+
+.worlds .thumbnail-container {
+    gap: 10px;
+    display: flex;
+    align-content: center;
+    border-radius: 4px;
+    width: fit-content;
+    margin: 15px auto;
+}
+.worlds .thumbnail{
+    max-width: 25%;
+    aspect-ratio: 16/9;
+    /*max-height: 120px;*/
+    margin: 0 auto;
+    object-fit: cover;
+
+}
+
+.worlds ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.worlds li {
+    background-color: rgba(90, 105, 112, 0.15);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 40px auto;
+    width: 95%;
+}
+
+/* Styles for the modal */
+
+.ReactModal__Overlay {
+    position: fixed;
+    /*top: 20px;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ReactModal__Content {
+    position: relative;
+    margin: auto;
+    max-width: 80%;
+    height: auto;
+    max-height: 80%;
+    background: none;
+    border: none;
+    overflow: auto;
+    WebkitOverflowScrolling: touch;
+    border-radius: 20px;
+    outline: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.ReactModal__Content button {
+    background-color: rgba(92, 102, 92, 0.63);
+    color: #A8DBA8;
+    border: #A8DBA8 2px solid;
+    border-radius: 6px;
+    font-weight: bolder;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 4;
+}
+
+.ReactModal__Content img {
+    width: 100%;
+    max-height: 80%;
+    /*height: 100%;*/
+    object-fit: cover;
+    position: absolute;
+    border-radius: 40px;
+}
+
+.ReactModal__Content p {
+    bottom: 0;
+    left: auto;
+    color: white;
+    font-family: Minecraft;
+    position: absolute;
+}
