@@ -1,19 +1,21 @@
 import React from 'react';
 import '../../../App.css';
 import './Home.css'
+import MinecraftLogo from '../Header';
+import CurrentServerStats from '../CurrentServerStats';
+import PastWorlds from '../pastWorlds/PastWorlds';
+import DiscordButton from '../DiscordButton';
+import MinecraftBackground from '../MinecraftBackground';
 
 function Home() {
     return (
         <>
             <div className="minecraft-main">
-                <h1>Minecraft</h1>
-                <p>Join at <b>mc.henhen1227.com</b></p>
-
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <p>Website coming soon</p>
+                <MinecraftLogo />
+                <CurrentServerStats />
+                <PastWorlds />
+                <DiscordButton />
+                <MinecraftBackground />
             </div>
         </>
     );

@@ -1,6 +1,12 @@
 .minecraft-main{
-    height: 100vh;
+    height: fit-content;
     text-align: center;
+
+    background-color: #121212;
+    color: #A8DBA8;
+    font-family: 'Minecraft', Arial, sans-serif;
+    padding: 20px;
+    justify-content: center;
 }
 
 .minecraft-main h1 {

@@ -5,6 +5,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  z-index: 1000;
+  transform: translateZ(0);
 }
 
 .footer-subscription {

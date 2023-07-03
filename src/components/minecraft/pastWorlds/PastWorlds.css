@@ -1,0 +1,74 @@
+.pastWorlds {
+    /*background-color: #3E606F;*/
+    color: #A8DBA8;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+
+    min-width: 300px;
+    width: 55%;
+    align-content: center;
+
+    font-family: Minecraft, system-ui;
+}
+.pastWorlds * {
+    font-family: Minecraft, system-ui;
+}
+.pastWorlds p {
+    margin: 0 15px;
+    padding: 10px;
+}
+.pastWorlds h2 {
+    margin-bottom: 20px;
+}
+
+.pastWorlds .download {
+    text-decoration: none;
+    font-family: Minecraft, system-ui;
+    color: white;
+    border-radius: 4px;
+    background-color: #252e48;
+    padding: 4px 5px;
+    margin: 10px 15px;
+}
+
+.pastWorlds img {
+    width: 85%;
+    /*max-height: 240px;*/
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.pastWorlds .thumbnail-container {
+    gap: 10px;
+    display: flex;
+    align-content: center;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+.pastWorlds .thumbnail{
+    max-width: 20%;
+    aspect-ratio: 16/9;
+    /*max-height: 120px;*/
+    margin: 0 auto;
+    object-fit: cover;
+
+}
+
+.pastWorlds ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pastWorlds li {
+    background-color: rgba(90, 105, 112, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 40px auto;
+    width: 95%;
+
+}

@@ -51,6 +51,15 @@
 
 
 @font-face {
+  font-family: "Minecraft";
+  src: url('/public/fonts/minecraft/MinecraftRegular-Bmg3.otf');
+}
+@font-face {
+  font-family: "Minecraft Bold";
+  src: url('/public/fonts/minecraft/MinecraftBold-nMK1.otf');
+}
+
+@font-face {
   font-family: "MorseCode";
   src: url('/public/fonts/morse/MorseCoder-RppRE.ttf');
 }

@@ -1,4 +1,26 @@
 {
-  "main.js": "static/js/main.d53e9707.js",
-  "main.js.map": "static/js/main.d53e9707.js.map"
+  "files": {
+    "main.css": "/static/css/main.676e18f4.css",
+    "main.js": "/static/js/main.ab6d70f2.js",
+    "static/media/FungoProjectFile-Oct22.png": "/static/media/FungoProjectFile-Oct22.c76c9bf7324d9cbb342e.png",
+    "static/media/FungoGameplay3-Oct22.png": "/static/media/FungoGameplay3-Oct22.fa3fff3611789ce68bfc.png",
+    "static/media/404background.jpg": "/static/media/404background.d50853f5ecc8d0ac62a6.jpg",
+    "static/media/features.jpg": "/static/media/features.6a7fb82f7ecf04827eb6.jpg",
+    "static/media/infoBackground.jpg": "/static/media/infoBackground.c0126bd28bf6cc115c1d.jpg",
+    "static/media/FungoGameplay2-Oct22.png": "/static/media/FungoGameplay2-Oct22.fea57000a580ca97a5fb.png",
+    "static/media/FungoGameplay1-Oct22.png": "/static/media/FungoGameplay1-Oct22.b1a6be5e04f43f5f5b68.png",
+    "static/media/background.jpg": "/static/media/background.0664ae0736c68da43290.jpg",
+    "static/media/home.jpg": "/static/media/home.a3b09c69cc375e43bc69.jpg",
+    "static/media/platform-climber.ttf": "/static/media/platform-climber.b3e09ee3cbef640914fa.ttf",
+    "static/media/MorseCoder-RppRE.ttf": "/static/media/MorseCoder-RppRE.08fd570e33a9214a9650.ttf",
+    "static/media/Braille-1lA2.ttf": "/static/media/Braille-1lA2.ae36b88d3161247ca43e.ttf",
+    "static/media/logoWhite.png": "/static/media/logoWhite.99db3bd8ca1e7f16fe5f.png",
+    "index.html": "/index.html",
+    "main.676e18f4.css.map": "/static/css/main.676e18f4.css.map",
+    "main.ab6d70f2.js.map": "/static/js/main.ab6d70f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.676e18f4.css",
+    "static/js/main.ab6d70f2.js"
+  ]
 }
