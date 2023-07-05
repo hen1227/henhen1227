@@ -7,7 +7,7 @@ const MinecraftBackground = () => {
         const cubeContainer = document.getElementById('cubeContainer');
         const cubes = [];
 
-        const cubesCount = 10;
+        const cubesCount = 16;
         const maxDist = 0.12;
         for (let leftSide = 0; leftSide < 2; leftSide++) {
             for (let i = 0; i < cubesCount; i++) {
@@ -27,7 +27,7 @@ const MinecraftBackground = () => {
                 }
 
                 // cube.style.top = `${Math.random() * window.innerHeight}px`;
-                cube.style.top = `${i / cubesCount * window.innerHeight + 100}px`;
+                cube.style.top = `${i / cubesCount * window.innerHeight * 2 + 100}px`;
 
                 const randomRotation = `${Math.random() * 360}deg`;
                 cube.style.transform = `rotate(${randomRotation})`;
@@ -53,7 +53,7 @@ const MinecraftBackground = () => {
 
             cubes.forEach((cube, i) => {
                 const baseSpeed = -0.15;
-                const offset = baseSpeed * scrollPosition * (((cubes.length - i) % 7)/2 + 1);
+                const offset = baseSpeed * scrollPosition * (((cubes.length - i) % 7) + 1);
                 // const offset = baseSpeed * scrollPosition;
                 cube.style.transform = `translateY(${offset}px) rotate(${cube.randomRotation})`;
             });

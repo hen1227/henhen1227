@@ -1,0 +1,44 @@
+.upcomingServer {
+    background-color: #112a38;
+    color: #A8DBA8;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+
+    min-width: 300px;
+    width: 50%;
+    align-content: center;
+
+    font-family: Minecraft, system-ui;
+}
+.upcomingServer * {
+    font-family: Minecraft, system-ui;
+}
+
+.upcomingServer a {
+    text-decoration: underline;
+    color: #A8DBA8;
+}
+.upcomingServer .learnMore {
+    text-decoration: none;
+
+    font-family: Minecraft, system-ui;
+    color: white;
+    border-radius: 4px;
+    background-color: #0b1733;
+    padding: 4px 9px;
+    margin: 10px 15px;
+}
+
+.upcomingServer p {
+    margin: 0 15px;
+    padding: 10px;
+}
+.upcomingServer h2 {
+    color: #58db58;
+    margin-bottom: 20px;
+}
+.upcomingServer h4 {
+    color: #58db58;
+    font-family: "Minecraft Bold", system-ui;
+}

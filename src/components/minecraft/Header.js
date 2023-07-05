@@ -32,7 +32,7 @@ const MinecraftLogo = () => {
 
     return (
         <div className="minecraftHeader">
-            <img src="images/minecraft/largeIcon.jpg" alt="Minecraft server icon"/>
+            <img src="/images/minecraft/largeIcon.jpg" alt="Minecraft server icon"/>
             <br/>
             <div className="minecraftIP">
                 <input type="text" value="mc.henhen1227.com" readOnly/>

@@ -5,6 +5,7 @@ import Navbar from './components/main/navbar/Navbar';
 import Footer from './components/main/navbar/Footer';
 import './App.css';
 import Minecraft from './components/minecraft/pages/Home'
+import OriginsServer from './components/minecraft/pages/servers/OriginsServer'
 import DnDLanguages from './components/dnd-languages/pages/Home'
 import DnDLanguage from './components/dnd-languages/pages/Language'
 import DnDLanguagesFeatures from './components/dnd-languages/pages/Features'
@@ -69,6 +70,7 @@ function App() {
           <Route path='/api' exact component={Api} />
           <Route path='/hm10' exact component={HM10} />
           <Route path='/minecraft' exact component={Minecraft} />
+          <Route path='/minecraft/servers/origins' exact component={OriginsServer} />
           <Route path='/dnd-languages' exact component={DnDLanguages} />
           <Route path='/dnd-languages/features' exact component={DnDLanguagesFeatures} />
           <Route path='/dnd-languages/support' exact>{<Redirect to="/support" />}</Route>

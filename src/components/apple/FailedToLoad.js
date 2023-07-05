@@ -9,7 +9,7 @@ function FailedToLoad() {
         <>
             <div>
                 <br/>
-                <h4>Failed to load :(</h4>
+                <h4>Redirecting to Apple App Store.</h4>
             </div>
         </>
     );

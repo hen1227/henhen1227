@@ -1,0 +1,60 @@
+.minecraft-server-details {
+    background-color: rgba(90, 105, 112, 0.15);
+    color: #A8DBA8;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+
+    min-width: 300px;
+    width: 55%;
+    align-content: center;
+
+    font-family: Minecraft, system-ui;
+}
+.minecraft-server-details * {
+    font-family: Minecraft, system-ui;
+}
+.minecraft-server-details p {
+    margin: 0 15px;
+    padding: 10px;
+    font-size: 14px;
+;
+}
+.minecraft-server-details h2 {
+    color: #58db58;
+    margin-bottom: 20px;
+}
+.minecraft-server-details h4 {
+    color: #58db58;
+    font-family: "Minecraft Bold", system-ui;
+}
+
+.mods-list a {
+    text-decoration: none;
+    font-family: Minecraft;
+    color: #A8DBA8;
+    font-size: 12px;
+}
+
+.mods-list h3 {
+    color: #58db58;
+}
+
+.mods-list p {
+    color: #606e60;
+}
+
+.mods-list .download {
+    text-decoration: none;
+    font-family: Minecraft, system-ui;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #252e48;
+    padding: 4px 5px;
+    margin: 10px 15px 20px;
+}
+.mods-list ul {
+    margin-top: 12px;
+    list-style-type: none;
+}

@@ -1,11 +1,11 @@
 import React, {useEffect, useRef, useState} from 'react';
 import './Worlds.css';
 import WorldScreenshotsModal from "./WorldScreenshotsModal";
-import PastWorldsJson from './PastWorlds.json';
+import PastWorldsJson from './PastServers.json';
 
 // const PastWorldsJson = [];
 
-const PastWorlds = () => {
+const PastServersList = () => {
     const [pastWorlds] = useState(PastWorldsJson);
 
     const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -51,4 +51,4 @@ const PastWorlds = () => {
     );
 };
 
-export default PastWorlds;
+export default PastServersList;

@@ -3,8 +3,8 @@ import './DiscordButton.css';
 
 const DiscordButton = () => (
     <div className="discordButton">
-        <a href="https://discord.gg/cyuVTFpvNH">
-            <img src="https://discord.com/api/guilds/871080607386570833/widget.png?style=banner2"/>
+        <a href="https://discord.gg/W9eXNVMAqp">
+            <img src="https://discord.com/api/guilds/1125933942172811274/widget.png?style=banner2"/>
         </a>
         { /* cyuVTFpvNH */ }
     </div>

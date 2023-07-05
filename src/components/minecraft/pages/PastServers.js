@@ -2,21 +2,19 @@ import React, {useRef} from 'react';
 import '../../../App.css';
 import './Home.css'
 import MinecraftLogo from '../Header';
-import CurrentWorld from '../worlds/CurrentWorld';
-import PastServers from '../worlds/PastServers';
+import PastServersList from '../worlds/PastServers';
 import DiscordButton from '../DiscordButton';
 import MinecraftBackground from '../MinecraftBackground';
 import UpcomingServer from "../worlds/UpcomingServerDetails";
 
 
-function Home() {
+function PastServers() {
     return (
         <>
             <div className="minecraft-main">
                 <MinecraftLogo />
                 <UpcomingServer />
-                <CurrentWorld />
-                {/*<PastServersLink />*/}
+                <PastServersList />
                 <DiscordButton />
                 <MinecraftBackground/>
             </div>
@@ -24,4 +22,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default PastServers;
