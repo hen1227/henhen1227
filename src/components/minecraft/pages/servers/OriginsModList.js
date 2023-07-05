@@ -58,6 +58,7 @@ const OriginsModList = () => {
                     <li key={index}><a href={mod.url}>{mod.name}</a></li>
                 ))}
             </ul>
+            <p>{links.length} Mods Total</p>
         </div>
     );
 };
