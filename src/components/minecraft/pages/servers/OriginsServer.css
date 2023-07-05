@@ -54,7 +54,28 @@
     padding: 4px 5px;
     margin: 10px 15px 20px;
 }
+
+.mods-list input {
+    /*margin-top: 12px;*/
+    margin: 12px;
+    background-color: #00000000;
+    border-radius: 8px;
+    padding: 2px 8px;
+    outline: none;
+    color: #58db58;
+    border: #252e48 3px solid;
+}
+.mods-list button {
+    /*margin-top: 12px;*/
+    margin: 0;
+    background-color: #00000000;
+    border-radius: 8px;
+    padding: 2px 8px;
+    outline: none;
+    color: #58db58;
+    border: #252e48 3px solid;
+}
+
 .mods-list ul {
-    margin-top: 12px;
     list-style-type: none;
 }
