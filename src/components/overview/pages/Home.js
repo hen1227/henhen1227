@@ -8,6 +8,7 @@ import SearchBar from '../SearchBar'
 // import Tag from "./Tag";
 
 const projects = {
+    "Docs Website":{"description":"Easy to use documentation on all necessary projects","date":"July 2023","link":"https://docs.henhen1227.com","image":"/images/overview/Documentation.png","tags":["ReactJS", "CSS"]},
     "Tactico":{"description":"A fun board game you can play locally or online","date":"March 2023","link":"/tactico","image":"/images/tactico/TacticoIcon.png","tags":["ReactJS","NodeJS","SocketIO","IOS","Swift"]},
     "BluetoothSerial":{"description":"An app that allows iPhones to easily interface with Arduino bluetooth HM10 chips","date":"February 2023 - Now","link":"/HM10","image":"/images/bluetooth-serial/BluetoothSerialIcon.png","tags":["Swift","IOS","C++"]},
     "This website":{"description":"A collection of all my projects","date":"August 2022 - Now","link":"#","image":"/images/main/logoTm.png","tags":["ReactJS","HTML","CSS"]},

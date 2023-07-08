@@ -11,7 +11,7 @@ function Project(props) {
     let key = 0;
         return (
         <>
-            <Link to={props.link} style={{color: "black", textDecoration: "none"}}>
+            <Link to={{pathname: props.link}} target={"_blank"} style={{color: "black", textDecoration: "none"}}>
                 <div className="overviewProject">
                     <h1>{props.title}</h1>
                     <p className="date">{props.date}</p>
