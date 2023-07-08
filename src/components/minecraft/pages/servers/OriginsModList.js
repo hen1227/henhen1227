@@ -49,7 +49,7 @@ const OriginsModList = () => {
 
     return (
         <div className="mods-list">
-            <a href="https://api.henhen1227.com/downloads/minecraft/originsModpack" className="download">Download Mod Pack v1</a>
+            <a href="https://api.henhen1227.com/downloads/minecraft/originsModpack" className="download">Download Mod Pack v2</a>
             <br/>
             <input type="text" value={search} onChange={handleSearchChange} placeholder="Search Mods..." />
             <button onClick={handleSortChange}>{sortAZ ? "Sort A-Z" : "Sort Z-A"}</button>

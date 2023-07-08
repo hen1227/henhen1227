@@ -18,7 +18,15 @@
     margin: 0 15px;
     padding: 10px;
     font-size: 14px;
-;
+}
+.minecraft-server-details b {
+    color: #58db58;
+    font-family: "Minecraft Bold", system-ui;
+    margin-right: 10px;
+}
+.minecraft-server-details a {
+    color: #A8DBA8;
+    text-decoration: underline;
 }
 .minecraft-server-details h2 {
     color: #58db58;
