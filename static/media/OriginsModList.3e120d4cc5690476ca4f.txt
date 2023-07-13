@@ -87,7 +87,6 @@
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/friends-and-foes">Friends&Foes (Fabric) (by faboslav)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/spark">spark (by Iucko)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/lootr-fabric">Lootr (Fabric) (by Noobanidus)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat">Simple Voice Chat (by henkelmax)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/betterend">BetterEnd (by Quiqueck)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/more-slabs-stairs-and-walls">More Slabs, Stairs, and Walls (by Nibaru)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/adapted-origins-an-origins-addon">Adapted Origins - An Origins Expansion (by ClarkUK)</a></li>

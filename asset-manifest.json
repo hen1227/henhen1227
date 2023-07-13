@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc8a229a.css",
-    "main.js": "/static/js/main.4428efe8.js",
+    "main.css": "/static/css/main.13e56bb9.css",
+    "main.js": "/static/js/main.7a4f7cea.js",
     "static/media/FungoProjectFile-Oct22.png": "/static/media/FungoProjectFile-Oct22.c76c9bf7324d9cbb342e.png",
     "static/media/Banner.png": "/static/media/Banner.27eb205939c4640574d4.png",
     "static/media/FungoGameplay3-Oct22.png": "/static/media/FungoGameplay3-Oct22.fa3fff3611789ce68bfc.png",
@@ -16,15 +16,15 @@
     "static/media/MorseCoder-RppRE.ttf": "/static/media/MorseCoder-RppRE.08fd570e33a9214a9650.ttf",
     "static/media/Braille-1lA2.ttf": "/static/media/Braille-1lA2.ae36b88d3161247ca43e.ttf",
     "static/media/logoWhite.png": "/static/media/logoWhite.99db3bd8ca1e7f16fe5f.png",
-    "static/media/OriginsModList.txt": "/static/media/OriginsModList.5e0f1a0e300ac9e10274.txt",
+    "static/media/OriginsModList.txt": "/static/media/OriginsModList.3e120d4cc5690476ca4f.txt",
     "static/media/MinecraftBold-nMK1.otf": "/static/media/MinecraftBold-nMK1.a9b3bc2a90dd462c9c18.otf",
     "static/media/MinecraftRegular-Bmg3.otf": "/static/media/MinecraftRegular-Bmg3.82ba08919dc2add9422f.otf",
     "index.html": "/index.html",
-    "main.bc8a229a.css.map": "/static/css/main.bc8a229a.css.map",
-    "main.4428efe8.js.map": "/static/js/main.4428efe8.js.map"
+    "main.13e56bb9.css.map": "/static/css/main.13e56bb9.css.map",
+    "main.7a4f7cea.js.map": "/static/js/main.7a4f7cea.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc8a229a.css",
-    "static/js/main.4428efe8.js"
+    "static/css/main.13e56bb9.css",
+    "static/js/main.7a4f7cea.js"
   ]
 }
