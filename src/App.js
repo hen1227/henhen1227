@@ -5,7 +5,7 @@ import Navbar from './components/main/navbar/Navbar';
 import Footer from './components/main/navbar/Footer';
 import './App.css';
 import Minecraft from './components/minecraft/pages/Home'
-import OriginsServer from './components/minecraft/pages/servers/OriginsServer'
+import OriginsServer from './components/minecraft/pages/servers/origins/OriginsServer'
 import DnDLanguages from './components/dnd-languages/pages/Home'
 import DnDLanguage from './components/dnd-languages/pages/Language'
 import DnDLanguagesFeatures from './components/dnd-languages/pages/Features'

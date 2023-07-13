@@ -25,7 +25,8 @@
     margin-right: 10px;
 }
 .minecraft-server-details a {
-    color: #A8DBA8;
+    /*color: #A8DBA8;*/
+    color: #58db58;
     text-decoration: underline;
 }
 .minecraft-server-details h2 {
