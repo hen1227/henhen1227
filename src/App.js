@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route, useNavigate} from 'react-router-dom';
 
 import Navbar from './components/main/navbar/Navbar';
 import Footer from './components/main/navbar/Footer';
@@ -38,6 +38,22 @@ import {Helmet} from "react-helmet";
 
 ReactGA.initialize("G-8Y66FNGN5Q");
 
+function RedirectToSupportPage() {
+  let navigate = useNavigate();
+  navigate('/support');
+  return null;
+}
+
+function RedirectToMinecraftPage() {
+  let navigate = useNavigate();
+  window.location.href = 'https://mc.henhen1227.com';
+  return (
+      <div style={{height:"100vh"}}>
+        <h1>Minecraft Server Website is under construction!</h1>
+      </div>
+  );
+}
+
 function App() {
 
   if (window.location.hostname !== "localhost") {
@@ -61,37 +77,36 @@ function App() {
           <meta name="theme-color" content="#202020"/>
         </Helmet>
         <Navbar />
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/info' exact component={Info} />
-          <Route path='/privacy' exact component={Privacy} />
-          <Route path='/terms-of-service' exact component={TermsOfService} />
-          <Route path='/support' exact component={Support} />
-          <Route path='/api' exact component={Api} />
-          <Route path='/hm10' exact component={HM10} />
-          <Route path='/minecraft' exact component={Minecraft} />
-          <Route path='/minecraft/servers/origins' exact component={OriginsServer} />
-          <Route path='/dnd-languages' exact component={DnDLanguages} />
-          <Route path='/dnd-languages/features' exact component={DnDLanguagesFeatures} />
-          <Route path='/dnd-languages/support' exact>{<Redirect to="/support" />}</Route>
-          <Route path='/dnd-languages/*' component={DnDLanguage} />
-          <Route path='/tactico' exact component={Tactico} />
-          <Route path='/tactico/play' exact component={TacticoPlay} />
-          <Route path='/tactico/learn' exact component={TacticoLearn} />
-          <Route path='/climber' exact component={Climber} />
-          <Route path='/braille' exact component={Braille} />
-          <Route path='/braille/features' exact component={BrailleFeatures} />
-          <Route path='/morse' exact component={Morse} />
-          <Route path='/morse/features' exact component={MorseFeatures} />
-          <Route path='/soundboard' exact component={Soundboard} />
-          <Route path='/soundboard/features' exact component={SoundboardFeatures} />
-          <Route path='/soundboard/support' exact>{<Redirect to="/support" />}</Route>
-          <Route path='/fungo' exact component={Mushroom} />
-          <Route path='/mushroom' exact component={Mushroom} />
-          <Route path='/overview' exact component={Overview} />
-          <Route path='/apple' exact component={AppleOverview} />
-          <Route path="*" component={PageNotFound} />
-        </Switch>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/info' element={<Info />} />
+          <Route path='/privacy' element={<Privacy />} />
+          <Route path='/terms-of-service' element={<TermsOfService />} />
+          <Route path='/support' element={<Support />} />
+          <Route path='/api' element={<Api />} />
+          <Route path='/hm10' element={<HM10 />} />
+          <Route path='/minecraft' element={<RedirectToMinecraftPage />} />
+          <Route path='/dnd-languages' element={<DnDLanguages />} />
+          <Route path='/dnd-languages/features' element={<DnDLanguagesFeatures />} />
+          <Route path='/dnd-languages/support' element={<RedirectToSupportPage />} />
+          <Route path='/dnd-languages/*' element={<DnDLanguage />} />
+          <Route path='/tactico' element={<Tactico />} />
+          <Route path='/tactico/play' element={<TacticoPlay />} />
+          <Route path='/tactico/learn' element={<TacticoLearn />} />
+          <Route path='/climber' element={<Climber />} />
+          <Route path='/braille' element={<Braille />} />
+          <Route path='/braille/features' element={<BrailleFeatures />} />
+          <Route path='/morse' element={<Morse />} />
+          <Route path='/morse/features' element={<MorseFeatures />} />
+          <Route path='/soundboard' element={<Soundboard />} />
+          <Route path='/soundboard/features' element={<SoundboardFeatures />} />
+          <Route path='/soundboard/support' element={<RedirectToSupportPage />} />
+          <Route path='/fungo' element={<Mushroom />} />
+          <Route path='/mushroom' element={<Mushroom />} />
+          <Route path='/overview' element={<Overview />} />
+          <Route path='/apple' element={<AppleOverview />} />
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
         <Footer />
       </Router>
     </>

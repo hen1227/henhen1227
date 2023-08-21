@@ -1,11 +1,11 @@
 import React, {useRef} from 'react';
 import '../../../App.css';
 import './Home.css'
-import MinecraftLogo from '../Header';
+// import MinecraftLogo from '../../../../../henhen1227-mc/src/components/Header';
 import CurrentWorld from '../worlds/CurrentWorld';
 import PastServers from '../worlds/PastServers';
-import DiscordButton from '../DiscordButton';
-import MinecraftBackground from '../MinecraftBackground';
+// import DiscordButton from '../../../../../henhen1227-mc/src/components/DiscordButton';
+// import MinecraftBackground from '../../../../../henhen1227-mc/src/components/MinecraftBackground';
 import UpcomingServer from "../worlds/UpcomingServerDetails";
 
 
@@ -13,12 +13,12 @@ function Home() {
     return (
         <>
             <div className="minecraft-main">
-                <MinecraftLogo />
+                {/*<MinecraftLogo />*/}
                 <UpcomingServer />
                 <CurrentWorld />
                 {/*<PastServersLink />*/}
-                <DiscordButton />
-                <MinecraftBackground/>
+                {/*<DiscordButton />*/}
+                {/*<MinecraftBackground/>*/}
             </div>
         </>
     );

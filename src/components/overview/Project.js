@@ -11,19 +11,19 @@ function Project(props) {
     let key = 0;
         return (
         <>
-            <Link to={{pathname: props.link}} target={"_blank"} style={{color: "black", textDecoration: "none"}}>
+            <a href={props.link} target="_blank" rel="noopener noreferrer" style={{color: "black", textDecoration: "none"}}>
                 <div className="overviewProject">
                     <h1>{props.title}</h1>
                     <p className="date">{props.date}</p>
                     <img src={props.image} className="overviewProjectImage" alt={props.title+" image"}/>
                     <p className="description">{props.description}</p>
-                        <ul className="overviewProjectTags">
-                            {(props.tags).map((lang) => {
-                                return (<Tag key={key++} clickable={false} active={true} lang={`${lang}`} color={`${TagsList[lang]}`}/>)
-                            })}
-                        </ul>
+                    <ul className="overviewProjectTags">
+                        {(props.tags).map((lang) => {
+                            return (<Tag key={key++} clickable={false} active={true} lang={`${lang}`} color={`${TagsList[lang]}`}/>)
+                        })}
+                    </ul>
                 </div>
-            </Link>
+            </a>
         </>
     );
 }

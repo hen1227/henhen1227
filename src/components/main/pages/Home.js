@@ -15,10 +15,10 @@ function Home() {
           <h2>Whats next?</h2>
           <h3>Could be anything</h3>
           <div className="website-features-wrapper">
-              <Link style={{color: "black", textDecoration: "none"}} to="/minecraft">
+              <Link style={{color: "black", textDecoration: "none"}} to="https://mc.henhen1227.com">
                   <div className="website-features">
                       <h1>Minecraft Server</h1>
-                      <img src={"/images/minecraft/largeIcon.jpg"} alt={"Minecraft Server"}/>
+                      <img src={"/images/overview/Minecraft.jpg"} alt={"Minecraft Server"}/>
                       <p>Join the minecraft server at the ip: <br/> <b>mc.henhen1227.com</b></p>
                   </div>
               </Link>
@@ -29,13 +29,20 @@ function Home() {
                       <p>Learn more about all of my projects at: <br/> <b>henhen1227.com/overview</b></p>
                   </div>
               </Link>
-              <a style={{color: "black", textDecoration: "none"}} href="https://www.buymeacoffee.com/HenryAbrahamsen">
+              <Link style={{color: "black", textDecoration: "none"}} to="https://docs.henhen1227.com">
                   <div className="website-features">
-                      <h1>Buy me a coffee</h1>
-                      <img src={"/images/main/buyMeACoffee.png"} alt={"Buy Me A Coffee"}/>
-                      <p>Support me and my projects at: <br/> <b>BuyMeACoffee.com</b></p>
+                      <h1>Documentation</h1>
+                      <img src={"/images/main/logoDocs.png"} alt={"Documentation"}/>
+                      <p>Learn the ins and outs of Henhen1227's projects at: <br/> <b>docs.henhen1227.com</b></p>
                   </div>
-              </a>
+              </Link>
+              {/*<a style={{color: "black", textDecoration: "none"}} href="https://www.buymeacoffee.com/HenryAbrahamsen">*/}
+              {/*    <div className="website-features">*/}
+              {/*        <h1>Buy me a coffee</h1>*/}
+              {/*        <img src={"/images/main/buyMeACoffee.png"} alt={"Buy Me A Coffee"}/>*/}
+              {/*        <p>Support me and my projects at: <br/> <b>BuyMeACoffee.com</b></p>*/}
+              {/*    </div>*/}
+              {/*</a>*/}
           </div>
       </div>
     </>

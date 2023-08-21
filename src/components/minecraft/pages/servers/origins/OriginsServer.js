@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../../../../App.css';
-import MinecraftLogo from '../../../Header';
-import DiscordButton from '../../../DiscordButton';
-import MinecraftBackground from '../../../MinecraftBackground';
+// import '../../../../../App.css';
+// import MinecraftLogo from '../../../../../../../henhen1227-mc/src/components/Header';
+// import DiscordButton from '../../../../../../../henhen1227-mc/src/components/DiscordButton';
+// import MinecraftBackground from '../../../../../../../henhen1227-mc/src/components/MinecraftBackground';
 import './OriginsServer.css';
 import OriginsModList from "./OriginsModList";
 import ModdedSetupInstructions from "../ModdedSetupInstructions"
@@ -12,7 +12,7 @@ function Home() {
     return (
         <>
             <div className="minecraft-main">
-                <MinecraftLogo />
+                {/*<MinecraftLogo />*/}
                 <div className={"minecraft-server-details"}>
                     <h2>Origins Modded Server</h2>
                     <h4>1.19.2</h4>
@@ -24,8 +24,8 @@ function Home() {
                     <OriginsModList />
                 </div>
                 <ModdedSetupInstructions />
-                <DiscordButton />
-                <MinecraftBackground/>
+                {/*<DiscordButton />*/}
+                {/*<MinecraftBackground/>*/}
             </div>
         </>
     );
