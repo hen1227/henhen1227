@@ -3,7 +3,7 @@ import '../../../App.css';
 import Body from "../Body.js";
 import LanguageStat from "../LanguageStat.js"
 import '../LanguageStat.css'
-import ConnectionBar from './../../main/ConnectionBar'
+// import ConnectionBar from './../../main/ConnectionBar'
 
 function Home() {
   return (

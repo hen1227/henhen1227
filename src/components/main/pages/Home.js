@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../../../App.css';
 import './Home.css'
-import MaintenanceBar from "../MaintenanceBar";
+
+// import MaintenanceBar from "../MaintenanceBar";
 // import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 // import { useSpring, animated, config } from "@react-spring/web";
 

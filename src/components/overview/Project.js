@@ -1,5 +1,4 @@
 import React  from 'react';
-import {Link}  from 'react-router-dom';
 import '../../App.css';
 import './pages/Home.css'
 import Tag from './Tag'
@@ -15,6 +14,7 @@ function Project(props) {
                 <div className="overviewProject">
                     <h1>{props.title}</h1>
                     <p className="date">{props.date}</p>
+                    <p className="time">{props.time}</p>
                     <img src={props.image} className="overviewProjectImage" alt={props.title+" image"}/>
                     <p className="description">{props.description}</p>
                     <ul className="overviewProjectTags">

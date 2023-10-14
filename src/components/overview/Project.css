@@ -39,12 +39,20 @@
     margin: 20px;
 }
 .overviewProject .date {
-    color: gray;
+    color: grey;
     text-align: center;
     font-size: 14px;
     font-weight: bold;
     /*margin: 20px;*/
 }
+.overviewProject .time {
+    color: grey;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    /*margin: 20px;*/
+}
+
 
 .overviewProject ul{
     display: flex;

@@ -2,7 +2,8 @@ import React from 'react';
 import '../../../App.css';
 import Body from "../Body.js";
 import Highscore from "../Highscore.js";
-import ConnectionBar from './../../main/ConnectionBar'
+
+// import ConnectionBar from './../../main/ConnectionBar'
 
 function Home() {
   return (
