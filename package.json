@@ -1,6 +1,7 @@
 {
   "name": "henhen1227-v1",
   "homepage": "https://henhen1227.com/",
+  "description": "A collection of my High school projects and other things I've done.",
   "version": "0.2.1",
   "private": true,
   "dependencies": {
