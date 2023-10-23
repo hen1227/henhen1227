@@ -8,13 +8,29 @@ import SearchBar from '../SearchBar'
 // import Tag from "./Tag";
 
 const projects = {
+    "SPS Now Website":{
+        "description":"Class schedule, clubs list, and dining menu! An all in one place for SPS Students.",
+        "date":"September 2023 - Now",
+        "time":"85 hours",
+        "link":"https://spsnow.henhen1227.com",
+        "image":"/images/overview/SPSNow.png",
+        "tags":["ReactJS", "CSS", "NodeJS", "PostgreSQL"]
+    },
+    "SPS Now App":{
+        "description":"Class schedule, clubs list! An all in one place for SPS Students.",
+        "date":"August 2023 - Now",
+        "time":"175 hours",
+        "link":"https://apps.apple.com/qa/app/sps-now/id6464536749",
+        "image":"/images/overview/SPSNow.png",
+        "tags":["React Native", "iOS", "CSS", "NodeJS", "PostgreSQL"]
+    },
     "Minecraft Server":{
         "description":"Access your Minecraft account through the web and track the minecraft servers leaderboard live!",
         "date":"July 2023 - Now",
         "time":"90 hours",
         "link":"https://mc.henhen1227.com",
         "image":"/images/overview/Minecraft.jpg",
-        "tags":["ReactJS", "CSS", "Java", "SocketIO", "SQLite"]
+        "tags":["ReactJS", "CSS", "Java", "SocketIO", "PostgreSQL"]
     },
     "Docs Website":{
         "description":"Easy to use documentation on all necessary projects",
@@ -24,12 +40,21 @@ const projects = {
         "image":"/images/main/logoDocs.png",
         "tags":["ReactJS", "CSS"]
     },
+    "Bluetooth Door Unlock":{
+        "description":"A device that allows the Bluetooth Serial Connect app to unlock my dorm room door.",
+        "date":"April - June 2023",
+        "link":"#",
+        "time":"70 hours",
+        "image":"/images/overview/BluetoothDoorUnlock.jpg",
+        "tags":["C++","iOS"]
+    },
     "Tactico":{
         "description":"A fun board game you can play locally or online",
-        "date":"March 2023","link":"/tactico",
+        "date":"March 2023",
+        "link":"/tactico",
         "time":"90 hours",
         "image":"/images/tactico/TacticoIcon.png",
-        "tags":["ReactJS","NodeJS","SocketIO","IOS","Swift"]
+        "tags":["ReactJS","NodeJS","SocketIO","iOS","Swift"]
     },
     "BluetoothSerial":{
         "description":"An app that allows iPhones to easily interface with Arduino bluetooth HM10 chips",
@@ -37,7 +62,7 @@ const projects = {
         "time":"150 hours",
         "link":"/HM10",
         "image":"/images/bluetooth-serial/BluetoothSerialIcon.png",
-        "tags":["Swift","IOS","C++"]
+        "tags":["Swift","iOS","C++"]
     },
     "This website":{
         "description":"A collection of all my projects",
@@ -45,7 +70,7 @@ const projects = {
         "time":"200 hours",
         "link":"#",
         "image":"/images/main/logoTm.png",
-        "tags":["ReactJS","HTML","CSS"]
+        "tags":["ReactJS","CSS"]
     },
     "Backend Server":{
         "description":"The backend for all my projects",
@@ -53,7 +78,7 @@ const projects = {
         "time":"140 hours",
         "link":"/api",
         "image":"/images/main/logoBackend.png",
-        "tags":["NodeJS","Python"]
+        "tags":["NodeJS","Python","PostgreSQL","SocketIO"]
     },
     "Mushroom Game Engine":{
         "description":"Designed to create level based multiplayer platformer games",
@@ -85,7 +110,7 @@ const projects = {
         "date":"September 2021",
         "time":"100 hours",
         "image":"/images/overview/D&DLanguages.png",
-        "tags":["Swift","TensorFlow","Firebase","NodeJS","IOS","Python"]
+        "tags":["Swift","TensorFlow","Firebase","NodeJS","iOS","Python"]
     },
     "Braille Decoded":{
         "description":"Learn the braille alphabet",
@@ -93,7 +118,7 @@ const projects = {
         "time":"30 hours",
         "link":"/braille",
         "image":"/images/overview/BrailleDecoded.png",
-        "tags":["Swift","Firebase","IOS"]
+        "tags":["Swift","Firebase","iOS"]
     },
     "Morse Decoded":{
         "description":"Learn to read, write, listen, and tap morse code like a master ",
@@ -101,7 +126,7 @@ const projects = {
         "time":"60 hours",
         "image":"/images/overview/MorseDecoded.png",
         "date":"August 2021",
-        "tags":["Swift","Firebase","IOS"]
+        "tags":["Swift","Firebase","iOS"]
     },
     "Fish's Tale":{
         "description":"Track what, when, and where you caught fish and watch the trends",
@@ -109,7 +134,7 @@ const projects = {
         "date":"June - December 2020",
         "time":"160 hours",
         "image":"/images/overview/FishsTale.png",
-        "tags":["Swift","IOS"]
+        "tags":["Swift","iOS"]
     },
     "Copy Paste Game":{
         "description":"An app used to keep track of your \"Copies\" in the Copy and Paste Game",
@@ -117,7 +142,7 @@ const projects = {
         "date":"May - June 2020",
         "time":"90 hours",
         "image":"/images/overview/CopyPaste.png",
-        "tags":["Swift","Firebase","IOS"]
+        "tags":["Swift","Firebase","iOS"]
     },
 }
 
