@@ -8,6 +8,14 @@ import SearchBar from '../SearchBar'
 // import Tag from "./Tag";
 
 const projects = {
+    "GPT Gift Generator":{
+        "description":"My Capstone project for my Applied Science and Engineering Project class. Generates gifts from data form and allows feedback to refine gift suggestions.",
+        "date":"September 2023 - Now",
+        "time":"60 hours",
+        "link":"https://gifts.henhen1227.com",
+        "image":"/images/overview/GiftGenerator.png",
+        "tags":["ReactJS", "CSS", "NodeJS", "OpenAI"]
+    },
     "SPS Now Website":{
         "description":"Class schedule, clubs list, and dining menu! An all in one place for SPS Students.",
         "date":"September 2023 - Now",
