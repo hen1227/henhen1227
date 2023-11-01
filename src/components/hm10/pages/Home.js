@@ -5,6 +5,8 @@ import {Button} from "../../Button";
 // import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 // import { useSpring, animated, config } from "@react-spring/web";
 
+// TODO: FIX THIS PAGE
+
 function HM10() {
     return (
         <>
@@ -12,16 +14,16 @@ function HM10() {
             <div className="HM10">
                 <div className="HM-View">
                     <h1>Bluetooth Connections</h1>
-                    <h2>Connect IOS to Arduino via HM10</h2>
+                    <h2>Connect IOS to Arduino via Bluetooth Low Energy Modules</h2>
                     <div className='hero-btns'>
                         <Button
                             className='btns'
                             buttonStyle='btn--primary'
                             buttonSize='btn--large'
                             localDestination={false}
-                            destination='https://apps.apple.com/us/app/braille-decoded/id1580625909'
+                            destination='https://apps.apple.com/us/app/bluetooth-serial-connect/id6449396821'
                         >
-                            APP STORE COMING SOON
+                            APP STORE
                         </Button>
                         <Button
                             className='btns'

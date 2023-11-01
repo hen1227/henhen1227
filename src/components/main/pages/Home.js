@@ -45,19 +45,19 @@ function Home() {
               {/*    </div>*/}
               {/*</a>*/}
           </div>
-          <div style={{width: '66%', marginLeft: '17%'}} className="website-features-wrapper">
+          <div style={{marginLeft: 'auto', marginRight: 'auto', width:'min-content'}} className="website-features-wrapper">
               <Link style={{color: "black", textDecoration: "none"}} to="https://gifts.henhen1227.com">
                   <div className="website-features">
                       <h1>GPT Gift Idea Generator</h1>
                       <img src={"/images/overview/GiftGenerator.png"} alt={"Gift Generator"}/>
-                      <p>Join the minecraft server at the ip: <br/> <b>mc.henhen1227.com</b></p>
+                      <p>Applied Science and Engineering Capstone – Gift Idea Generator: <br/> <b>gifts.henhen1227.com</b></p>
                   </div>
               </Link>
               <Link style={{color: "black", textDecoration: "none"}} to="https://spsnow.henhen1227.com">
-                  <div className="website-features" style={{borderWidth:5}}>
+                  <div className="website-features">
                       <h1>SPS Now (website)</h1>
                       <img style={{backgroundColor:"#202020"}} src={"/images/overview/SPSNow.png"} alt={"Projects Overview"}/>
-                      <p>Learn more about all of my projects at: <br/> <b>henhen1227.com/overview</b></p>
+                      <p>All in one place for student information at St. Paul's School: <br/> <b>spsnow.henhen1227.com</b></p>
                   </div>
               </Link>
 
