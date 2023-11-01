@@ -51,7 +51,7 @@ const projects = {
     "Bluetooth Door Unlock":{
         "description":"A device that allows the Bluetooth Serial Connect app to unlock my dorm room door.",
         "date":"April - June 2023",
-        "link":"#",
+        "link":"/HM10",
         "time":"70 hours",
         "image":"/images/overview/BluetoothDoorUnlock.jpg",
         "tags":["C++","iOS"]
@@ -76,7 +76,7 @@ const projects = {
         "description":"A collection of all my projects",
         "date":"August 2022 - Now",
         "time":"200 hours",
-        "link":"#",
+        "link":"/",
         "image":"/images/main/logoTm.png",
         "tags":["ReactJS","CSS"]
     },
@@ -138,7 +138,7 @@ const projects = {
     },
     "Fish's Tale":{
         "description":"Track what, when, and where you caught fish and watch the trends",
-        "link":"#",
+        "link":"https://apps.apple.com/qa/app/fishs-tale/id1544660669",
         "date":"June - December 2020",
         "time":"160 hours",
         "image":"/images/overview/FishsTale.png",
@@ -146,7 +146,7 @@ const projects = {
     },
     "Copy Paste Game":{
         "description":"An app used to keep track of your \"Copies\" in the Copy and Paste Game",
-        "link":"#",
+        "link":"https://apps.apple.com/qa/app/copy-what-u-said/id1547116227",
         "date":"May - June 2020",
         "time":"90 hours",
         "image":"/images/overview/CopyPaste.png",
