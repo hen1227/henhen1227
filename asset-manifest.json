@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9caee34c.css",
-    "main.js": "/static/js/main.d5f7e0ca.js",
+    "main.css": "/static/css/main.8ea61f66.css",
+    "main.js": "/static/js/main.1dc3a122.js",
     "static/media/FungoProjectFile-Oct22.png": "/static/media/FungoProjectFile-Oct22.c76c9bf7324d9cbb342e.png",
     "static/media/Banner.png": "/static/media/Banner.27eb205939c4640574d4.png",
     "static/media/FungoGameplay3-Oct22.png": "/static/media/FungoGameplay3-Oct22.fa3fff3611789ce68bfc.png",
@@ -9,8 +9,12 @@
     "static/media/features.jpg": "/static/media/features.6a7fb82f7ecf04827eb6.jpg",
     "static/media/infoBackground.jpg": "/static/media/infoBackground.c0126bd28bf6cc115c1d.jpg",
     "static/media/FungoGameplay2-Oct22.png": "/static/media/FungoGameplay2-Oct22.fea57000a580ca97a5fb.png",
+    "static/media/PTSans-Bold.ttf": "/static/media/PTSans-Bold.610bc32a7e32c292ce59.ttf",
     "static/media/FungoGameplay1-Oct22.png": "/static/media/FungoGameplay1-Oct22.b1a6be5e04f43f5f5b68.png",
+    "static/media/PTSans-Regular.ttf": "/static/media/PTSans-Regular.77e92507394e2309d837.ttf",
+    "static/media/PTSans-Italic.ttf": "/static/media/PTSans-Italic.4faac24b7809d950b77e.ttf",
     "static/media/background.jpg": "/static/media/background.0664ae0736c68da43290.jpg",
+    "static/media/PTSans-BoldItalic.ttf": "/static/media/PTSans-BoldItalic.9432b29338612af7eca9.ttf",
     "static/media/home.jpg": "/static/media/home.a3b09c69cc375e43bc69.jpg",
     "static/media/platform-climber.ttf": "/static/media/platform-climber.b3e09ee3cbef640914fa.ttf",
     "static/media/MorseCoder-RppRE.ttf": "/static/media/MorseCoder-RppRE.08fd570e33a9214a9650.ttf",
@@ -19,11 +23,11 @@
     "static/media/MinecraftBold-nMK1.otf": "/static/media/MinecraftBold-nMK1.a9b3bc2a90dd462c9c18.otf",
     "static/media/MinecraftRegular-Bmg3.otf": "/static/media/MinecraftRegular-Bmg3.82ba08919dc2add9422f.otf",
     "index.html": "/index.html",
-    "main.9caee34c.css.map": "/static/css/main.9caee34c.css.map",
-    "main.d5f7e0ca.js.map": "/static/js/main.d5f7e0ca.js.map"
+    "main.8ea61f66.css.map": "/static/css/main.8ea61f66.css.map",
+    "main.1dc3a122.js.map": "/static/js/main.1dc3a122.js.map"
   },
   "entrypoints": [
-    "static/css/main.9caee34c.css",
-    "static/js/main.d5f7e0ca.js"
+    "static/css/main.8ea61f66.css",
+    "static/js/main.1dc3a122.js"
   ]
 }
