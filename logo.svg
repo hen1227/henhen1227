@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2_copy_7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024 1024">
+  <defs>
+    <style>
+      .cls-1 {
+        mask: url(#mask);
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 60px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke: url(#New_Gradient_Swatch_1-3);
+      }
+
+      .cls-4 {
+        stroke: url(#New_Gradient_Swatch_1-2);
+      }
+
+      .cls-5 {
+        stroke: url(#New_Gradient_Swatch_1);
+      }
+
+      .cls-6 {
+        stroke: #000;
+        stroke-width: 10px;
+      }
+    </style>
+    <mask id="mask" x="9.72" y="9.83" width="1006.33" height="1006.33" maskUnits="userSpaceOnUse">
+      <g>
+        <rect id="_x33__inner" class="cls-2" x="142.89" y="143" width="740" height="740" rx="40" ry="40" transform="translate(235.36 -157.22) rotate(22.5)"/>
+        <rect class="cls-6" x="175.39" y="175.5" width="675" height="675" rx="10.03" ry="10.03" transform="translate(235.36 -157.22) rotate(22.5)"/>
+        <rect class="cls-6" x="112.89" y="113" width="800" height="800" rx="79.85" ry="79.85" transform="translate(235.36 -157.22) rotate(22.5)"/>
+        <rect id="_x33__inner-2" data-name="_x33__inner" class="cls-2" x="142.89" y="143" width="740" height="740" rx="40" ry="40" transform="translate(-157.28 235.32) rotate(-22.5)"/>
+        <rect class="cls-6" x="175.39" y="175.5" width="675" height="675" rx="10.03" ry="10.03" transform="translate(-157.28 235.32) rotate(-22.5)"/>
+        <rect class="cls-6" x="112.89" y="113" width="800" height="800" rx="79.85" ry="79.85" transform="translate(-157.28 235.32) rotate(-22.5)"/>
+        <rect id="_x33__inner-3" data-name="_x33__inner" class="cls-2" x="142.89" y="143" width="740" height="740" rx="40" ry="40"/>
+        <rect class="cls-6" x="175.39" y="175.5" width="675" height="675" rx="10.03" ry="10.03"/>
+        <rect class="cls-6" x="112.89" y="113" width="800" height="800" rx="79.85" ry="79.85"/>
+      </g>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_1" data-name="New Gradient Swatch 1" x1="49.86" y1="321.21" x2="975.91" y2="704.79" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="red"/>
+      <stop offset=".35" stop-color="#ffff54"/>
+      <stop offset=".69" stop-color="#12d77c"/>
+      <stop offset="1" stop-color="#2300ff"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_1-2" data-name="New Gradient Swatch 1" x1="321.1" y1="49.97" x2="704.68" y2="976.03" xlink:href="#New_Gradient_Swatch_1"/>
+    <linearGradient id="New_Gradient_Swatch_1-3" data-name="New Gradient Swatch 1" x1="133.39" y1="133.5" x2="892.39" y2="892.5" xlink:href="#New_Gradient_Swatch_1"/>
+  </defs>
+  <g class="cls-1">
+    <g>
+      <rect id="_x33__inner-4" data-name="_x33__inner" class="cls-5" x="142.89" y="143" width="740" height="740" rx="40" ry="40" transform="translate(235.36 -157.22) rotate(22.5)"/>
+      <rect id="_x33__inner-5" data-name="_x33__inner" class="cls-4" x="142.89" y="143" width="740" height="740" rx="40" ry="40" transform="translate(-157.28 235.32) rotate(-22.5)"/>
+      <rect id="_x33__inner-6" data-name="_x33__inner" class="cls-3" x="142.89" y="143" width="740" height="740" rx="40" ry="40"/>
+    </g>
+  </g>
+</svg>
