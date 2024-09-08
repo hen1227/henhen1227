@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024 1024">
+<svg id="Logo_gradient_type_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1034 1034">
   <defs>
     <style>
       .cls-1 {
@@ -10,70 +10,58 @@
         stroke: #fff;
       }
 
-      .cls-2, .cls-3, .cls-4, .cls-5 {
-        stroke-width: 60px;
-      }
-
       .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
         fill: none;
         stroke-miterlimit: 10;
       }
 
+      .cls-2, .cls-3, .cls-4, .cls-6 {
+        stroke-width: 60px;
+      }
+
       .cls-3 {
-        stroke: url(#New_Gradient_Swatch_1-3);
+        stroke: url(#linear-gradient-2);
       }
 
       .cls-4 {
-        stroke: url(#New_Gradient_Swatch_1-2);
-      }
-
-      .cls-7 {
-        fill: #fff;
-        font-family: MyriadPro-Regular, 'Myriad Pro';
-        font-size: 62.18px;
+        stroke: url(#linear-gradient-3);
       }
 
       .cls-5 {
-        stroke: url(#New_Gradient_Swatch_1);
-      }
-
-      .cls-6 {
         stroke: #000;
         stroke-width: 10px;
       }
+
+      .cls-6 {
+        stroke: url(#linear-gradient);
+      }
     </style>
-    <mask id="mask" x="9.72" y="9.83" width="1006.33" height="1006.33" maskUnits="userSpaceOnUse">
+    <mask id="mask" x="13.83" y="13.83" width="1006.33" height="1006.33" maskUnits="userSpaceOnUse">
       <g>
-        <rect id="_x33__inner" class="cls-2" x="142.89" y="143" width="740" height="740" rx="40" ry="40" transform="translate(235.36 -157.22) rotate(22.5)"/>
-        <rect class="cls-6" x="175.39" y="175.5" width="675" height="675" rx="10.03" ry="10.03" transform="translate(235.36 -157.22) rotate(22.5)"/>
-        <rect class="cls-6" x="112.89" y="113" width="800" height="800" rx="79.85" ry="79.85" transform="translate(235.36 -157.22) rotate(22.5)"/>
-        <rect id="_x33__inner-2" data-name="_x33__inner" class="cls-2" x="142.89" y="143" width="740" height="740" rx="40" ry="40" transform="translate(-157.28 235.32) rotate(-22.5)"/>
-        <rect class="cls-6" x="175.39" y="175.5" width="675" height="675" rx="10.03" ry="10.03" transform="translate(-157.28 235.32) rotate(-22.5)"/>
-        <rect class="cls-6" x="112.89" y="113" width="800" height="800" rx="79.85" ry="79.85" transform="translate(-157.28 235.32) rotate(-22.5)"/>
-        <rect id="_x33__inner-3" data-name="_x33__inner" class="cls-2" x="142.89" y="143" width="740" height="740" rx="40" ry="40"/>
-        <rect class="cls-6" x="175.39" y="175.5" width="675" height="675" rx="10.03" ry="10.03"/>
-        <rect class="cls-6" x="112.89" y="113" width="800" height="800" rx="79.85" ry="79.85"/>
+        <rect id="_x33__inner" class="cls-2" x="147" y="147" width="740" height="740" rx="40" ry="40" transform="translate(237.2 -158.49) rotate(22.5)"/>
+        <rect class="cls-5" x="179.5" y="179.5" width="675" height="675" rx="10.03" ry="10.03" transform="translate(237.2 -158.49) rotate(22.5)"/>
+        <rect class="cls-5" x="117" y="117" width="800" height="800" rx="79.85" ry="79.85" transform="translate(237.2 -158.49) rotate(22.5)"/>
+        <rect id="_x33__inner-2" data-name="_x33__inner" class="cls-2" x="147" y="147" width="740" height="740" rx="40" ry="40" transform="translate(-158.49 237.2) rotate(-22.5)"/>
+        <rect class="cls-5" x="179.5" y="179.5" width="675" height="675" rx="10.03" ry="10.03" transform="translate(-158.49 237.2) rotate(-22.5)"/>
+        <rect class="cls-5" x="117" y="117" width="800" height="800" rx="79.85" ry="79.85" transform="translate(-158.49 237.2) rotate(-22.5)"/>
+        <rect id="_x33__inner-3" data-name="_x33__inner" class="cls-2" x="147" y="147" width="740" height="740" rx="40" ry="40"/>
+        <rect class="cls-5" x="179.5" y="179.5" width="675" height="675" rx="10.03" ry="10.03"/>
+        <rect class="cls-5" x="117" y="117" width="800" height="800" rx="79.85" ry="79.85"/>
       </g>
     </mask>
-    <linearGradient id="New_Gradient_Swatch_1" data-name="New Gradient Swatch 1" x1="49.86" y1="321.21" x2="975.91" y2="704.79" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="red"/>
-      <stop offset=".35" stop-color="#ffff54"/>
-      <stop offset=".69" stop-color="#12d77c"/>
-      <stop offset="1" stop-color="#2300ff"/>
+    <linearGradient id="linear-gradient" x1="53.97" y1="325.21" x2="980.03" y2="708.79" gradientUnits="userSpaceOnUse">
+      <stop offset=".06" stop-color="#2bff88"/>
+      <stop offset=".57" stop-color="#2b83ff"/>
+      <stop offset="1" stop-color="#fa8bff"/>
     </linearGradient>
-    <linearGradient id="New_Gradient_Swatch_1-2" data-name="New Gradient Swatch 1" x1="321.1" y1="49.97" x2="704.68" y2="976.03" xlink:href="#New_Gradient_Swatch_1"/>
-    <linearGradient id="New_Gradient_Swatch_1-3" data-name="New Gradient Swatch 1" x1="133.39" y1="133.5" x2="892.39" y2="892.5" xlink:href="#New_Gradient_Swatch_1"/>
+    <linearGradient id="linear-gradient-2" x1="325.21" y1="53.97" x2="708.79" y2="980.03" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="137.5" y1="137.5" x2="896.5" y2="896.5" xlink:href="#linear-gradient"/>
   </defs>
-  <g id="Layer_2_copy_7">
-    <g class="cls-1">
-      <g>
-        <rect id="_x33__inner-4" data-name="_x33__inner" class="cls-5" x="142.89" y="143" width="740" height="740" rx="40" ry="40" transform="translate(235.36 -157.22) rotate(22.5)"/>
-        <rect id="_x33__inner-5" data-name="_x33__inner" class="cls-4" x="142.89" y="143" width="740" height="740" rx="40" ry="40" transform="translate(-157.28 235.32) rotate(-22.5)"/>
-        <rect id="_x33__inner-6" data-name="_x33__inner" class="cls-3" x="142.89" y="143" width="740" height="740" rx="40" ry="40"/>
-      </g>
+  <g class="cls-1">
+    <g>
+      <rect id="_x33__inner-4" data-name="_x33__inner" class="cls-6" x="147" y="147" width="740" height="740" rx="40" ry="40" transform="translate(237.2 -158.49) rotate(22.5)"/>
+      <rect id="_x33__inner-5" data-name="_x33__inner" class="cls-3" x="147" y="147" width="740" height="740" rx="40" ry="40" transform="translate(-158.49 237.2) rotate(-22.5)"/>
+      <rect id="_x33__inner-6" data-name="_x33__inner" class="cls-4" x="147" y="147" width="740" height="740" rx="40" ry="40"/>
     </g>
-  </g>
-  <g id="Layer_34">
-    <text class="cls-7" transform="translate(903.27 966.63) scale(1.1 1)"><tspan x="0" y="0">TM</tspan></text>
   </g>
 </svg>
