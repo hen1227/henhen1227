@@ -14,8 +14,8 @@ function Footer() {
           <div className='footer-link-wrapper'>
             <div className='footer-link-items'>
               <h2>About </h2>
-              <Link to='/info'>More Info</Link>
-              <Link to='/'><span className="greyedOut">Careers</span></Link>
+              <Link to='/info'>Info</Link>
+              {/*<Link to='/'><span className="greyedOut">Careers</span></Link>*/}
               <Link to='/terms-of-service' target="_blank">Terms of Service</Link>
               <Link to='/privacy' target='_blank'>Privacy Policy</Link>
             </div>
@@ -35,14 +35,14 @@ function Footer() {
           <div className='footer-link-wrapper'>
             <div className='footer-link-items'>
               <h2>Social Media</h2>
-              <Link to='#' ><span className="greyedOut">Instagram</span></Link>
-              <Link to='#'><span className="greyedOut">Facebook</span></Link>
+              {/*<Link to='#' ><span className="greyedOut">Instagram</span></Link>*/}
+              {/*<Link to='#'><span className="greyedOut">Facebook</span></Link>*/}
               <Link to='#' onClick={
                 ()=>
                     openInNewTab(
                         "https://www.youtube.com/@Henhen1227")
               }>Youtube</Link>
-              <Link to='#'><span className="greyedOut">Twitter</span></Link>
+              {/*<Link to='#'><span className="greyedOut">Twitter</span></Link>*/}
             </div>
           </div>
         </div>
@@ -53,7 +53,8 @@ function Footer() {
                 <div className={"logo-footer"}/> &thinsp; Henhen1227
               </Link>
             </div>
-            <small className='website-rights'>Henry Abrahamsen © 2022-2023</small>
+            {/*<small className='website-rights'>Henry Abrahamsen</small>*/}
+            <small className='website-rights'>Henhen1227, LLC © 2022-2025</small>
             <div className='social-icons'>
               <Link
                   className='social-icon-link facebook'

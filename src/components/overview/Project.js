@@ -6,7 +6,6 @@ import './Project.css'
 import TagsList from "./TagsList";
 
 function Project(props) {
-
     let key = 0;
         return (
         <>

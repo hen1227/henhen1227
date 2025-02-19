@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2_copy_11" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024 1024">
+  <defs>
+    <style>
+      .cls-1 {
+        mask: url(#mask);
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 60px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke: #000;
+        stroke-width: 10px;
+      }
+    </style>
+    <mask id="mask" x="11.71" y="11.82" width="1002.35" height="1002.35" maskUnits="userSpaceOnUse">
+      <g>
+        <rect id="_x33__inner" class="cls-2" x="142.89" y="143" width="740" height="740" rx="40" ry="40" transform="translate(235.36 -157.22) rotate(22.5)"/>
+        <rect class="cls-3" x="175.39" y="175.5" width="675" height="675" rx="10.03" ry="10.03" transform="translate(235.36 -157.22) rotate(22.5)"/>
+        <rect id="_x33__inner-2" data-name="_x33__inner" class="cls-2" x="142.89" y="143" width="740" height="740" rx="40" ry="40" transform="translate(-157.28 235.32) rotate(-22.5)"/>
+        <rect class="cls-3" x="175.39" y="175.5" width="675" height="675" rx="10.03" ry="10.03" transform="translate(-157.28 235.32) rotate(-22.5)"/>
+        <rect id="_x33__inner-3" data-name="_x33__inner" class="cls-2" x="142.89" y="143" width="740" height="740" rx="40" ry="40"/>
+        <rect class="cls-3" x="175.39" y="175.5" width="675" height="675" rx="10.03" ry="10.03"/>
+      </g>
+    </mask>
+  </defs>
+  <g class="cls-1">
+    <g>
+      <rect id="_x33__inner-4" data-name="_x33__inner" class="cls-2" x="142.89" y="143" width="740" height="740" rx="40" ry="40" transform="translate(235.36 -157.22) rotate(22.5)"/>
+      <rect id="_x33__inner-5" data-name="_x33__inner" class="cls-2" x="142.89" y="143" width="740" height="740" rx="40" ry="40" transform="translate(-157.28 235.32) rotate(-22.5)"/>
+      <rect id="_x33__inner-6" data-name="_x33__inner" class="cls-2" x="142.89" y="143" width="740" height="740" rx="40" ry="40"/>
+    </g>
+  </g>
+</svg>

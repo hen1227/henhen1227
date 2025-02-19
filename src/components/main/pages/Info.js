@@ -1,15 +1,21 @@
 import React from 'react';
-import './Info.css'
+import './Info.css';
+import GraphBackground from '../../backgrounds/GraphBackground';
 
-function PageNotFound() {
+function InfoPage() {
     return (
-        <>
-            <div className="info">
-                <h1>Info</h1>
-                <p>There isn't much known about Henhen1227 yet</p>
+        <div className="info">
+            <GraphBackground />
+            <div className="content">
+                <img src="/images/main/logoTm.svg" alt="Logo" />
+                <h2>Henhen1227, LLC</h2>
+                <p>Yes, the company is called that.</p>
+
+                <h5>Not much is known about Henhen1227.</h5>
+                <p>¯\_(ツ)_/¯ </p>
             </div>
-        </>
-    )
+        </div>
+    );
 }
 
-export default PageNotFound;
+export default InfoPage;

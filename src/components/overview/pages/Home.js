@@ -3,11 +3,32 @@ import '../../../App.css';
 import './Home.css'
 import Project from '../Project'
 import SearchBar from '../SearchBar'
-// import {emptyList} from "./TagsList";
-// import TagsList from "./TagsList";
-// import Tag from "./Tag";
 
 const projects = {
+    "SwipSwap.io TestFlight Beta":{
+        "description":"A simple yet fun endless game. Tap just in time to dodge the spikes as you glide along procedurally generated paths.",
+        "link":"https://testflight.apple.com/join/hnBxVPdb",
+        "date":"February 2025",
+        "time":"50 hours",
+        "image":"/images/overview/SwipSwap.png",
+        "tags":["Godot", "NodeJS", "PostgreSQL", "AWS"]
+    },
+    "mcWardrobe":{
+        "description":"Minecraft skin editor that allows users to edit skins, try on armor and armor trims, and view their skin in 3D. Also includes an AI to inpaint partially complete skins, and a way to export the skins as STL models for 3D printing.",
+        "link":"https://mcwardrobe.com",
+        "date":"June 2024 - February 2025",
+        "time":"550 hours",
+        "image":"/images/overview/MCWardrobeLogo.png",
+        "tags":["ReactJS", "CSS", "Python", "PyTorch", "Flask", "PostgreSQL", "AWS"]
+    },
+    "KeySoundboard v2.0":{
+        "description":"Turn your keyboard into a soundboard. Play any sound at the press of any button. And mix the audio with your microphone and play it to a virtual microphone!",
+        "link":"https://keyboard.henhen1227.com",
+        "date":"November 2022 - April 2024",
+        "time":"470 hours",
+        "image":"/images/overview/KeySoundboardv2.png",
+        "tags":["Swift","SwiftUI","MacOS","MacOS Driver"]
+    },
     "GPT Gift Generator":{
         "description":"My Capstone project for my Applied Science and Engineering Project class. Generates gifts from data form and allows feedback to refine gift suggestions.",
         "date":"September 2023 - Now",
@@ -77,7 +98,7 @@ const projects = {
         "date":"August 2022 - Now",
         "time":"200 hours",
         "link":"/",
-        "image":"/images/main/logoTm.png",
+        "image":"/images/main/logoTm.svg",
         "tags":["ReactJS","CSS"]
     },
     "Backend Server":{
@@ -91,7 +112,7 @@ const projects = {
     "Mushroom Game Engine":{
         "description":"Designed to create level based multiplayer platformer games",
         "link":"/mushroom",
-        "date":"May 2022 - February 2023",
+        "date":"April 2022 - February 2023",
         "time":"400 hours",
         "image":"/images/overview/Fungo.png",
         "tags":["Java","GLSL","MacOS"]
@@ -104,11 +125,11 @@ const projects = {
         "image":"/images/overview/PlatformClimber.png",
         "tags":["Rust","NodeJS","MacOS"]
     },
-    "KeySoundboard":{
+    "KeySoundboard v1":{
         "description":"Turn your keyboard into a soundboard. Play any sound at the press of any button",
         "link":"/soundboard",
-        "date":"August 2022, June 2023",
-        "time":"190 hours",
+        "date":"July - November 2022",
+        "time":"180 hours",
         "image":"/images/overview/KeySoundboard.png",
         "tags":["Swift","MacOS"]
     },

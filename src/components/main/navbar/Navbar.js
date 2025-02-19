@@ -37,6 +37,15 @@ function Navbar() {
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            {/*<li className='nav-item'>*/}
+            {/*  <Link*/}
+            {/*      to='/info'*/}
+            {/*      className='nav-links'*/}
+            {/*      onClick={closeMobileMenu}*/}
+            {/*  >*/}
+            {/*    Learn More*/}
+            {/*  </Link>*/}
+            {/*</li>*/}
             <li className='nav-item'>
               <Link
                   to='/overview'
@@ -44,6 +53,15 @@ function Navbar() {
                   onClick={closeMobileMenu}
               >
                 Projects
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                  to='https://mcwardrobe.com'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+              >
+                MCWardrobe
               </Link>
             </li>
             <li className='nav-item'>

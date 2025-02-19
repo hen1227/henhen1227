@@ -4,7 +4,7 @@ import './pages/Home.css'
 import './Tag.css'
 import './SearchBar.css'
 import Tag from "./Tag";
-import TagsList from "./TagsList";
+import TagsList, {displayedTags} from "./TagsList";
 // import Project from "./Project";
 
 class SearchBar extends React.Component {
@@ -72,10 +72,10 @@ class SearchBar extends React.Component {
     checkScroll(){
         if(this.state.needsScroll) {
             return [
-                Object.entries(TagsList).map(([key, value]) => {
+                Object.entries(TagsList).filter(([key, value]) => displayedTags.includes(key)).map(([key, value]) => {
                     return (<Tag key={this.key++} parentCallback={this.handleCallback} clickable={true} active={this.state.selectedTags[`${key}`] == null ? false : this.state.selectedTags[`${key}`]} lang={`${key}`} color={`${value}`}/>)
                 }),
-                Object.entries(TagsList).map(([key, value]) => {
+                Object.entries(TagsList).filter(([key, value]) => displayedTags.includes(key)).map(([key, value]) => {
                     return (<Tag key={this.key++} parentCallback={this.handleCallback} clickable={true} active={this.state.selectedTags[`${key}`] == null ? false : this.state.selectedTags[`${key}`]} lang={`${key}`} color={`${value}`}/>)
                 })
             ];
@@ -104,7 +104,7 @@ class SearchBar extends React.Component {
                 <div className="overviewSearch">
                     <ul ref={this.searchBarRef} onScroll={this.handleScroll}>
                     {
-                        Object.entries(TagsList).map(([key, value]) => {
+                        Object.entries(TagsList).filter(([key, value]) => displayedTags.includes(key)).map(([key, value]) => {
                             return (<Tag key={this.key++} parentCallback={this.handleCallback} clickable={true}
                                          active={this.state.selectedTags[`${key}`] == null ? false : this.state.selectedTags[`${key}`]}
                                          lang={`${key}`} color={`${value}`}/>)

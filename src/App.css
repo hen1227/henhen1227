@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'MainFontBold', 'MainFont', sans-serif;
 
   -ms-overflow-style: none; /* Edge, Internet Explorer */
   scrollbar-width: none; /* Firefox */
@@ -35,13 +35,13 @@
 }
 
 .logo-navbar {
-  background: url("/public/images/main/logoWhite.png") center center/cover no-repeat;
+  background: url("/public/images/main/logoWhite.svg") center center/cover no-repeat;
   aspect-ratio: 1;
   width: 48px;
 }
 
 .logo-footer {
-  background: url("/public/images/main/logoWhite.png") center center/cover no-repeat;
+  background: url("/public/images/main/logoWhite.svg") center center/cover no-repeat;
   aspect-ratio: 1;
   width: 32px;
 }
@@ -73,3 +73,22 @@
   src: url('/public/fonts/braille/Braille-1lA2.ttf');
 }
 
+@font-face {
+  font-family: "MainFont";
+  src: url('/public/fonts/PTSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: "MainFontBold";
+  src: url('/public/fonts/PTSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: "MainFontItalic";
+  src: url('/public/fonts/PTSans-Italic.ttf');
+}
+
+@font-face {
+  font-family: "MainFontBoldItalic";
+  src: url('/public/fonts/PTSans-BoldItalic.ttf');
+}

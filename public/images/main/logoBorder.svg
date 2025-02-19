@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1034 1034">
+  <defs>
+    <style>
+      .cls-1 {
+        mask: url(#mask);
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-9 {
+        stroke-width: 60px;
+      }
+
+      .cls-3 {
+        stroke: url(#Logo_gradient_desaturated-3);
+      }
+
+      .cls-4 {
+        stroke: url(#Logo_gradient_desaturated-2);
+      }
+
+      .cls-5 {
+        stroke: url(#linear-gradient-2);
+      }
+
+      .cls-6 {
+        stroke: url(#linear-gradient-3);
+      }
+
+      .cls-7 {
+        stroke: url(#Logo_gradient_desaturated);
+      }
+
+      .cls-8 {
+        stroke: #000;
+        stroke-width: 10px;
+      }
+
+      .cls-9 {
+        stroke: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="Logo_gradient_desaturated" data-name="Logo gradient desaturated" x1="53.97" y1="325.21" x2="980.03" y2="708.79" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#da5821"/>
+      <stop offset=".35" stop-color="#dada68"/>
+      <stop offset=".71" stop-color="#29b171"/>
+      <stop offset="1" stop-color="#3f5eda"/>
+    </linearGradient>
+    <linearGradient id="Logo_gradient_desaturated-2" data-name="Logo gradient desaturated" x1="325.21" y1="53.97" x2="708.79" y2="980.03" xlink:href="#Logo_gradient_desaturated"/>
+    <linearGradient id="Logo_gradient_desaturated-3" data-name="Logo gradient desaturated" x1="137.5" y1="137.5" x2="896.5" y2="896.5" xlink:href="#Logo_gradient_desaturated"/>
+    <mask id="mask" x="13.83" y="13.83" width="1006.33" height="1006.33" maskUnits="userSpaceOnUse">
+      <g>
+        <rect id="_x33__inner-4" data-name="_x33__inner" class="cls-2" x="147" y="147" width="740" height="740" rx="40" ry="40" transform="translate(237.2 -158.49) rotate(22.5)"/>
+        <rect class="cls-8" x="179.5" y="179.5" width="675" height="675" rx="10.03" ry="10.03" transform="translate(237.2 -158.49) rotate(22.5)"/>
+        <rect class="cls-8" x="117" y="117" width="800" height="800" rx="79.85" ry="79.85" transform="translate(237.2 -158.49) rotate(22.5)"/>
+        <rect id="_x33__inner-5" data-name="_x33__inner" class="cls-2" x="147" y="147" width="740" height="740" rx="40" ry="40" transform="translate(-158.49 237.2) rotate(-22.5)"/>
+        <rect class="cls-8" x="179.5" y="179.5" width="675" height="675" rx="10.03" ry="10.03" transform="translate(-158.49 237.2) rotate(-22.5)"/>
+        <rect class="cls-8" x="117" y="117" width="800" height="800" rx="79.85" ry="79.85" transform="translate(-158.49 237.2) rotate(-22.5)"/>
+        <rect id="_x33__inner-6" data-name="_x33__inner" class="cls-2" x="147" y="147" width="740" height="740" rx="40" ry="40"/>
+        <rect class="cls-8" x="179.5" y="179.5" width="675" height="675" rx="10.03" ry="10.03"/>
+        <rect class="cls-8" x="117" y="117" width="800" height="800" rx="79.85" ry="79.85"/>
+      </g>
+    </mask>
+    <linearGradient id="linear-gradient" x1="53.97" y1="325.21" x2="980.03" y2="708.79" gradientUnits="userSpaceOnUse">
+      <stop offset=".06" stop-color="#2bff88"/>
+      <stop offset=".57" stop-color="#2b83ff"/>
+      <stop offset="1" stop-color="#fa8bff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="325.21" y1="53.97" x2="708.79" y2="980.03" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="137.5" y1="137.5" x2="896.5" y2="896.5" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Black_border">
+    <g id="Single_Square_Part_copy_3">
+      <rect id="_x33__inner" class="cls-7" x="147" y="147" width="740" height="740" rx="40" ry="40" transform="translate(237.2 -158.49) rotate(22.5)"/>
+      <rect class="cls-8" x="179.5" y="179.5" width="675" height="675" rx="10.03" ry="10.03" transform="translate(237.2 -158.49) rotate(22.5)"/>
+      <rect class="cls-8" x="117" y="117" width="800" height="800" rx="79.85" ry="79.85" transform="translate(237.2 -158.49) rotate(22.5)"/>
+    </g>
+    <g id="Single_Square_Part_copy_3-2" data-name="Single_Square_Part_copy_3">
+      <rect id="_x33__inner-2" data-name="_x33__inner" class="cls-4" x="147" y="147" width="740" height="740" rx="40" ry="40" transform="translate(-158.49 237.2) rotate(-22.5)"/>
+      <rect class="cls-8" x="179.5" y="179.5" width="675" height="675" rx="10.03" ry="10.03" transform="translate(-158.49 237.2) rotate(-22.5)"/>
+      <rect class="cls-8" x="117" y="117" width="800" height="800" rx="79.85" ry="79.85" transform="translate(-158.49 237.2) rotate(-22.5)"/>
+    </g>
+    <g id="Single_Square_Part_copy_3-3" data-name="Single_Square_Part_copy_3">
+      <rect id="_x33__inner-3" data-name="_x33__inner" class="cls-3" x="147" y="147" width="740" height="740" rx="40" ry="40"/>
+      <rect class="cls-8" x="179.5" y="179.5" width="675" height="675" rx="10.03" ry="10.03"/>
+      <rect class="cls-8" x="117" y="117" width="800" height="800" rx="79.85" ry="79.85"/>
+    </g>
+  </g>
+  <g id="Logo_gradient_type_3">
+    <g class="cls-1">
+      <g>
+        <rect id="_x33__inner-7" data-name="_x33__inner" class="cls-9" x="147" y="147" width="740" height="740" rx="40" ry="40" transform="translate(237.2 -158.49) rotate(22.5)"/>
+        <rect id="_x33__inner-8" data-name="_x33__inner" class="cls-5" x="147" y="147" width="740" height="740" rx="40" ry="40" transform="translate(-158.49 237.2) rotate(-22.5)"/>
+        <rect id="_x33__inner-9" data-name="_x33__inner" class="cls-6" x="147" y="147" width="740" height="740" rx="40" ry="40"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+.simulation-thumbnail-container {
+    cursor: pointer;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.simulation-thumbnail-container .simulation-image {
+    /*width: 100%;*/
+    max-height: 300px;
+    max-width: 500px;
+    margin: 10px auto;
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
+.simulation-thumbnail-container .preview-gif {
+    animation: fadeIn 1s ease;
+}
