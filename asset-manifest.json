@@ -1,13 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.da4825f4.css",
-    "main.js": "/static/js/main.fed93197.js",
+    "main.css": "/static/css/main.91e803cf.css",
+    "main.js": "/static/js/main.bedee202.js",
     "static/media/FungoProjectFile-Oct22.png": "/static/media/FungoProjectFile-Oct22.c76c9bf7324d9cbb342e.png",
     "static/media/Banner.png": "/static/media/Banner.27eb205939c4640574d4.png",
     "static/media/FungoGameplay3-Oct22.png": "/static/media/FungoGameplay3-Oct22.fa3fff3611789ce68bfc.png",
     "static/media/404background.jpg": "/static/media/404background.d50853f5ecc8d0ac62a6.jpg",
-    "static/media/features.jpg": "/static/media/features.6a7fb82f7ecf04827eb6.jpg",
-    "static/media/infoBackground.jpg": "/static/media/infoBackground.c0126bd28bf6cc115c1d.jpg",
     "static/media/FungoGameplay2-Oct22.png": "/static/media/FungoGameplay2-Oct22.fea57000a580ca97a5fb.png",
     "static/media/PTSans-Bold.ttf": "/static/media/PTSans-Bold.610bc32a7e32c292ce59.ttf",
     "static/media/FungoGameplay1-Oct22.png": "/static/media/FungoGameplay1-Oct22.b1a6be5e04f43f5f5b68.png",
@@ -23,11 +21,11 @@
     "static/media/MinecraftRegular-Bmg3.otf": "/static/media/MinecraftRegular-Bmg3.82ba08919dc2add9422f.otf",
     "static/media/logoWhite.svg": "/static/media/logoWhite.949475fb0619395b7a62.svg",
     "index.html": "/index.html",
-    "main.da4825f4.css.map": "/static/css/main.da4825f4.css.map",
-    "main.fed93197.js.map": "/static/js/main.fed93197.js.map"
+    "main.91e803cf.css.map": "/static/css/main.91e803cf.css.map",
+    "main.bedee202.js.map": "/static/js/main.bedee202.js.map"
   },
   "entrypoints": [
-    "static/css/main.da4825f4.css",
-    "static/js/main.fed93197.js"
+    "static/css/main.91e803cf.css",
+    "static/js/main.bedee202.js"
   ]
 }
