@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bcfe89a8.css",
-    "main.js": "/static/js/main.043e49cf.js",
+    "main.js": "/static/js/main.807e77e7.js",
     "static/media/FungoProjectFile-Oct22.png": "/static/media/FungoProjectFile-Oct22.c76c9bf7324d9cbb342e.png",
     "static/media/FungoGameplay3-Oct22.png": "/static/media/FungoGameplay3-Oct22.fa3fff3611789ce68bfc.png",
     "static/media/404background.jpg": "/static/media/404background.d50853f5ecc8d0ac62a6.jpg",
@@ -21,10 +21,10 @@
     "static/media/logoWhite.svg": "/static/media/logoWhite.949475fb0619395b7a62.svg",
     "index.html": "/index.html",
     "main.bcfe89a8.css.map": "/static/css/main.bcfe89a8.css.map",
-    "main.043e49cf.js.map": "/static/js/main.043e49cf.js.map"
+    "main.807e77e7.js.map": "/static/js/main.807e77e7.js.map"
   },
   "entrypoints": [
     "static/css/main.bcfe89a8.css",
-    "static/js/main.043e49cf.js"
+    "static/js/main.807e77e7.js"
   ]
 }
